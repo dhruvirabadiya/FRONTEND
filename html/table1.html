@@ -9,6 +9,7 @@
        table,
         th,
         td {
+            background-color: lightblue;
             border: 1px solid black;
             border-collapse: collapse;
             text-align: center;
@@ -26,10 +27,12 @@
     <table>
         <caption><b><big>A test Table With Merge Cells</big></caption>
             <tr>
+                <th rowspan="3">Day</th>
                 <th colspan="4">seminar</th>
+               
             </tr>
         <tr>
-            <th rowspan="2">Day</th>
+            <!-- <th rowspan="2">Day</th> -->
             <th colspan="2">Schedule</th>
             <th rowspan="2">Topic</th>
         </tr>
