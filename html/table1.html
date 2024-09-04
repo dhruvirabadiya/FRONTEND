@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seminar Schedule</title>
+    <style>
+        table {
+            width: 70%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .topic {
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">Seminar</th>
+            </tr>
+            <tr>
+
+                <th rowspan="4">Day</th>
+                <th colspan="2">Schedule</th>
+                <th rowspan="2">topic</th>
+                <!-- <th rowspan="2">Topic</th> -->
+            </tr>
+            <tr>
+                <!-- <th></th> -->
+                <th>Begin</th>
+                <th>End</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td colspan="2">ABC - DEF</td>
+                <td rowspan="2" class="topic">123</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>8:00</td>
+                <td>9:00</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td colspan="2">EFG - HIJ</td>
+                <td rowspan="3" class="topic">789</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>9:00</td>
+                <td>10:00</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>10:00</td>
+                <td>11:00</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td colspan="2">123 - 456</td>
+                <td class="topic">101112</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
