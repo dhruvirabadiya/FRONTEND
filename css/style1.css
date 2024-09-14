@@ -13,7 +13,7 @@
 /* Selector Priority  */
 /* tag , class , id , child , combinator */
 
-div{
+/* div{
     height: 500px;
 }
 
@@ -24,32 +24,31 @@ div{
 }
 
 #content{
-    width: 500px;
-    /* height: 300px; */
+    width: 300px;
+    height: 300px;
 }
 
 div:nth-child(1){
     height: 500px;
-}
+} */
 
 
 /* CSS Inheritance Rule */
 
-/* .box div{
+ /* .box div{
     height: 100px;
     width: 100px;
     background-color: brown;
     border:5px solid black;
-} */
-
-/* .box .innerbox{
+} 
+ .box .innerbox{
     height: 100px;
     width: 100px;
     background-color: brown;
     border:5px solid black;
-} */
+}
 
-/* .box #innercontent{
+ .box #innercontent{
     height: 100px;
     width: 100px;
     background-color: brown;
@@ -72,7 +71,7 @@ div:nth-child(1){
 
 /* CSS !important Rule */
 
-.box #innercontent{
+/* .box #innercontent{
     height: 100px;
     width: 100px;
     background-color: brown;
@@ -90,4 +89,4 @@ div:nth-child(1){
 
 #innercontent{
     background-color: tomato !important;
-}
+} */
