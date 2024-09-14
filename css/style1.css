@@ -2,8 +2,8 @@
 
 /* CSS @import Rule */
 
-@import 'style3.css';
-@import 'style2.css';
+/* @import 'style3.css';
+ @import 'style2.css'; */
 
 
 /* CSS Cascade Rule */
@@ -26,47 +26,49 @@
 #content{
     width: 300px;
     height: 300px;
+    background-color: aquamarine;
 }
 
 div:nth-child(1){
     height: 500px;
+    background-color: bisque;
 } */
 
 
 /* CSS Inheritance Rule */
 
- /* .box div{
+  /* .box div{
     height: 100px;
     width: 100px;
     background-color: brown;
     border:5px solid black;
-} 
- .box .innerbox{
+}   */
+ /* .box .innerbox{
     height: 100px;
     width: 100px;
     background-color: brown;
     border:5px solid black;
-}
+} */
 
- .box #innercontent{
+ /* .box #innercontent{
     height: 100px;
     width: 100px;
     background-color: brown;
     border:5px solid black;
-}
+} */
 
-.box .innerbox{
+/* .box .innerbox{
     height: 200px;
     width: 300px;
-}
-
-.innerbox{
-    background-color: yellow;
-}
-
-#innercontent{
-    background-color: tomato;
 } */
+
+/* .innerbox{
+    background-color: yellow;
+} */
+
+/* #innercontent{
+    background-color: tomato;
+}  */
 
 
 /* CSS !important Rule */
