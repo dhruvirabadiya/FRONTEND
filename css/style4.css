@@ -1,0 +1,55 @@
+/* Css Psuedo Class */
+
+/* h1:first-child{
+    background-color: green;
+    color:white;
+} */
+
+
+/* h1:last-child{
+    background-color: green;
+    color:white
+} */
+
+/* h1:first-of-type{
+    background-color: green;
+    color:white;
+} */
+
+/* h1:last-of-type{
+    background-color: green;
+    color:white;
+} */
+
+/* h1:nth-child(5){
+    background-color: green;
+    color:white;
+} */
+
+/* h1:nth-of-type(10){
+    background-color: green;
+    color:white;
+} */
+
+/* h1:nth-last-of-type(7){
+    background-color: green;
+    color:white;
+} */
+
+/* h1:only-child{
+    background-color: red;
+    color:white;
+}
+
+h1:only-of-type{
+    background-color: red;
+    color:white;
+} */
+
+/* :where(.box){
+    background-color: red;
+}
+
+div:not(.box-1){
+    background-color: green;
+} */
