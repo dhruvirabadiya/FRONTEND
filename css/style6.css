@@ -36,7 +36,7 @@ input[name="firstName"] {
     border: 5px solid green;
 }
 
-*/ div:empty {
+ div:empty {
     background-color: black;
     height: 20px;
 }
