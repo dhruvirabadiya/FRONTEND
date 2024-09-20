@@ -12,74 +12,74 @@
 
 */
 
-/* a[target]{
+a[target] {
     background-color: green;
 }
 
-a[target="_self"]{
+a[target="_self"] {
     background-color: red;
 }
 
-a[href]{
-    color:white;
+a[href] {
+    color: white;
 }
 
-a[href="https://www.google.com"]{
-    color:black;
+a[href="https://www.google.com"] {
+    color: black;
 }
 
-input[name]{
+input[name] {
     background-color: blue;
 }
 
-input[name="firstName"]{
-    border:5px solid green;
-} */
+input[name="firstName"] {
+    border: 5px solid green;
+}
 
-/* div:empty{
+*/ div:empty {
     background-color: black;
     height: 20px;
-} */
+}
 
-/* div[class~="box"]{
+div[class~="box"] {
     background-color: orangered;
-} */
+}
 
-/* div[class|="box"]{
+div[class|="box"] {
     background-color: brown;
 }
 
-div[class^="bo"]{
+div[class^="bo"] {
     text-decoration: underline;
-} */
+}
 
-/* div[class$=" "]{
+div[class$=" "] {
     background-color: tomato;
-} */
+}
 
-/* div[class*="l"]{
+div[class*="l"] {
     background-color: blueviolet;
-} */
+}
 
 /* Css Psuedo Element Selector */
 
-/* .heading:after{
+.heading:after {
     content: " Hello";
 }
 
-.heading:before{
+.heading:before {
     content: "Hello ";
 }
 
-p::selection{
+p::selection {
     background-color: yellow;
     text-decoration: underline;
 }
 
-p::first-line{
+p::first-line {
     background-color: orangered;
 }
 
-p::first-letter{
+p::first-letter {
     font-size: 50px;
-} */
+}
