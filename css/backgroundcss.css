@@ -1,6 +1,6 @@
 /* Css Color Properties */
 
-.color {
+/* .color {
     height: 300px;
     width: 300px;
 
@@ -12,4 +12,85 @@
     background-color: rgb(38, 0, 255);
     background-color: rgb(255, 0, 170);
     background-color: rgb(255, 0, 0);
+} */
+
+/* .color{
+    height: 300px;
+    width: 300px;
+
+    background-color: rgba(255,  0 , 0 , 1);
+    background-color: rgba(255,  0 , 0 , 0.1);
+    background-color: rgba(255, 166, 0, 0.1);
+    background-color: rgba(102, 255, 0, 0.1);
+    background-color: rgba(0, 174, 255, 0.1);
+    background-color: rgba(25, 0, 255, 0.1);
+    background-color: rgba(255, 0, 191, 0.1);
+
+} */
+
+/* .color{
+    height: 300px;
+    width: 300px;
+
+    background-color: #000;
+    background-color: #ffff;
+    background-color: #f11f1f;
+    background-color: #f1961f;
+    background-color: #b2f11f;
+    background-color: #1ff1df;
+    background-color: #231ff1;
+    
+} */
+
+/* .color{
+    height: 300px;
+    width: 300px;
+
+    background-color: hsl(240,0%,0%);
+    background-color: hsl(0, 93%, 49%);
+    background-color: hsl(61, 93%, 49%);
+    background-color: hsl(130, 93%, 49%);
+    background-color: hsl(177, 93%, 49%);
+    background-color: hsl(229, 93%, 49%);
+    background-color: hsl(295, 93%, 49%);
+} */
+
+.back{
+    height: 600px;
+    width: 600px;
+
+    /* background-image: url(./image.jpg);
+    background-size: cover;
+    background-size: contain;
+    background-repeat: repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: round;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: left;
+    background-position: center;
+    background-position: left top;
+    background-position: left bottom;
+    background-position: left center;
+    background-position: right center;
+    background-position: right top;
+    background-position: right bottom;
+    background-position: 50% 20%;
+    background-position: 50px 100px;
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-clip: padding-box;
+    background-clip: content-box;
+    padding: 150px;
+    border:100px solid transparent;  */
+    /* short hand property */
+    /* background: url(image.jpg) no-repeat fixed center; */
+   
 }
+
+/* .back{
+    height: 400px;
+    width: 400px;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+} */
