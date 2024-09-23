@@ -1,0 +1,78 @@
+/* Css Text  Properties */
+p {
+    color: blue;
+}
+
+/* p {
+
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: underline;
+    text-decoration: underline overline;
+    text-decoration: dotted underline;
+
+    text-decoration-color: green;
+
+    text-decoration-thickness: 2px;
+
+    text-decoration-style: dotted;
+    text-decoration-style: dashed;
+    text-decoration-style: solid;
+    text-decoration-style: double;
+    text-decoration-style: wavy;
+
+    text-decoration-line: overline;
+    text-decoration-line: line-through;
+
+    text-align: center;
+    text-align: left;
+    text-align: right;
+    text-align: justify;
+    text-align-last: right;
+    text-align-last: center;
+    text-align-last: justify;
+} */
+/* horizontal and vertical axies */
+/* p {
+    text-shadow: 5px 5px 1px black;
+}
+
+p {
+    text-shadow: 2px 2px #ff0000;
+} */
+
+
+/* p {
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+} */
+
+
+/* p{
+    text-indent: 200px;
+} */
+
+/* p {
+    line-height: 40px;
+} */
+
+/* p {
+    letter-spacing: 10px;
+} */
+
+/* p {
+    word-spacing: 200px;
+} */
+
+/* p {
+    word-wrap: break-word;
+} */
+
+/*  p {
+    white-space: nowrap;
+    white-space: wrap;
+    white-space: pre;
+} */
+
+/* Css Verticle Alignement */
