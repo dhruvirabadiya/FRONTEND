@@ -76,3 +76,26 @@ p {
 } */
 
 /* Css Verticle Alignement */
+/* p{
+    font-size: 50px;
+    text-decoration: underline;
+    border-top:1px solid black;
+    width: 500px;
+} */
+
+p img{
+    vertical-align: baseline;
+    vertical-align: text-top;
+    vertical-align: text-bottom;
+    vertical-align: super;
+    vertical-align: sub;
+    vertical-align: middle;
+    vertical-align: top;
+}
+
+h1{
+    font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+    
+}
