@@ -1,0 +1,32 @@
+/* Css Border Props */
+
+.border{
+    height: 500px;
+    width:500px;
+    border:20px solid green;
+    border:20px outset green;
+    border: 20px hidden green;
+    border: 20px none green;
+    border:20px double green;
+    border: 20px dotted green;
+    border: 20px ridge green;
+    border: 20px groove green;
+    border-top: 20px solid purple;
+    border-bottom: 20px solid blue;
+    border-left: 20px solid red;
+    border-right: 20px solid pink;
+    border-top-style: dashed;
+    border-bottom-style: dotted;
+    border-left-style: double;
+    border-right-style: groove;
+    border-radius: 12px;
+}
+
+/* Css Outline Props */
+.outline{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    outline:10px solid green;
+    outline-offset: 15px;
+}
