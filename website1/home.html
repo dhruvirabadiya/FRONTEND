@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mega One</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <!-- stylesheet link -->
     <link rel="stylesheet" href="home.css">
     <!-- font famaily link navbar font famaily -->
@@ -19,8 +21,8 @@
 </head>
 
 <body>
+    <!-- navbar section -->
     <header class="header-section">
-        <!-- navbar section -->
         <nav class="navbar">
             <img src="./asset/logo.png" alt="logo" class="logo">
 
@@ -33,12 +35,12 @@
             </div>
         </nav>
     </header>
+    <!-- navbar section end-->
     <!-- container section -->
     <section class="banner-sec">
         <div class="container">
             <div class="inner-content">
                 <div class="text-content">
-                    <!-- <h4>Incredible<span> Landing</span> <span class="page">Page</span></h4> -->
                     <h4>Incredible <span>Landing Page</span></h4>
                     <p>Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been the
@@ -52,6 +54,7 @@
             </div>
         </div>
     </section>
+    <!-- container section end -->
     <!-- service content start -->
     <div class="container-1">
         <div class="content1">
@@ -111,8 +114,55 @@
             </div>
         </div>
     </div>
-    </div>
+    <!-- service content end -->
 
+    <!-- screen content start -->
+    <div class="app-clips" style="background-image: url(./asset/img2.jpg);">
+        <div class="s-content">
+            <div class="s-innercontent">
+                <p class="s-para">-Most Flexible On Page-</p>
+                <h3 class="s-h3">Mobile App Screenshots</h3>
+                <p class="s-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut posuere nisi est, sed
+                    ullamcorper nibh volutpat at. In rutrum, metus ut posuere gravida, tellus lacus faucibus lectus, sed
+                    cursused eros ligula non odio. Suspendisse volutpat sagittis sapien. Curabitur quis malesuada ipsum.
+                </p>
+            </div>
+
+            <!-- <div class="s-slidercontent">
+                <div class="s-inner-slidercontent">
+                    <div class="s-slides">
+                        <img src="./asset/screen1.jpg" alt="screen1">
+                        <img src="./asset/screen1.jpg" alt="screen1">
+                        <img src="./asset/screen1.jpg" alt="screen1">
+                        <img src="./asset/screen1.jpg" alt="screen1">
+                    </div>
+                </div>
+            </div> -->
+            <div class="s-slidercontent">
+                <div class="s-inner-slidercontent">
+                    <div class="s-slides">
+                        <img src="./asset/screen1.jpg" alt="screen1">
+                        <img src="./asset/screen1.jpg" alt="screen1">
+                        <img src="./asset/screen1.jpg" alt="screen1">
+                        <img src="./asset/screen1.jpg" alt="screen1">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            }
+        });
+    </script>
 </body>
 
 </html>
