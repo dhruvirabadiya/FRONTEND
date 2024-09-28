@@ -358,9 +358,11 @@ p {
     text-align: center;
 }
 
+/* screen content */
 .app-clips {
     padding-top: 50px;
     padding-bottom: 50px;
+    /* padding: 120px; */
 }
 
 .s-innercontent {
@@ -403,18 +405,101 @@ p {
     min-width: 700px;
 }
 
-.s-slidercontent {
+/* slider */
+.swiper {
+    width: 80%;
+    height: 90%;
+}
+
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.swiper-slide img {
     display: block;
+    width: 280px;
+    height: 510px;
+    object-fit: cover;
+    margin-bottom: 25px;
 }
 
-.s-inner-slidercontent {
-    position: relative;
-    overflow: hidden;
-    margin-left: 125px;
+.conatiner-2 {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-
-.s-slides img {
-    width: 262.5px;
-    margin-right: 20px;
+.innercontent-2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
+
+.innertext2 .con2-para {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #ff4f5a;
+    margin-bottom: 30px;
+    margin-left: 200px;
+    font-weight: 500;
+}
+
+.innertext2 .con2-heading {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: #1f1f1f;
+    font-weight: 600;
+    padding-left: 160px;
+    padding-right: 90px;
+    margin-bottom: 30px;
+}
+
+.innertext2 .con2-para1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #1f1f1f;
+    margin-bottom: 40px;
+    text-align: center;
+    max-width: 650px;
+    line-height: 26px;
+    letter-spacing: .4px;
+}
+
+/* .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.content1,
+.content3 {
+    grid-column: 1;
+}
+
+.content2,
+.content4 {
+    grid-column: 2;
+}
+
+.image {
+    grid-column: 1 / span 2;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+} */

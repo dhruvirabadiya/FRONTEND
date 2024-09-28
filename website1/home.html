@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <!-- stylesheet link -->
     <link rel="stylesheet" href="home.css">
-    <!-- font famaily link navbar font famaily -->
+    <!-- font famaily link-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
@@ -127,40 +127,63 @@
                     cursused eros ligula non odio. Suspendisse volutpat sagittis sapien. Curabitur quis malesuada ipsum.
                 </p>
             </div>
+            <!-- slider content -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="asset/screen1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="asset/screen2.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="asset/screen3.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="asset/screen4.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="asset/screen1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="asset/screen2.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="asset/screen3.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="asset/screen4.jpg" alt=""></div>
 
-            <!-- <div class="s-slidercontent">
-                <div class="s-inner-slidercontent">
-                    <div class="s-slides">
-                        <img src="./asset/screen1.jpg" alt="screen1">
-                        <img src="./asset/screen1.jpg" alt="screen1">
-                        <img src="./asset/screen1.jpg" alt="screen1">
-                        <img src="./asset/screen1.jpg" alt="screen1">
-                    </div>
-                </div>
-            </div> -->
-            <div class="s-slidercontent">
-                <div class="s-inner-slidercontent">
-                    <div class="s-slides">
-                        <img src="./asset/screen1.jpg" alt="screen1">
-                        <img src="./asset/screen1.jpg" alt="screen1">
-                        <img src="./asset/screen1.jpg" alt="screen1">
-                        <img src="./asset/screen1.jpg" alt="screen1">
-                    </div>
                 </div>
             </div>
         </div>
 
     </div>
+
+    <!-- app section -->
+    <div class="conatiner-2">
+        <div class="content-2">
+            <div class="innercontent-2">
+                <div class="innertext2">
+                    <p class="con2-para">-Most Flexible One Page-</p>
+                    <h3 class="con2-heading">Mobile App Design</h3>
+                    <p class="con2-para1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut posuere nisi est,
+                        sed
+                        ullamcorper
+                        nibh volutpat at. In rutrum, metus ut posuere gravida, tellus lacus faucibus lectus, sed
+                        cursused eros ligula non odio. Suspendisse volutpat sagittis sapien. Curabitur quis malesuada
+                        ipsum.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- app details -->
+    <!-- <div class="container">
+        <div class="content content1">Content 1</div>
+        <div class="content content2">Content 2</div>
+        <div class="image">
+            <img src="your-image-url.jpg" alt="Centered Image">
+        </div>
+        <div class="content content3">Content 3</div>
+        <div class="content content4">Content 4</div>
+    </div> -->
+
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         var swiper = new Swiper(".mySwiper", {
-            spaceBetween: 30,
-            centeredSlides: true,
+            slidesPerView: 4,
+            spaceBetween: 20,
             autoplay: {
                 delay: 2500,
-                disableOnInteraction: false,
-            }
+                disableOnInteraction: true,
+            },
+
         });
     </script>
 </body>
