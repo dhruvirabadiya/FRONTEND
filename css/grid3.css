@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+}
+
+.grid-item {
+    background-color: black;
+    color: wheat;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 100px;
+    height: 200px;
+}
+
+.container div:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
+.container div:nth-child(3) {
+    grid-column-start: 2;
+    grid-column-end: 7;
+}
+
+.container div:nth-child(4) {
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
