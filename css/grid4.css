@@ -24,17 +24,17 @@
     grid-column-end: 3;
 }
 
-.container div:nth-child(3) {
+.container div:nth-child(2) {
     grid-column-start: 3;
     grid-column-end: 5;
 }
 
-/* .container div:nth-child(3) {
+.container div:nth-child(4) {
     grid-column-start: 2;
-    grid-column-end: 7;
+    grid-column-end: 5;
 }
 
-.container div:nth-child(4) {
+.container div:nth-child(5) {
     grid-column-start: 1;
-    grid-column-end: 7;
-} */
+    grid-column-end: 5;
+}
