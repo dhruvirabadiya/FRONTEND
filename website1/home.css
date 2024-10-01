@@ -429,6 +429,7 @@ p {
     margin-bottom: 25px;
 }
 
+/* app section */
 .conatiner-2 {
     width: 100%;
     padding-right: 15px;
@@ -475,31 +476,77 @@ p {
     letter-spacing: .4px;
 }
 
-/* .container {
+/* app details */
+.container-3 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-rows: auto auto;
     gap: 20px;
     align-items: center;
     text-align: center;
 }
 
-.content1,
-.content3 {
+.con-1,
+.con-3 {
     grid-column: 1;
 }
 
-.content2,
-.content4 {
-    grid-column: 2;
+.con-2,
+.con-4 {
+    grid-column: 3;
 }
 
 .image {
-    grid-column: 1 / span 2;
+    grid-column: 2;
+    grid-row: 1 / span 2;
     text-align: center;
 }
 
 img {
-    max-width: 100%;
+    max-width: 280px;
     height: auto;
-} */
+    text-align: center;
+}
+
+.con-1 i,
+.con-2 i,
+.con-3 i,
+.con-4 i {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #ff4f5a;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+
+.con-1 i:hover,
+.con-2 i:hover,
+.con-3 i:hover,
+.con-4 i:hover {
+    color: #ff4f5a;
+    transform: translateY(-10px);
+}
+
+
+
+.con-1 .content-heading,
+.con-2 .content-heading,
+.con-3 .content-heading,
+.con-4 .content-heading {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.con-1 .content-para,
+.con-2 .content-para,
+.con-3 .content-para,
+.con-4 .content-para {
+    font-weight: 400;
+    font-size: 15px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-left: 50px;
+    line-height: 26px;
+    letter-spacing: .5px;
+}
