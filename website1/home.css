@@ -550,3 +550,78 @@ img {
     line-height: 26px;
     letter-spacing: .5px;
 }
+
+/* get app banner section */
+
+.get-app-sec {
+    background-image: url(./asset/banner2.jpg);
+    background-position: center 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(251, 122, 130, 0.40);
+}
+
+.inner-apptext {
+    width: 100%;
+}
+
+.inner-apptext .appcon-para {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #1f1f1f;
+    margin-bottom: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    margin-left: 650px;
+}
+
+.inner-apptext .appcon-heading {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: #1f1f1f;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    margin-left: 640px;
+}
+
+.inner-apptext .appcon-para1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #1f1f1f;
+    margin-bottom: 40px;
+    text-align: center;
+    line-height: 26px;
+    letter-spacing: .4px;
+    margin-left: 410px;
+}
+
+.inner-apptext .get-app-btns {
+    margin-left: 420px;
+}
+
+.inner-apptext .get-app-btn {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #1f1f1f;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    padding: 20px 50px;
+    border: solid 1px #fff;
+    margin-right: 15px;
+    transition: .8s ease;
+}
