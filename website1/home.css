@@ -555,7 +555,7 @@ img {
 
 .get-app-sec {
     background-image: url(./asset/banner2.jpg);
-    background-position: center 200px;
+    background-position: center 100px;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -571,6 +571,14 @@ img {
     bottom: 0;
     top: 0;
     background-color: rgba(251, 122, 130, 0.40);
+}
+
+.container-4 {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .inner-apptext {
@@ -591,7 +599,7 @@ img {
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
     color: #1f1f1f;
-    font-weight: bolder;
+    font-weight: 600;
     margin-bottom: 30px;
     margin-left: 640px;
 }
@@ -612,7 +620,7 @@ img {
     margin-left: 420px;
 }
 
-.inner-apptext .get-app-btn {
+.get-app-btn {
     display: inline-block;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -623,5 +631,12 @@ img {
     padding: 20px 50px;
     border: solid 1px #fff;
     margin-right: 15px;
-    transition: .8s ease;
+    transition: all 0.8s ease;
+    cursor: pointer;
+}
+
+.get-app-btn:hover {
+    background-color: black;
+    color: white;
+    border: none;
 }
