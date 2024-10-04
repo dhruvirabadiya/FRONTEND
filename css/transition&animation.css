@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+/* Css Transform Properties */
+
+/* Css 2D Transform Properties */
+
+/* .translate{
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+}
+
+.translate:hover{
+    transform: translate(900px,200px);
+    transform: translateX(200px);
+    transform: translateX(-200px);
+    transform: translateY(200px);
+    transform: translateY(-200px);
+    transform: scale(2);
+    transform: scale(0.5);
+    transform: translateX(200px);
+    transform: translateX(-200px);
+    transform: rotate(180deg);
+    transform: rotate(-180deg);
+    transform: rotate(45deg);
+    transform: rotate(90deg);
+    transform: skew(45deg,90deg);
+    transform: skewX(45deg);
+    transform: skewY(45deg);
+    transform-origin: bottom right;
+    transition: 3s;
+} */
+
+/* translate properties */
+/* .transition{
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+ 
+}
+
+.transition:hover{
+    transition-property: width;
+    transition-property: width,height;
+    transition-duration: 2s;
+    transition-delay: 2s;
+     transition-timing-function: linear;
+    transition-timing-function: ease;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease-out;
+    transition-timing-function: ease-in-out; 
+    transition: width 3s;
+    width: 300px;
+    height: 300px;
+} */
