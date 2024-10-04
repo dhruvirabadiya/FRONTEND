@@ -27,7 +27,7 @@
     grid-column: 3/5;
 }
 
-/* .container div:nth-child(3){
-    grid-column: col/span 2;
-    grid-row: row 2;
-} */
+.container div:nth-child(3){
+    grid-column: 1/span 3;
+    grid-row: 1/ 2;
+} 
