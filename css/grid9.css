@@ -1,15 +1,16 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
 }
 
-.container{
+.container {
     display: grid;
-    grid-template-columns: repeat(5,auto);
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, auto);
     gap: 40px;
 }
 
-.grid-item{
+.grid-item {
     background-color: black;
     color: wheat;
     border: 1px solid white;
@@ -18,7 +19,10 @@
     height: 200px;
 }
 
-.container div:nth-child(8){
-    grid-column-start: 8;
-    grid-column-end: 11;
+.grid-item:nth-child(8) {
+    grid-column: 3/6;
+}
+
+.grid-item:nth-child(9) {
+    grid-column: 1/6;
 }
