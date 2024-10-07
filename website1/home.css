@@ -41,6 +41,7 @@ nav img {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500px;
+    transition: all .2s ease-in-out;
 }
 
 .nav-links a:hover {
@@ -555,13 +556,14 @@ img {
 
 .get-app-sec {
     background-image: url(./asset/banner2.jpg);
-    background-position: center 100px;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     padding-top: 100px;
     padding-bottom: 100px;
     position: relative;
+    overflow: hidden;
 }
 
 .overlay {
@@ -571,6 +573,7 @@ img {
     bottom: 0;
     top: 0;
     background-color: rgba(251, 122, 130, 0.40);
+    z-index: 1;
 }
 
 .container-4 {
@@ -579,10 +582,12 @@ img {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    z-index: 2;
 }
 
 .inner-apptext {
     width: 100%;
+    z-index: 2;
 }
 
 .inner-apptext .appcon-para {
@@ -646,6 +651,7 @@ img {
     border: none;
 }
 
+/* footer section */
 .footer-sec {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -658,4 +664,47 @@ img {
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
+}
+
+.footer-icons i {
+
+    height: 60px;
+    width: 60px;
+    font-size: 24px;
+    color: #1f1f1f;
+    line-height: 64px;
+    text-align: center;
+    border-radius: 40px;
+    background: transparent;
+    transition: all .3s ease;
+}
+
+.footer-icons .la-facebook-f:hover {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.footer-icons .la-twitter:hover {
+    background-color: #1da1f2;
+    color: #fff;
+}
+
+.footer-icons .la-google:hover {
+    background-color: #db4437;
+    color: #fff;
+}
+
+.footer-icons .la-linkedin-in:hover {
+    background-color: #0077b5;
+    color: #fff;
+}
+
+.footer-icons .la-instagram:hover {
+    background: linear-gradient(45deg, #f9ce34, #ee2a7b, #6228d7);
+    color: #fff;
+}
+
+.footer-icons .la-envelope:hover {
+    background-color: #d14836;
+    color: #fff;
 }
