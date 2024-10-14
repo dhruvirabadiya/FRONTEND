@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* .animation{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: relative;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-direction: alternate-reverse;
+    animation-direction: normal;
+    animation-direction: reverse;
+    animation-play-state: paused;
+    animation-play-state: running;
+    animation-fill-mode: backwards;
+    animation-fill-mode: both;
+    animation-fill-mode: forwards;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+} */
+
+
+
+/* .animation:hover{
+    animation-name: rotate;
+} */
+/* 
+@keyframes rotate{
+    from{
+        transform: translate(0px);
+    }
+    to{
+         transform: translate(900px);
+    }
+} */
+
+.animation{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: relative;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-name: rotate;
+}
+
+@keyframes rotate{
+    0%{
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+    25%{
+        background-color: blue;
+        left:200px;
+        top: 0px;
+    }
+    50%{
+        background-color: chartreuse;
+        left: 200px;
+        top: 200px;
+    }
+    75%{
+        background-color: crimson;
+        left: 0px;
+        top: 200px;
+    }
+    100%{
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+
+ /* @keyframes rotate{
+    0%{
+        
+    }
+    25%{
+
+    }
+    50%{
+
+    }
+    75%{
+
+    }
+    100%{
+
+    }
+} */

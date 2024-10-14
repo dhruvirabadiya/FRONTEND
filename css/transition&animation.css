@@ -48,10 +48,12 @@
     transition-delay: 2s;
      transition-timing-function: linear;
     transition-timing-function: ease;
+    transition-timing-function: steps(10);
     transition-timing-function: ease-in;
     transition-timing-function: ease-out;
     transition-timing-function: ease-in-out; 
     transition: width 3s;
+    transition:3s 2s transform linear;
     width: 300px;
     height: 300px;
 } */

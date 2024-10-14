@@ -1,0 +1,41 @@
+/* Css Float Properties */
+/* Css Clear Properties */
+
+/* .box-1{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    float: left;
+    float: right;
+}
+
+.box-2{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    float: left;
+    clear: right;
+    clear: both;
+}
+
+p{
+    font-size: 20px;
+} */
+
+/* Css Object Fit Properties */
+.figure{
+    height: 100px;
+    width: 100px;
+}
+
+img{
+    height: 400px;
+    width: 400px;
+    object-fit: contain;
+    object-fit: cover;
+    object-fit: fill;
+    object-fit: scale-down;
+    object-position: top;
+    object-position: bottom;
+    object-position: 5px 20%;
+}
