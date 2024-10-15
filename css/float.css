@@ -23,7 +23,7 @@ p{
 } */
 
 /* Css Object Fit Properties */
-.figure{
+/* .figure{
     height: 100px;
     width: 100px;
 }
@@ -38,4 +38,26 @@ img{
     object-position: top;
     object-position: bottom;
     object-position: 5px 20%;
+} */
+
+
+/* Css overflow Properties */
+.figure {
+    height: 200px;
+    width: 100px;
+    overflow: hidden;
+    overflow: scroll;
+    overflow: auto;
+    overflow: visible;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
+
+/* .figure {
+    height: 200px;
+    width: 100px;
+    overflow: scroll;
+    scrollbar-width: thin;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+} */

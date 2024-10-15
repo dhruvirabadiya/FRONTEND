@@ -1,0 +1,55 @@
+/* Css Filter Properties */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* .img-fluid {
+    height: 500px;
+    width: 600px;
+    object-fit: cover;
+}
+
+.filter {
+    position: relative;
+    width: 600px;
+    backdrop-filter: blur(20px);
+} */
+
+/* .overlay {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    background-color: black;
+    backdrop-filter: blur(20px);
+    background-color: gray;
+    filter: blur(20px);
+} */
+/* 
+.filter {
+    filter: blur(20px);
+    filter: contrast(100%);
+    filter: sepia(100%);
+    filter: grayscale(100%);
+    filter: hue-rotate(280deg);
+    filter: brightness(200%);
+    filter: invert(200%);
+    filter: saturate(100%);
+    filter: opacity(0.5);
+    filter: drop-shadow(10px 20px 5px gray);
+    box-shadow: 20px 20px 10px black;
+} */
+
+/* Css Units */
+
+/* Absolute Units */
+/* Relative Units */
+/* calc() */
+
+.container {
+    width: calc(100% - 20%);
+    border: 2px solid black;
+}
