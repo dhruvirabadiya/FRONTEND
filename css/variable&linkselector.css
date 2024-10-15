@@ -1,0 +1,63 @@
+/* Css Variables */
+
+/* :root{
+    --color-1:green;
+    --flex:flex ;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    display: var(--flex);
+    background-color: var(--color-1);
+}
+
+.box1{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    display: var(--flex);
+    background-color: var(--color-1);
+} */
+
+/* Link Selector */
+/*
+
+link
+active
+hover
+visited
+
+*/
+
+a:link{
+    background-color: yellow;
+}
+
+a:active{
+    background-color: blue;
+}
+
+a:hover{
+    background-color: orangered;
+    text-decoration: none;
+}
+
+a:visited{
+    background-color: blueviolet;
+}
+
+/*  Css Media Queries  */
+
+/*
+
+For Mobile Devices – 320px — 480px
+iPads and Tablets – 481px — 768px
+Laptops and small screen – 769px — 1024px
+Large screens and Desktops – 1025px — 1200px
+TV and Extra Large Screens – 1201px and more
+
+Bootstrap – 576px, 768px, 992px, 1200px and 1400px 
+
+*/

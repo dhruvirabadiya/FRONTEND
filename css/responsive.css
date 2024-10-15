@@ -1,0 +1,58 @@
+/* Css Media Queries */
+
+/*
+max-width
+min-width
+width
+*/
+
+/* @media (max-width:1200px){
+    body{
+        background-color: orange;
+    }
+}
+
+@media (max-width:992px){
+    body{
+        background-color: aqua;
+    }
+}
+
+@media (max-width:768px){
+    body{
+        background-color: blueviolet;
+    }
+}
+
+@media (max-width:576px){
+    body{
+        background-color: chocolate;
+    }
+} */
+
+
+
+@media (min-width:576px){
+    body{
+        background-color: chocolate;
+    }
+}
+
+
+@media (min-width:768px){
+    body{
+        background-color: blueviolet;
+    }
+}
+
+@media (min-width:992px){
+    body{
+        background-color: aqua;
+    }
+}
+
+@media (min-width:1200px){
+    body{
+        background-color: orange;
+    }
+}
