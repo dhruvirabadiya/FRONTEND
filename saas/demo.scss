@@ -1,15 +1,15 @@
-$b-color:red;
-$t-color:blue;
-$t1-color:pink;
+$bg-color: orange;
+$t-color: blue;
+$t1-color: pink;
 
-body{
-    background-color: $b-color;
+body {
+    background-color: $bg-color;
 }
 
-h1{
-    color:$t-color;
+h1 {
+    color: $t-color;
 }
 
-h2{
+h2 {
     color: $t1-color;
 }
