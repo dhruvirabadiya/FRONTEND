@@ -1,0 +1,53 @@
+@use './variable1.scss';
+@use './variable.scss' as *;
+@import './variable1.scss';
+/* 
+
+@import
+@use
+@forward
+@at-root
+@mixin
+ 
+*/
+
+/* Sass Nesting Method */
+.maindiv {
+    height: $h-6;
+    width: $w-6;
+    background-color: $bg-color-3;
+    display: $d-flex;
+    justify-content: $justify-se;
+    align-items: $align-c;
+    overflow: $flow-h;
+
+    @at-root .div-1 {
+        height: $h-1;
+        width: $w-1;
+        background-color: $bg-color-1;
+    }
+
+    .div-2 {
+        height: $h-1;
+        width: $w-1;
+        background-color: $bg-color-2;
+    }
+
+    .div-3 {
+        height: $h-1;
+        width: $w-1;
+        background-color: $bg-color-4;
+    }
+
+    .div-4 {
+        height: $h-1;
+        width: $w-1;
+        background-color: $bg-color-5;
+    }
+
+    .div-5 {
+        height: $h-1;
+        width: $w-1;
+        background-color: $bg-color-6;
+    }
+}

@@ -1,0 +1,84 @@
+@forward './forward/overflow.scss';
+
+/* Height */
+$h-1: 100px;
+$h-2: 200px;
+$h-3: 300px;
+$h-4: 400px;
+$h-5: 500px;
+$h-6: 600px;
+$h-7: 700px;
+$h-8: 800px;
+$h-9: 900px;
+$h-10: 1000px;
+
+/* width */
+$w-1: 100px;
+$w-2: 200px;
+$w-3: 300px;
+$w-4: 400px;
+$w-5: 500px;
+$w-6: 600px;
+$w-7: 700px;
+$w-8: 800px;
+$w-9: 900px;
+$w-10: 1000px;
+
+/* background-color , color */
+
+$bg-color-1: red;
+$bg-color-2: blue;
+$bg-color-3: green;
+$bg-color-4: pink;
+$bg-color-5: purple;
+$bg-color-6: yellow;
+$bg-color-7: black;
+$bg-color-8: orange;
+$bg-color-9: brown;
+$bg-color-10: violet;
+
+$color-1: red;
+$color-2: blue;
+$color-3: green;
+$color-4: pink;
+$color-5: purple;
+$color-6: yellow;
+$color-7: black;
+$color-8: orange;
+$color-9: brown;
+$color-10: violet;
+
+/* display  , flex-container Properties */
+
+$d-block: block;
+$d-flex: flex;
+$d-inline-block: inline-block;
+$d-inline: inline;
+$d-grid: grid;
+$justify-s: start;
+$justify-c: center;
+$justify-e: end;
+$justify-sb: space-between;
+$justify-sa: space-around;
+$justify-se: space-evenly;
+$align-s: start;
+$align-c: center;
+$align-e: end;
+$flex-r: row;
+$flex-rr: row-reverse;
+$flex-c: column;
+$flex-cr: column-reverse;
+$flex-wrap: wrap;
+$flex-no-wrap: nowrap;
+
+
+/* font Properties */
+
+$fs-1: 12px;
+$fs-2: 16px;
+$fs-3: 20px;
+$fs-4: 24px;
+$fs-5: 28px;
+$fs-6: 32px;
+$fs-7: 36px;
+$fs-8: 40px;

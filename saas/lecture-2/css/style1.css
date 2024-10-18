@@ -1,0 +1,73 @@
+/* overflow properties */
+/* Height */
+/* width */
+/* background-color , color */
+/* display  , flex-container Properties */
+/* font Properties */
+.maindiv {
+  border: 10px solid pink;
+}
+
+/* overflow properties */
+/* Height */
+/* width */
+/* background-color , color */
+/* display  , flex-container Properties */
+/* font Properties */
+/* overflow properties */
+/* Height */
+/* width */
+/* background-color , color */
+/* display  , flex-container Properties */
+/* font Properties */
+.maindiv {
+  border: 10px solid pink;
+}
+
+/* 
+
+@import
+@use
+@forward
+@at-root
+@mixin
+
+*/
+/* Sass Nesting Method */
+.maindiv {
+  height: 600px;
+  width: 600px;
+  background-color: green;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden;
+}
+.div-1 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+.maindiv .div-2 {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+}
+.maindiv .div-3 {
+  height: 100px;
+  width: 100px;
+  background-color: pink;
+}
+.maindiv .div-4 {
+  height: 100px;
+  width: 100px;
+  background-color: purple;
+}
+.maindiv .div-5 {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+}
+
+/*# sourceMappingURL=style1.css.map */
