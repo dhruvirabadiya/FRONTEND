@@ -1,0 +1,37 @@
+.box, .box-3 {
+  height: 200px;
+  width: 200px;
+  background-color: green;
+}
+
+/* extend in Sass */
+.box-1, .box-2 {
+  height: 300px;
+  width: 300px;
+  background-color: blue;
+}
+
+.box-2 {
+  border: 10px solid red;
+}
+
+/* @mixins Method */
+.box-4 {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+}
+
+.box-5 {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+}
+
+/*# sourceMappingURL=style.css.map */
