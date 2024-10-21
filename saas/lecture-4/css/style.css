@@ -1,0 +1,48 @@
+/*
+
+sass @function
+sass Satatement @if@else
+sass partial
+sass @each loop
+
+*/
+/* Sass Loop */
+/* Sass Nesting */
+.box {
+  color: white;
+}
+.box-1 {
+  height: 100px;
+  width: 100px;
+  color: black;
+}
+.box-2 {
+  height: 100px;
+  width: 100px;
+  color: blueviolet;
+}
+.box .box {
+  height: 100px;
+  width: 100px;
+  color: cadetblue;
+}
+.box_box {
+  height: 100px;
+  width: 100px;
+  color: pink;
+}
+
+.box {
+  background-color: red;
+}
+.box:hover {
+  background-color: chocolate;
+}
+.box::after {
+  background-color: cornflowerblue;
+}
+.box::before {
+  background-color: darkgreen;
+}
+
+/*# sourceMappingURL=style.css.map */
