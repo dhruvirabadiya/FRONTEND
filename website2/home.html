@@ -4,11 +4,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Studio</title>
+    <!-- icon cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font-family Poppins, sans-serif -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- font-family Roboto, sans-serif -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Stylesheet Link -->
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="./assets/responsive queries/queries.css">
 </head>
 
 <body>
+    <!-- Header -->
+    <!-- navbar start-->
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <a href="#">
+                    <img src="./assets/images/asset 0.png" alt="logo">
+                </a>
+            </div>
+            <div class="nav-links">
+                <nav>
+                    <ul>
+                        <li><a class="nav-items" href="">Home</a></li>
+                        <li><a class="nav-items" href="">About</a></li>
+                        <li><a class="nav-items" href="">Team</a></li>
+                        <li><a class="nav-items" href="">Work</a></li>
+                        <li><a class="nav-items" href="">Clients</a></li>
+                        <li><a class="nav-items" href="">Blog</a></li>
+                        <li><a class="nav-items" href="">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
 
+            <div class="mobile-menu">
+                <span>
+                    <i class="fa-solid fa-bars"></i>
+                </span>
+            </div>
+        </div>
+    </header>
+    <!-- navbar end -->
+    <!-- Home Start -->
+    <section class="section-1">
+        <div class="container-1">
+            <div class="content-1">
+                <h2>Easiest Way to <span class="break">Create <span class="word">App</span></h2>
+                <p>There are many variations of passages of Lorem Ipsum is at the available, but the majority have
+                    <span class="word">suffered</span> alteration some form, by injected humour randomised words at the
+                    available.
+                </p>
+                <button class="btn-1">Learn More</button>
+                <button class="btn-2">Get Started</button>
+            </div>
+            <div class="img-content">
+                <svg class="slider-shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700">
+                    <g>
+                        <path data-depth="0.05" id="shape-1" fill="#a07bf7"
+                            d="M355.43 45.1C398 31.19 442.59 29 484 39.88c55.11 14.5 117.25 54.91 134.57 160.78 0 0 18.6 99.41-12.78 232 0 0-38.65 142.61-90.66 192 0 0-59 61.95-148.78 59.18 0 0-42.15 0-102.34-27.17 0 0-184-88.78-240.17-199S11 211.81 150.69 135.43C241.1 86 314.73 58.41 355.43 45.1z"
+                            opacity=".25" style="transform: translate3d(-13.925px, -1.1875px, 0px);"></path>
+                        <path data-depth="0.07" id="shape-2" fill="#a07bf7"
+                            d="M105.78 387.15c-15.76-38.08-21-79.83-14.15-120.46C100.79 212.61 133 148.14 228 116.38c0 0 89-32 211.88-21.76 0 0 132.5 15.66 181.18 57.51 0 0 60.65 46.59 64.69 131.66 0 0 3.11 39.73-17.22 100.45 0 0-67.27 186.43-163.35 255.44S282.55 687.58 202.89 567c-51.57-78-82.04-143.42-97.11-179.85z"
+                            opacity=".25" style="transform: translate3d(-19.495px, -1.6625px, 0px);"></path>
+                        <path data-depth="0.09" id="shape-3" fill="#a07bf7"
+                            d="M112.59 129.56c18.72-39.73 47.85-73.83 84.82-97.56 49.2-31.55 123.12-52.4 216.29-.29 0 0 89.1 47.22 169.11 151.43 0 0 82.67 115.68 84.6 184.07 0 0 6.77 81.22-57.4 145.42 0 0-29.09 30.94-91.54 58.46 0 0-195.21 80.68-318.52 54.43S2.54 484.38 40.43 335.12C65 238.51 94.68 167.58 112.59 129.56z"
+                            opacity=".25" style="transform: translate3d(-25.065px, -2.1375px, 0px);"></path>
+                        <path id="shape-4"
+                            d="M129.39 153.77C146.74 117 173.73 85.35 208 63.38c45.59-29.25 114.09-48.57 200.42-.28 0 0 82.56 43.75 156.7 140.31 0 0 76.61 107.2 78.4 170.57 0 0 6.27 75.26-53.19 134.75 0 0-27 28.67-84.82 54.17 0 0-180.89 74.76-295.15 50.43S27.41 482.55 62.52 344.24c22.74-89.52 50.27-155.24 66.87-190.47z"
+                            opacity="0"></path>
+                        <clipPath id="shape-img">
+                            <use xlink:href="#shape-4" style="overflow:visible;"></use>
+                        </clipPath>
+                    </g>
+                    <!-- Image with hover effect -->
+                    <image class="hover-img" href="./assets/images/container-1.jpg" clip-path="url(#shape-img)"
+                        height="600" width="600" preserveAspectRatio="xMidYMid slice" />
+                </svg>
+
+                <!-- <img src="./assets/images/container-1.jpg" alt="container-img"> -->
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
