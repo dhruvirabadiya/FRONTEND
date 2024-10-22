@@ -1,0 +1,63 @@
+$h-1:100;
+$h-2:200;
+$h-3:300;
+
+$w-1:100;
+$w-2:200;
+$w-3:300;
+
+$bg-color-1:red;
+$bg-color-2:green;
+$bg-color-3:blue;
+$bg-color-4:orange;
+
+$color-1:red;
+$color-2:green;
+$color-3:blue;
+
+.box{
+    height: $h-2 + px;
+    width: $w-2 + px;
+    background-color: $bg-color-2;
+}
+
+/* extend in Sass */
+// placeholder props
+
+%shared_style{
+    height: $h-3 + px;
+    width:$w-3 + px;
+    background-color: $bg-color-3;
+}
+
+.box-1{
+    @extend %shared_style;
+}
+
+.box-2{
+    @extend .box-1;
+    border:10px solid $color-1;
+}
+
+.box-3{
+    @extend .box;
+}
+
+/* @mixins Method */
+@mixin flexbox($h-4 , $w-4){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: $h-4;
+    width: $w-4;
+}
+
+.box-4{
+    background-color: $bg-color-1;
+    @include flexbox(200px, 200px);
+}
+
+.box-5{
+    background-color: $bg-color-2;
+    @include flexbox(300px, 300px);
+}

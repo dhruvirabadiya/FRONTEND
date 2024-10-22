@@ -1,0 +1,117 @@
+$h-1:100;
+$h-2:200;
+$h-3:300;
+
+$w-1:100;
+$w-2:200;
+$w-3:300;
+
+$bg-color-1:red;
+$bg-color-2:green;
+$bg-color-3:blue;
+$bg-color-4:orange;
+
+$color-1:red;
+$color-2:green;
+$color-3:blue;
+
+/*
+
+sass @function
+sass Satatement @if@else
+sass partial
+sass @each loop
+
+*/
+
+// @function square($size){
+//     @return $size*100
+// };
+
+// @function box-1($height,$width){
+//      @return $height*$width
+// };
+
+// .box{
+//     height: square(2)+ px;
+//     width: square(4)+ px;
+//     background-color: $bg-color-1;
+// }
+
+// .box-1{
+//    height: box-1(10,20)+px;
+// }
+
+// $weather:'sunny';
+
+// @mixin statments{
+//     @if($weather == 'sunny'){
+//         color: yellow;
+//     }@else{
+//         color: blue;
+//     }
+// };
+
+// .box-1{
+//     @include statments()
+// }
+
+/* Sass Loop */
+// $pepole:100,200,300;
+
+// @each $i in $pepole{
+//     .box-#{$i}{
+//         height: $i+px;
+//         width: $i+px;
+//         background-color: $bg-color-3;
+//     }
+// }
+
+// @for $i from 1 through 10{
+//     .box-#{$i}{
+//         background-color: $bg-color-2;
+//         height: 100*$i;
+//         width: 100*$i;
+//     }
+// } 
+
+/* Sass Nesting */
+.box{
+        color: white;
+        &-1{
+            height: 100px;
+            width: 100px;
+            color: black;
+        }
+        &-2{
+            height: 100px;
+            width: 100px;
+            color: blueviolet;
+        }
+        .box &{
+            height: 100px;
+            width: 100px;
+            color: cadetblue;
+        }
+        &_box{
+            height: 100px;
+            width: 100px;
+            color: pink;
+        }
+}
+
+.box{
+    background-color: red;
+    &:hover{
+        background-color: chocolate;
+    }
+    &::after{
+        background-color: cornflowerblue;
+    }
+    &::before{
+        background-color: darkgreen;
+    }
+}
+
+
+
