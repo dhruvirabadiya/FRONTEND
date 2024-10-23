@@ -58,3 +58,7 @@ body {
     padding-left: 8px;
     font-size: 0.85em;
 }
+
+.mobile-menu {
+    display: none;
+}
