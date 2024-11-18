@@ -593,3 +593,26 @@ body {
     transform: translateY(-10%);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
+
+/* section-6 */
+.section-6 {
+    padding: 0 70px;
+}
+
+.container-6 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.item-1 {
+    height: 100%;
+    width: 100%;
+    background-color: #F3F8F5;
+}
+
+
+.item-2 {
+    height: 100%;
+    width: 100%;
+    background-color: #FBF1F4;
+}
