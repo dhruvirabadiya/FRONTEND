@@ -1,3 +1,5 @@
+/* Screens up to 1400px */
+
 @media(max-width: 1400px) {
     .mobile-menu i {
         display: none;
@@ -9,6 +11,10 @@
 
     .navbar {
         padding: 0 50px;
+    }
+
+    .container-1 {
+        padding: 50px 50px;
     }
 
 }
