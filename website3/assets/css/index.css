@@ -612,7 +612,7 @@ body {
     border-radius: 8px 8px 8px 8px;
 }
 
-.item-1-content {
+.item-1-content,.item-2-content {
     margin: 0px 0px 15px 0px;
     padding: 70px 70px 0px 70px;
 }
@@ -622,4 +622,13 @@ body {
     width: 100%;
     background-color: #FBF1F4;
     border-radius: 8px 8px 8px 8px;
+}
+
+.item-1-img img ,.item-2-img img{
+    height: 40%;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    justify-content: flex-end;
 }

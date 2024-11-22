@@ -100,7 +100,7 @@ sass @each loop
         }
 }
 
-.box{
+.box{ 
     background-color: red;
     &:hover{
         background-color: chocolate;
