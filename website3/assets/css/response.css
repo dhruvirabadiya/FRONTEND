@@ -61,6 +61,44 @@
     .content5-img img {
         max-width: 85%;
     }
+
+    .content-7-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+
+    .content-7-cards .card-4 {
+        margin-top: -10px;
+    }
+
+    .content-7-cards .card-3 {
+        margin-top: -50px;
+    }
+
+    .content-7-cards .card-6 {
+        margin-top: -10px;
+    }
+
+    .img-content-7 {
+        top: 10%;
+    }
+
+    .inner-img-content-7 {
+        margin-bottom: 40px;
+    }
+
+    .background-7 img {
+        height: 1100px;
+    }
+
+    .overlay-7 {
+        height: 1100px;
+    }
+
+    .inner-img-content-7 h1 {
+        font-size: 2.4rem;
+    }
 }
 
 @media (max-width:1024px) {
@@ -152,6 +190,21 @@
         max-width: 90%;
     }
 
+    .section-6 {
+        padding: 0 45px;
+    }
+
+    .section-7 {
+        padding: 0px 50px;
+    }
+
+    .inner-img-content-7 h1 {
+        font-size: 1.9rem;
+    }
+
+    .img-content-7 {
+        top: 8%;
+    }
 }
 
 @media (max-width:768px) {
@@ -250,6 +303,46 @@
     .content5-img img {
         max-width: 95%;
     }
+
+    .container-6 {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .section-6 {
+        padding: 0 50px;
+    }
+
+    .section-7 {
+        padding: 0px 0px;
+    }
+
+    .content-7-cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .content-7-cards>div {
+        width: 110%;
+        margin: 0 auto;
+    }
+
+    .inner-img-content-7 h1 {
+        font-size: 1.9rem;
+    }
+
+    .content-7-cards .card-3 {
+        margin-top: -10px;
+    }
+
+    .background-7 img {
+        height: 2700px;
+    }
+
+    .overlay-7 {
+        height: 2700px;
+    }
 }
 
 @media (max-width:481px) {
@@ -325,6 +418,27 @@
 
     .content5-img img {
         max-width: 100%;
+    }
+
+    .section-6 {
+        padding: 0 10px;
+    }
+
+    .item1-btn a,
+    .item2-btn a {
+        white-space: nowrap;
+        display: inline-flex;
+        align-items: center;
+        padding: 10px 22px;
+    }
+
+    .section-7 {
+        padding: 0px 0px;
+    }
+
+    .content-7-cards>div {
+        width: 100%;
+        margin: 0 auto;
     }
 }
 
@@ -444,5 +558,30 @@
 
     .content5-img img {
         max-width: 110%;
+    }
+
+    .section-6 {
+        padding: 0 50px;
+    }
+
+    .section-7 {
+        padding: 0px 0px;
+    }
+
+
+    .background-7 img {
+        height: 3700px;
+        width: 150%;
+    }
+
+    .overlay-7 {
+        height: 3700px;
+        width: 150%;
+    }
+
+    .inner-img-content-7 h1 {
+        text-align: center;
+        font-size: 1.8rem;
+        max-width: 100%;
     }
 }
