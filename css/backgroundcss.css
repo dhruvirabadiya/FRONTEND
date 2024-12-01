@@ -55,9 +55,9 @@
     background-color: hsl(295, 93%, 49%);
 } */
 
-.back{
-    height: 600px;
-    width: 600px;
+.back {
+    height: 500px;
+    width: 500px;
 
     /* background-image: url(./image.jpg);
     background-size: cover;
@@ -86,7 +86,7 @@
     border:100px solid transparent;  */
     /* short hand property */
     /* background: url(image.jpg) no-repeat fixed center; */
-   
+
 }
 
 /* .back{
