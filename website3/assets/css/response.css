@@ -99,6 +99,21 @@
     .inner-img-content-7 h1 {
         font-size: 2.4rem;
     }
+
+    .section-8 {
+        padding: 0px 100px;
+        margin-top: 400px;
+    }
+
+    .content-8 {
+        gap: 15rem;
+    }
+
+    .content-8-img img {
+        width: 160%;
+    }
+
+    .con-8-heading {}
 }
 
 @media (max-width:1024px) {

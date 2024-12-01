@@ -895,12 +895,69 @@ body {
 
 /* content-8 */
 .section-8 {
-    padding: 0px 60px;
-    /* margin-bottom: 200px; */
+    padding: 0px 150px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.content-8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
 }
 
 .content-8-img img {
-    height: 50%;
-    width: 50%;
+    flex-shrink: 0;
+    height: auto;
+    width: 120%;
+    margin-right: 2rem;
     border-radius: 50%;
+}
+
+.content-8-content h2 {
+    color: #343F52;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 1.2em;
+    word-spacing: 0px;
+}
+
+.con-8-para {
+    color: #60697b;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.6em;
+    word-spacing: 0px;
+    padding-top: 30px;
+}
+
+.con-8-para1,
+.con-8-para2 {
+    color: #60697b;
+    line-height: 1.6em;
+    font-size: 17px;
+    font-weight: 400;
+    word-spacing: 0px;
+    padding-top: 30px;
+}
+
+.content8-btn a {
+    display: inline-block;
+    padding: 11px 24px 9px 24px;
+    background-color: #343F52;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: transform 0.3s ease;
+}
+
+.content8-btn {
+    padding-top: 30px;
+}
+
+.content8-btn a:hover {
+    transform: translateY(-10%);
 }
