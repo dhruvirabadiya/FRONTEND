@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <!-- flexbox properties -->
+    <!-- 1.flex -->
+    <h1 class="text-4xl">Flex</h1>
+    <div class="flex border-2 border-black border-solid">
+        <div class="item-1 p-10 border-2 border-black border-solid">item-1</div>
+        <div class="item-2 p-10 border-2 border-black border-solid">item-2</div>
+        <div class="item-3 p-10 border-2 border-black border-solid">item-3</div>
+        <div class="item-4 p-10 border-2 border-black border-solid">item-4</div>
+    </div>
+    <!-- 2.flex-basis-->
+    <h1 class="text-4xl">Flex-basis</h1>
+    <div class="flex border-2 border-black border-solid">
+        <div class="item-1 p-10 bg-gray-400 basis-14 border-2 border-black border-solid">item-1</div>
+        <div class="item-2 p-10 bg-zinc-300 basis-28 border-2 border-black border-solid">item-2</div>
+        <div class="item-3 p-10 bg-red-400 basis-20 border-2 border-black border-solid">item-3</div>
+        <div class="item-4 p-10 bg-orange-400 basis-44 border-2 border-black border-solid">item-4</div>
+    </div>
+    <!-- Flex-direction -->
+    <h1 class="text-4xl">Flex-direction</h1>
+    <div class="flex border-2 border-black border-solid flex-row">
+        <div class="item-1 p-10 border-2 border-black border-solid">item-1</div>
+        <div class="item-2 p-10 border-2 border-black border-solid">item-2</div>
+        <div class="item-3 p-10 border-2 border-black border-solid">item-3</div>
+        <div class="item-4 p-10 border-2 border-black border-solid">item-4</div>
+    </div>
+    <div class="flex border-2 border-black border-solid flex-row-reverse">
+        <div class="item-1 p-10 border-2 border-black border-solid">item-1</div>
+        <div class="item-2 p-10 border-2 border-black border-solid">item-2</div>
+        <div class="item-3 p-10 border-2 border-black border-solid">item-3</div>
+        <div class="item-4 p-10 border-2 border-black border-solid">item-4</div>
+    </div>
+    <div class="flex border-2 border-black border-solid flex-col">
+        <div class="item-1 p-10 border-2 border-black border-solid">item-1</div>
+        <div class="item-2 p-10 border-2 border-black border-solid">item-2</div>
+        <div class="item-3 p-10 border-2 border-black border-solid">item-3</div>
+        <div class="item-4 p-10 border-2 border-black border-solid">item-4</div>
+    </div>
+    <h1 class="text-4xl">col-reverse</h1>
+    <div class="flex border-2 border-black border-solid flex-col-reverse">
+        <div class="item-1 p-10 border-2 border-black border-solid">item-1</div>
+        <div class="item-2 p-10 border-2 border-black border-solid">item-2</div>
+        <div class="item-3 p-10 border-2 border-black border-solid">item-3</div>
+        <div class="item-4 p-10 border-2 border-black border-solid">item-4</div>
+    </div>
+    <!-- 1.Flex Wrap -->
+    <h1 class="text-4xl">Flex Wrap</h1>
+    <div class="flex border-2 border-black border-solid flex-wrap">
+        <div class="item-1 p-10 border-2 border-black border-solid">item-1</div>
+        <div class="item-2 p-10 border-2 border-black border-solid">item-2</div>
+        <div class="item-3 p-10 border-2 border-black border-solid">item-3</div>
+        <div class="item-4 p-10 border-2 border-black border-solid">item-4</div>
+    </div>
+    <div class="flex border-2 border-black border-solid flex-wrap-reverse">
+        <div class="item-1 p-10 border-2 border-black border-solid">item-1</div>
+        <div class="item-2 p-10 border-2 border-black border-solid">item-2</div>
+        <div class="item-3 p-10 border-2 border-black border-solid">item-3</div>
+        <div class="item-4 p-10 border-2 border-black border-solid">item-4</div>
+    </div>
+    <!-- Flex Grow -->
+    <h1 class="text-4xl">Flex Grow</h1>
+    <div class="flex border-2 border-black border-solid">
+        <div class="item-1 p-10 border-2 border-black border-solid">item-1</div>
+        <div class="item-2 p-10 border-2 border-black border-solid grow">item-2</div>
+        <div class="item-3 p-10 border-2 border-black border-solid">item-3</div>
+        <div class="item-4 p-10 border-2 border-black border-solid">item-4</div>
+    </div>
+    <!-- Flex Shrink -->
+    <h1 class="text-4xl">Flex Shrink</h1>
+    <div class="flex border-2 w-80 border-black border-solid">
+        <div class="item-1 p-10 border-2 border-black border-solid">item-1</div>
+        <div class="item-2 p-10 border-2 border-black border-solid shrink">item-2</div>
+        <div class="item-3 p-10 border-2 border-black border-solid ">item-3</div>
+        <div class="item-4 p-10 border-2 border-black border-solid">item-4</div>
+    </div>
+    <!-- Justify Content -->
+    <h1 class="text-4xl">Justify Content</h1>
+    <h1 class="text-xl">Justify Content-end-start</h1>
+    <div class="flex border-2 border-black border-solid justify-start">
+        <div class="item-1 p-10 border-2 border-black border-solid">item-1</div>
+        <div class="item-2 p-10 border-2 border-black border-solid ">item-2</div>
+        <div class="item-3 p-10 border-2 border-black border-solid">item-3</div>
+        <div class="item-4 p-10 border-2 border-black border-solid">item-4</div>
+    </div>
+    <h1 class="text-xl">Justify Content-end</h1>
+    <div class="flex border-2 border-black border-solid justify-end">
+        <div class="item-1 p-10 border-2 border-black border-solid">item-1</div>
+        <div class="item-2 p-10 border-2 border-black border-solid ">item-2</div>
+        <div class="item-3 p-10 border-2 border-black border-solid">item-3</div>
+        <div class="item-4 p-10 border-2 border-black border-solid">item-4</div>
+    </div>
+    <h1 class="text-xl">Justify Content-center</h1>
+    <div class="flex border-2 border-black border-solid justify-center">
+        <div class="item-1 p-10 border-2 border-black border-solid">item-1</div>
+        <div class="item-2 p-10 border-2 border-black border-solid ">item-2</div>
+        <div class="item-3 p-10 border-2 border-black border-solid">item-3</div>
+        <div class="item-4 p-10 border-2 border-black border-solid">item-4</div>
+    </div>
+    <h1 class="text-xl">Justify Content-between</h1>
+    <div class="flex border-2 border-black border-solid justify-between">
+        <div class="item-1 p-10 border-2 border-black border-solid">item-1</div>
+        <div class="item-2 p-10 border-2 border-black border-solid ">item-2</div>
+        <div class="item-3 p-10 border-2 border-black border-solid">item-3</div>
+        <div class="item-4 p-10 border-2 border-black border-solid">item-4</div>
+    </div>
+    <h1 class="text-xl">Justify Content-around</h1>
+    <div class="flex border-2 border-black border-solid justify-around">
+        <div class="item-1 p-10 border-2 border-black border-solid">item-1</div>
+        <div class="item-2 p-10 border-2 border-black border-solid ">item-2</div>
+        <div class="item-3 p-10 border-2 border-black border-solid">item-3</div>
+        <div class="item-4 p-10 border-2 border-black border-solid">item-4</div>
+    </div>
+    <h1 class="text-xl">Justify Content-evenley</h1>
+    <div class="flex border-2 border-black border-solid justify-evenly">
+        <div class="item-1 p-10 border-2 border-black border-solid">item-1</div>
+        <div class="item-2 p-10 border-2 border-black border-solid ">item-2</div>
+        <div class="item-3 p-10 border-2 border-black border-solid">item-3</div>
+        <div class="item-4 p-10 border-2 border-black border-solid">item-4</div>
+    </div>
+    <!-- Align Items -->
+    <h1 class="text-4xl">Align Items</h1>
+    <h1 class="text-xl">items-start</h1>
+    <div class="flex border-2 border-black border-solid items-start h-80">
+        <div class="item-1 p-10 border-2 border-black border-solid">item-1</div>
+        <div class="item-2 p-10 border-2 border-black border-solid ">item-2</div>
+        <div class="item-3 p-10 border-2 border-black border-solid">item-3</div>
+        <div class="item-4 p-10 border-2 border-black border-solid">item-4</div>
+    </div>
+    <h1 class="text-xl">items-end</h1>
+    <div class="flex border-2 border-black border-solid items-end  h-80">
+        <div class="item-1 p-10 border-2 border-black border-solid">item-1</div>
+        <div class="item-2 p-10 border-2 border-black border-solid ">item-2</div>
+        <div class="item-3 p-10 border-2 border-black border-solid">item-3</div>
+        <div class="item-4 p-10 border-2 border-black border-solid">item-4</div>
+    </div>
+    <h1 class="text-xl">items-center</h1>
+    <div class="flex border-2 border-black border-solid items-center  h-80">
+        <div class="item-1 p-10 border-2 border-black border-solid">item-1</div>
+        <div class="item-2 p-10 border-2 border-black border-solid ">item-2</div>
+        <div class="item-3 p-10 border-2 border-black border-solid">item-3</div>
+        <div class="item-4 p-10 border-2 border-black border-solid">item-4</div>
+    </div>
+    <h1 class="text-xl">items-baseline</h1>
+    <div class="flex border-2 border-black border-solid items-baseline  h-80">
+        <div class="item-1 p-10 border-2 border-black border-solid">item-1</div>
+        <div class="item-2 p-10 border-2 border-black border-solid ">item-2</div>
+        <div class="item-3 p-10 border-2 border-black border-solid">item-3</div>
+        <div class="item-4 p-10 border-2 border-black border-solid">item-4</div>
+    </div>
+
+</body>
+
+</html>
