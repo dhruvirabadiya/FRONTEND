@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <!-- grid properties -->
+    <!-- 1.grid-template-column-->
+    <h1 class="text-4xl">grid-template-col</h1>
+    <div class="grid grid-cols-4  border-2 border-black border-solid">
+        <div class="item-1 p-10 border-2 border-black border-solid">item-1</div>
+        <div class="item-2 p-10 border-2 border-black border-solid">item-2</div>
+        <div class="item-3 p-10 border-2 border-black border-solid">item-3</div>
+        <div class="item-4 p-10 border-2 border-black border-solid">item-4</div>
+    </div>
+    <!-- 1.grid-template-row-->
+    <h1 class="text-4xl">grid-template-row</h1>
+    <div class="grid grid-rows-4  border-2 border-black border-solid">
+        <div class="item-1 p-10 border-2 border-black border-solid">item-1</div>
+        <div class="item-2 p-10 border-2 border-black border-solid">item-2</div>
+        <div class="item-3 p-10 border-2 border-black border-solid">item-3</div>
+        <div class="item-4 p-10 border-2 border-black border-solid">item-4</div>
+    </div>
+    <!-- 1.grid-col/span-->
+    <h1 class="text-4xl">grid-col/span</h1>
+    <div class="grid grid-cols-4  border-2 border-black border-solid">
+        <div class="item-1 p-10 border-2 border-black border-solid">item-1</div>
+        <div class="item-2 p-10 border-2 border-black border-solid col-span-2">item-2</div>
+        <div class="item-3 p-10 border-2 border-black border-solid">item-3</div>
+        <div class="item-4 p-10 border-2 border-black border-solid">item-4</div>
+    </div>
+    <!-- 1.grid-row/span-->
+    <h1 class="text-4xl">grid-row/span</h1>
+    <div class="grid grid-rows-4  border-2 border-black border-solid">
+        <div class="item-1 p-10 row-span-3 border-2 border-black border-solid">item-1</div>
+        <div class="item-2 p-10 border-2 border-black border-solid ">item-2</div>
+        <div class="item-3 p-10  border-2 border-black border-solid">item-3</div>
+        <div class="item-4 p-10 border-2 border-black border-solid">item-4</div>
+    </div>
+
+    
+    <!-- 1.grid-gap-->
+    <h1 class="text-4xl">grid-gap</h1>
+    <div class="grid grid-cols-4 gap-4 border-2 border-black border-solid">
+        <div class="item-1 p-10 border-2 border-black border-solid">item-1</div>
+        <div class="item-2 p-10 border-2 border-black border-solid">item-2</div>
+        <div class="item-3 p-10 border-2 border-black border-solid">item-3</div>
+        <div class="item-4 p-10 border-2 border-black border-solid">item-4</div>
+    </div>
+
+
+    <!-- 1.justify-items-->
+    <h1 class="text-4xl">justify-items-start</h1>
+    <div class="grid grid-cols-4  border-2 border-black border-solid justify-items-start ">
+        <div class="item-1 p-10 border-2 border-black border-solid">item-1</div>
+        <div class="item-2 p-10 border-2 border-black border-solid">item-2</div>
+        <div class="item-3 p-10 border-2 border-black border-solid">item-3</div>
+        <div class="item-4 p-10 border-2 border-black border-solid">item-4</div>
+    </div>
+    <h1 class="text-4xl">justify-items-end</h1>
+    <div class="grid grid-cols-4  border-2 border-black border-solid justify-items-end ">
+        <div class="item-1 p-10 border-2 border-black border-solid">item-1</div>
+        <div class="item-2 p-10 border-2 border-black border-solid">item-2</div>
+        <div class="item-3 p-10 border-2 border-black border-solid">item-3</div>
+        <div class="item-4 p-10 border-2 border-black border-solid">item-4</div>
+    </div>
+    <h1 class="text-4xl">justify-items-center</h1>
+    <div class="grid grid-cols-4  border-2 border-black border-solid justify-items-center ">
+        <div class="item-1 p-10 border-2 border-black border-solid">item-1</div>
+        <div class="item-2 p-10 border-2 border-black border-solid">item-2</div>
+        <div class="item-3 p-10 border-2 border-black border-solid">item-3</div>
+        <div class="item-4 p-10 border-2 border-black border-solid">item-4</div>
+    </div>
+    <h1 class="text-4xl">justify-self</h1>
+    <div class="grid grid-cols-4  border-2 border-black border-solid justify-self-auto ">
+        <div class="item-1 p-10 border-2 border-black border-solid">item-1</div>
+        <div class="item-2 p-10 border-2 border-black border-solid">item-2</div>
+        <div class="item-3 p-10 border-2 border-black border-solid">item-3</div>
+        <div class="item-4 p-10 border-2 border-black border-solid">item-4</div>
+    </div>
+
+
+    <!-- 1.align-content-->
+
+    <h1 class="text-4xl">align-content</h1>
+    <div class="grid grid-cols-4 h-80 gap-2 border-2 border-black border-solid content-center ">
+        <div class="item-1 p-10 border-2 border-black border-solid">item-1</div>
+        <div class="item-2 p-10 border-2 border-black border-solid">item-2</div>
+        <div class="item-3 p-10 border-2 border-black border-solid">item-3</div>
+        <div class="item-4 p-10 border-2 border-black border-solid">item-4</div>
+    </div>
+    <h1 class="text-xl">align-content-start </h1>
+    <div class="grid grid-cols-4 h-80 gap-2 border-2 border-black border-solid content-start ">
+        <div class="item-1 p-10 border-2 border-black border-solid">item-1</div>
+        <div class="item-2 p-10 border-2 border-black border-solid">item-2</div>
+        <div class="item-3 p-10 border-2 border-black border-solid">item-3</div>
+        <div class="item-4 p-10 border-2 border-black border-solid">item-4</div>
+    </div>
+    <h1 class="text-xl">align-content-end </h1>
+    <div class="grid grid-cols-4 h-80 gap-2 border-2 border-black border-solid content-end ">
+        <div class="item-1 p-10 border-2 border-black border-solid">item-1</div>
+        <div class="item-2 p-10 border-2 border-black border-solid">item-2</div>
+        <div class="item-3 p-10 border-2 border-black border-solid">item-3</div>
+        <div class="item-4 p-10 border-2 border-black border-solid">item-4</div>
+    </div>
+    <h1 class="text-xl">align-content-between </h1>
+    <div class="grid grid-cols-4 h-80 gap-2 border-2 border-black border-solid content-between ">
+        <div class="item-1 p-10 border-2 border-black border-solid">item-1</div>
+        <div class="item-2 p-10 border-2 border-black border-solid">item-2</div>
+        <div class="item-3 p-10 border-2 border-black border-solid">item-3</div>
+        <div class="item-4 p-10 border-2 border-black border-solid">item-4</div>
+    </div>
+    <h1 class="text-xl">align-content-around </h1>
+    <div class="grid grid-cols-4 h-80 gap-2 border-2 border-black border-solid content-around ">
+        <div class="item-1 p-10 border-2 border-black border-solid">item-1</div>
+        <div class="item-2 p-10 border-2 border-black border-solid">item-2</div>
+        <div class="item-3 p-10 border-2 border-black border-solid">item-3</div>
+        <div class="item-4 p-10 border-2 border-black border-solid">item-4</div>
+    </div>
+    <h1 class="text-xl">align-content-evenlely </h1>
+    <div class="grid grid-cols-4 h-80 gap-2 border-2 border-black border-solid content-evenly ">
+        <div class="item-1 p-10 border-2 border-black border-solid">item-1</div>
+        <div class="item-2 p-10 border-2 border-black border-solid">item-2</div>
+        <div class="item-3 p-10 border-2 border-black border-solid">item-3</div>
+        <div class="item-4 p-10 border-2 border-black border-solid">item-4</div>
+    </div>
+    <h1 class="text-xl">align-content-baseline </h1>
+    <div class="grid grid-cols-4 h-80 gap-2 border-2 border-black border-solid content-baseline ">
+        <div class="item-1 p-10 border-2 border-black border-solid">item-1</div>
+        <div class="item-2 p-10 border-2 border-black border-solid">item-2</div>
+        <div class="item-3 p-10 border-2 border-black border-solid">item-3</div>
+        <div class="item-4 p-10 border-2 border-black border-solid">item-4</div>
+    </div>
+
+        <!-- Order-->
+        <h1 class="text-4xl">Order</h1>
+        <div class="grid grid-cols-4 h-80 gap-2 border-2 border-black border-solid content-center ">
+            <div class="item-1 p-10 border-2 border-black border-solid order-4">item-1</div>
+            <div class="item-2 p-10 border-2 border-black border-solid order-3">item-2</div>
+            <div class="item-3 p-10 border-2 border-black border-solid order-2">item-3</div>
+            <div class="item-4 p-10 border-2 border-black border-solid order-1">item-4</div>
+        </div>
+</body>
+
+</html>
