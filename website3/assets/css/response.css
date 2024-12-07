@@ -106,7 +106,7 @@
     }
 
     .content-8 {
-        gap: 15rem;
+        gap: 18rem;
     }
 
     .content-8-img img {
@@ -236,7 +236,7 @@
     }
 
     .section-8 {
-        margin-top: 750px;
+        margin-top: 680px;
     }
 }
 
@@ -490,7 +490,13 @@
     }
 
     .section-8 {
-        margin-top: 100px;
+        padding: 0px 50px;
+        margin-top: 700px;
+    }
+
+    .content-8-content h2 {
+        font-size: 1.9rem;
+        text-align: left;
     }
 }
 
@@ -641,5 +647,15 @@
     .content-8-img img {
         height: auto;
         width: 150%;
+    }
+
+    .section-8 {
+        padding: 0px 50px;
+        margin-top: 100px;
+    }
+
+    .content-8-content h2 {
+        font-size: 1.5rem;
+        text-align: left;
     }
 }
