@@ -903,6 +903,14 @@ video {
   max-width: 400px;
 }
 
+.max-w-10 {
+  max-width: 2.5rem;
+}
+
+.max-w-\[00px\] {
+  max-width: 00px;
+}
+
 .shrink {
   flex-shrink: 1;
 }
@@ -1284,6 +1292,10 @@ video {
 
 .pb-4 {
   padding-bottom: 1rem;
+}
+
+.pl-10 {
+  padding-left: 2.5rem;
 }
 
 .text-center {
