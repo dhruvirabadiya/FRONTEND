@@ -62,8 +62,8 @@
 
     // console.log(math3);
 
-    // let math4 = "100"  + 100 - 100 - 100
+    // let math = "100"  + 100 - 100 - 100
 
-    // console.log(math4);
+    // console.log(math);
 
 }
