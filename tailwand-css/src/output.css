@@ -107,7 +107,7 @@
 }
 
 /*
-! tailwindcss v3.4.16 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.15 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -802,12 +802,21 @@ video {
   height: 24rem;
 }
 
+.size-16 {
+  width: 4rem;
+  height: 4rem;
+}
+
 .h-0\.5 {
   height: 0.125rem;
 }
 
 .h-10 {
   height: 2.5rem;
+}
+
+.h-12 {
+  height: 3rem;
 }
 
 .h-20 {
@@ -826,6 +835,10 @@ video {
   height: 24rem;
 }
 
+.h-\[400px\] {
+  height: 400px;
+}
+
 .h-auto {
   height: auto;
 }
@@ -834,32 +847,32 @@ video {
   height: 100%;
 }
 
-.h-12 {
-  height: 3rem;
+.h-48 {
+  height: 12rem;
 }
 
-.h-\[350px\] {
-  height: 350px;
+.h-6 {
+  height: 1.5rem;
 }
 
-.h-\[320px\] {
-  height: 320px;
+.h-60 {
+  height: 15rem;
 }
 
-.h-\[340px\] {
-  height: 340px;
+.h-8 {
+  height: 2rem;
 }
 
-.h-\[390px\] {
-  height: 390px;
-}
-
-.h-\[400px\] {
-  height: 400px;
+.h-9 {
+  height: 2.25rem;
 }
 
 .w-10 {
   width: 2.5rem;
+}
+
+.w-12 {
+  width: 3rem;
 }
 
 .w-28 {
@@ -872,10 +885,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-12 {
-  width: 3rem;
 }
 
 .max-w-\[600px\] {
@@ -892,6 +901,42 @@ video {
 
 .max-w-md {
   max-width: 28rem;
+}
+
+.max-w-\[\] {
+  max-width: ;
+}
+
+.max-w-\[500px\] {
+  max-width: 500px;
+}
+
+.max-w-\[50px\] {
+  max-width: 50px;
+}
+
+.max-w-\[550px\] {
+  max-width: 550px;
+}
+
+.max-w-\[560px\] {
+  max-width: 560px;
+}
+
+.max-w-\[590px\] {
+  max-width: 590px;
+}
+
+.max-w-\[595px\] {
+  max-width: 595px;
+}
+
+.max-w-\[59px\] {
+  max-width: 59px;
+}
+
+.max-w-\[592px\] {
+  max-width: 592px;
 }
 
 .shrink {
@@ -916,6 +961,10 @@ video {
 
 .basis-44 {
   flex-basis: 11rem;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .grid-cols-3 {
@@ -1152,6 +1201,11 @@ video {
   background-color: rgb(5 150 105 / var(--tw-bg-opacity, 1));
 }
 
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity, 1));
+}
+
 .bg-gray-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(209 213 219 / var(--tw-bg-opacity, 1));
@@ -1160,6 +1214,11 @@ video {
 .bg-gray-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(156 163 175 / var(--tw-bg-opacity, 1));
+}
+
+.bg-green-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(74 222 128 / var(--tw-bg-opacity, 1));
 }
 
 .bg-neutral-400 {
@@ -1207,24 +1266,14 @@ video {
   background-color: rgb(161 161 170 / var(--tw-bg-opacity, 1));
 }
 
-.bg-green-500 {
+.bg-purple-300 {
   --tw-bg-opacity: 1;
-  background-color: rgb(34 197 94 / var(--tw-bg-opacity, 1));
+  background-color: rgb(216 180 254 / var(--tw-bg-opacity, 1));
 }
 
-.bg-green-300 {
+.bg-purple-200 {
   --tw-bg-opacity: 1;
-  background-color: rgb(134 239 172 / var(--tw-bg-opacity, 1));
-}
-
-.bg-green-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(74 222 128 / var(--tw-bg-opacity, 1));
-}
-
-.bg-gray-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(229 231 235 / var(--tw-bg-opacity, 1));
+  background-color: rgb(233 213 255 / var(--tw-bg-opacity, 1));
 }
 
 .bg-opacity-50 {
@@ -1254,6 +1303,10 @@ video {
 
 .p-4 {
   padding: 1rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
 }
 
 .px-1 {
@@ -1366,6 +1419,11 @@ video {
   line-height: 1rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1383,9 +1441,9 @@ video {
   color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 
-.text-blue-800 {
+.text-blue-600 {
   --tw-text-opacity: 1;
-  color: rgb(30 64 175 / var(--tw-text-opacity, 1));
+  color: rgb(37 99 235 / var(--tw-text-opacity, 1));
 }
 
 .text-gray-300 {
@@ -1418,11 +1476,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
-.text-blue-600 {
-  --tw-text-opacity: 1;
-  color: rgb(37 99 235 / var(--tw-text-opacity, 1));
-}
-
 .underline {
   text-decoration-line: underline;
 }
@@ -1431,16 +1484,20 @@ video {
   text-decoration-line: line-through;
 }
 
-.underline-offset-\[15px\] {
-  text-underline-offset: 15px;
+.decoration-gray-500 {
+  text-decoration-color: #6b7280;
 }
 
-.underline-offset-2 {
-  text-underline-offset: 2px;
+.decoration-gray-600 {
+  text-decoration-color: #4b5563;
 }
 
 .underline-offset-4 {
   text-underline-offset: 4px;
+}
+
+.underline-offset-\[15px\] {
+  text-underline-offset: 15px;
 }
 
 .shadow {
