@@ -238,6 +238,25 @@
     .section-8 {
         margin-top: 680px;
     }
+
+    .section-9 {
+        display: flex;
+        justify-content: center;
+        padding: 0px 0px;
+    }
+
+    .content-9 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .con9-para {
+        max-width: 750px;
+    }
+
+    .footer {
+        gap: 300px;
+    }
 }
 
 @media (max-width:768px) {
@@ -386,6 +405,10 @@
         height: auto;
         width: 100%;
     }
+
+    .footer {
+        gap: 100px;
+    }
 }
 
 @media (max-width:481px) {
@@ -497,6 +520,11 @@
     .content-8-content h2 {
         font-size: 1.9rem;
         text-align: left;
+    }
+
+    .footer {
+        display: block;
+        gap: 50px;
     }
 }
 
