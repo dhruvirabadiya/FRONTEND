@@ -71,5 +71,36 @@
 //     let y = 17
 
 //     console.log(x & y);
+//     console.log(x & x);
+//     console.log(y & y);
+
+//     console.log(x | y);
+//     console.log(x | x);
+//     console.log(y | y);
+
+//     console.log(x ^ y);
+//     console.log(x ^ x);
+//     console.log(y ^ y);
     
+//     console.log(!(x ^ y));
+//     console.log(!(x ^ x));
+//     console.log(!(y ^ y));
+
+//     console.log(!x);
+//     console.log(!y);
 // }
+
+// Unary operator
+{
+    let x = 12
+    let y = 24
+
+    // console.log(++12);
+
+    console.log(++x);
+    console.log(x++);
+    console.log(--y);
+    console.log(y--);
+    console.log(-x);
+    console.log(+y);
+}
