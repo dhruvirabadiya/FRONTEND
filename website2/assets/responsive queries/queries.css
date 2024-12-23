@@ -20,6 +20,11 @@
     .content-1 h2 {
         font-size: 65px;
     }
+
+
+    .section-1 {
+        min-width: 100vh;
+    }
 }
 
 @media(max-width: 1024px) {
@@ -35,9 +40,11 @@
         padding: 0 20px;
     }
 
+
     .content-1 h2 {
         font-size: 60px;
     }
+
 }
 
 
@@ -86,9 +93,6 @@
         display: none;
     }
 
-    .section-1 {
-        min-width: 80vh;
-    }
 }
 
 
@@ -100,10 +104,6 @@
 
     .nav-links {
         display: none;
-    }
-
-    .section-1 {
-        min-width: 80vh;
     }
 }
 
