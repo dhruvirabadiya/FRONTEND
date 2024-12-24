@@ -107,7 +107,7 @@
 }
 
 /*
-! tailwindcss v3.4.16 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.15 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -709,12 +709,12 @@ video {
   margin-left: 6rem;
 }
 
-.ml-64 {
-  margin-left: 16rem;
-}
-
 .ml-80 {
   margin-left: 20rem;
+}
+
+.ml-96 {
+  margin-left: 24rem;
 }
 
 .mr-10 {
@@ -783,14 +783,6 @@ video {
 
 .mt-\[100px\] {
   margin-top: 100px;
-}
-
-.ml-72 {
-  margin-left: 18rem;
-}
-
-.ml-96 {
-  margin-left: 24rem;
 }
 
 .inline-block {
@@ -1082,24 +1074,12 @@ video {
   gap: 18rem;
 }
 
-.gap-\[600px\] {
-  gap: 600px;
-}
-
-.gap-40 {
-  gap: 10rem;
-}
-
-.gap-96 {
-  gap: 24rem;
-}
-
-.gap-\[400px\] {
-  gap: 400px;
-}
-
 .gap-\[500px\] {
   gap: 500px;
+}
+
+.gap-\[600px\] {
+  gap: 600px;
 }
 
 .space-x-2\.5 > :not([hidden]) ~ :not([hidden]) {
