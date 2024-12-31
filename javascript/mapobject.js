@@ -93,7 +93,25 @@
     //foreach
 
     //has
-    let set4 = new Set ([10 , 20 , 30 , 40 , 50])
-    console.log(set4.has(10));
+    // let set4 = new Set ([10 , 20 , 30 , 40 , 50])
+    // console.log(set4.has(10));
+    
+    //entries
+    // let set5 = set1.entries()
+    // console.log(set5.next().value);
+    // console.log(set5.next().value);
+    // console.log(set5.next().value);
+
+    //keys
+    // let set6 = set1.keys()
+    // console.log(set6.next().value);
+    // console.log(set6.next().value);
+    // console.log(set6.next().value);    
+
+    //values
+    // let set7 = set1.values()
+    // console.log(set7.next().value);
+    // console.log(set7.next().value);
+    // console.log(set7.next().value);
     
 }
