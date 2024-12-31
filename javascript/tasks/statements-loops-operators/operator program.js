@@ -57,3 +57,35 @@
 // console.log(`Division: ${a} / ${b} = ${division}`);
 // console.log(`Modulus: ${a} % ${c} = ${modulus}`);
 
+// 7.Comparing Numbers [5 number]
+// let num1 = 10
+// let num2 = 20
+// let num3 = 30
+// let num4 = 40
+// let num5 = 50
+
+// let numbers = [num1, num2, num3, num4, num5];
+
+// let largest = numbers[0];
+// let smallest = numbers[0];
+
+// for (let i = 1; i < numbers.length; i++) {
+//     if (numbers[i] > largest) {
+//         largest = numbers[i];
+//     }
+//     if (numbers[i] < smallest) {
+//         smallest = numbers[i];
+//     }
+// }
+
+// console.log(`Largest number: ${largest}`);
+// console.log(`Smallest number: ${smallest}`);
+
+// 8.Comparing Strings [5 String]
+// const strings = ["apple", "banana", "cherry", "apple", "date"];
+// console.log(`${strings[0] === strings[3]}`);
+// console.log(`${strings[0] === strings[1]}`);
+// console.log(` ${strings[3].toUpperCase() === strings[3].toUpperCase()}`);
+// console.log(`${strings[1].toLowerCase() === strings[3].toLowerCase()}`);
+
+
