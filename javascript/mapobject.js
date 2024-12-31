@@ -114,4 +114,14 @@
     // console.log(set7.next().value);
     // console.log(set7.next().value);
     
+    let set8 = new Set()
+    set8.add(13)
+    set8.add(15)
+    set8.add(11)
+    console.log(set8);
+    
+    const iterator1 = set8[Symbol.iterator]();
+    console.log(iterator1.next().value);
+    console.log(iterator1.next().value);
+    console.log(iterator1.next().value);
 }

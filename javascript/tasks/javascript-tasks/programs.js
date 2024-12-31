@@ -29,18 +29,19 @@
 // console.log("a:" + a, "b:" + b);
 
 // 6) JavaScript Program to Solve Quadratic Equation
-let a = 1
-let b = -3
-let c = 2
-let discriminat = b * b - 4 * a * c
-if (discriminat > 0) {
-    let root1 = (-b + Math.sqrt(discriminat)) / 2 * a
-    let root2 = (-b - Math.sqrt(discriminat)) / 2 * a
-    console.log("root1:", root1);
-    console.log("root2:", root2);
-} else if (discriminat === 0) {
-    let root = -b / (2 * a)
-    console.log("root:", root);
-} else {
-    console.log("no real roots");
-}
+// let a = 1
+// let b = -3
+// let c = 2
+// let discriminat = b * b - 4 * a * c
+
+// if (discriminat > 0) {
+//     let root1 = (-b + Math.sqrt(discriminat)) / 2 * a
+//     let root2 = (-b - Math.sqrt(discriminat)) / 2 * a
+//     console.log("root1:", root1);
+//     console.log("root2:", root2);
+// } else if (discriminat === 0) {
+//     let root = -b / (2 * a)
+//     console.log("root:", root);
+// } else {
+//     console.log("no real roots");
+// }
