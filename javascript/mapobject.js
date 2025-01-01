@@ -140,6 +140,7 @@
       console.log(`${value1} = ${value2}`);
     }
 
-    let set5 = new Set([[10,20,30],[10,20,30]]).forEach(element1)
+    let set5 = new Set([[10,20,30],[10,20,30,40]]).forEach(element1)
+    console.log(set5);
     
 }
