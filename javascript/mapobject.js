@@ -44,10 +44,10 @@
 //     console.log(map11);
     
 //     Map.prototype.forEach()
-                    let mapobject = new Map([['key1','objrct1'],['key2','object2']]).forEach(print)
-                    function print(value1,value2,mapobject){
-                      console.log(`${value1}=${value2}`);   
-}
+                    // let mapobject = new Map([['key1','objrct1'],['key2','object2']]).forEach(print)
+                    // function print(value1,value2,mapobject){
+                    //   console.log(`${value1}=${value2}`);   
+                    // }
 // }
 
 // Javascript SET Object Method 
@@ -130,10 +130,16 @@
     // console.log(iterator1.next().value);
      
     //foreach
-    // function element(value1){
-    //     console.log(`${value1}`);    
-    // }
-    // let set4 = new Set([10 , 20 , 30 , 40 , 50]).forEach(element)
-    // console.log(set4);
+    function element(value1){
+        console.log(`${value1}`);    
+    }
+    let set4 = new Set([10 , 20 , 30 , 40 , 50]).forEach(element)
+    console.log(set4);
 
+    function element1(value1,value2){
+      console.log(`${value1} = ${value2}`);
+    }
+
+    let set5 = new Set([[10,20,30],[10,20,30]]).forEach(element1)
+    
 }

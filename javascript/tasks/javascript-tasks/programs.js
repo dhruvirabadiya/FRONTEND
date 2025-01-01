@@ -95,6 +95,8 @@
 //     console.log(`${num} is not a prime number.`);
 // } else {
 //     let isPrime = true;
-
+//   if(num===1){
+//     console.log("number is prime");
+//   }
 // }
 
