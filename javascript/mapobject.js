@@ -44,6 +44,10 @@
 //     console.log(map11);
     
 //     Map.prototype.forEach()
+                    let mapobject = new Map([['key1','objrct1'],['key2','object2']]).forEach(print)
+                    function print(value1,value2,mapobject){
+                      console.log(`${value1}=${value2}`);   
+}
 // }
 
 // Javascript SET Object Method 
@@ -60,18 +64,18 @@
 }
 
 {
-    let set1 = new Set ([10 , 20 , 30 , 40 , 50])
-    let set2 = new Set ([10 , 19 , 30 , 41 , 52])
+    // let set1 = new Set ([10 , 20 , 30 , 40 , 50])
+    // let set2 = new Set ([10 , 19 , 30 , 41 , 52])
 
-    console.log(set1);
-    console.log(set2);
+    // console.log(set1);
+    // console.log(set2);
 
-    //add
-    let set3 = new Set()
-    set3.add(13)
-    set3.add(15)
-    set3.add(18)
-    console.log(set3);
+    // //add
+    // let set3 = new Set()
+    // set3.add(13)
+    // set3.add(15)
+    // set3.add(18)
+    // console.log(set3);
 
     //clear
     // let  set4 = new Set()
@@ -93,7 +97,43 @@
     //foreach
 
     //has
-    let set4 = new Set ([10 , 20 , 30 , 40 , 50])
-    console.log(set4.has(10));
+    // let set4 = new Set ([10 , 20 , 30 , 40 , 50])
+    // console.log(set4.has(10));
     
+    //entries
+    // let set5 = set1.entries()
+    // console.log(set5.next().value);
+    // console.log(set5.next().value);
+    // console.log(set5.next().value);
+
+    //keys
+    // let set6 = set1.keys()
+    // console.log(set6.next().value);
+    // console.log(set6.next().value);
+    // console.log(set6.next().value);    
+
+    //values
+    // let set7 = set1.values()
+    // console.log(set7.next().value);
+    // console.log(set7.next().value);
+    // console.log(set7.next().value);
+    
+    // let set8 = new Set()
+    // set8.add(13)
+    // set8.add(15)
+    // set8.add(11)
+    // console.log(set8);
+    
+    // const iterator1 = set8[Symbol.iterator]();
+    // console.log(iterator1.next().value);
+    // console.log(iterator1.next().value);
+    // console.log(iterator1.next().value);
+     
+    //foreach
+    // function element(value1){
+    //     console.log(`${value1}`);    
+    // }
+    // let set4 = new Set([10 , 20 , 30 , 40 , 50]).forEach(element)
+    // console.log(set4);
+
 }
