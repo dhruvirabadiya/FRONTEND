@@ -100,13 +100,73 @@
     console.log(array.copyWithin(4, 3, 7));
 }
 
-const element = 4
-let secondelement = element
-let firstelement = element - secondelement
+// Array.prototype.find()
+let array = [1, 2, 3, 4, 15, 20, 35, 20, 60]
+let findarray = array.find((element) => element > 20)
+console.log(findarray);
+
+// Array.prototype.findIndex()
+let array1 = [1, 12, 18, 22, 45, 98]
+let findeindexarray = array1.findIndex((element) => element > 10)
+console.log(findeindexarray);
+
+// Array.prototype.findLast()
+let array2 = [4, 8, 35, 8, 40, 20]
+let findlast = array2.findLast((element) => element > 20)
+console.log(findlast);
+
+// Array.prototype.findLastIndex()
+let array3 = [8, 20, 10, 50, 6, 40]
+let findlastindex = array3.findLastIndex((element) => element > 6) 
+console.log(findlastindex);
+
+// Array.prototype.join()
+const element = ['abc' , 'def', 'hij', 'klm', 'opq']
+console.log(element.join('-'));
+
+// Array.prototype.lastIndexOf()
+let animal = ['tiger', 'penguin', 'beer', 'dear', 'lion']
+console.log(animal.lastIndexOf('abc'));
+
+// Array.prototype.pop()
+let color = ['white', 'red', 'green', 'yellow']
+console.log(color.pop());
+console.log(color);
+
+// Array.prototype.push()
+let number = [10, 20, 30, 40, 50]
+console.log(number.push(80));
+console.log(number);
+
+// Array.prototype.reverse()
+let array5 = [10, 20, 30, 40, 50, 60]
+console.log(array5.reverse());
+
+// Array.prototype.shift()
+let array6 = ['abc', 'def', 'efg', 'hij']
+
+// Array.prototype.includes()
+let array7 = [1, 2, 3, 4, 5]
+console.log(array7.includes(2));
+
+// Array.prototype.splice()
+let array8 = ['jan', 'feb', 'april', 'jun']
+// console.log(array8.splice(1));
+console.log(array8.splice(1,1,'july','augst'));
+console.log(array8);
+
+// Array.prototype.entries()
+let array9 = ['a','b','c','d']
+console.log();
+
+
+
+const pageperitem = 4
+let lastindex = pageperitem * 2
+let firstindex = lastindex * 2 - pageperitem
 
 for (let i = 0; i < element; i++) {
     console.log(`firstelement:${firstelement},secondelement:${secondelement}`);
     firstelement = secondelement
-    secondelement = firstelement + element
-
+    secondelement = firstelement + pageelement
 }
