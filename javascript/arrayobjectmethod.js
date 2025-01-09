@@ -178,6 +178,69 @@ for(const value of values){
     console.log(value);  
 }
 
+// * Array.every */
+
+// every(callbackFn)
+// every(callbackFn, thisArg)
+{
+    // let num = [10, 20, 40, 50, 80]
+    let num = [110, 210, 140, 510, 180]
+    let every = num.every((num) => num > 50)
+    console.log(every);
+}
+
+// * Array.every */
+
+// some(callbackFn)
+// some(callbackFn, thisArg)
+{
+//    let num = [10, 20, 40, 50, 80]
+   let num = [110, 210, 140, 510, 180]
+   let some = num.some((num) => num < 50)
+   console.log(some);   
+}
+
+// Array.fill
+
+// fill(value)
+// fill(value, start)
+// fill(value, start, end)
+{
+    let num = [10, 45, 20, 30, 80, 50]
+    let fill = num.fill(10, 0, 4)
+    console.log(fill);
+}
+
+// Array.flat()
+
+// flat()
+// flat(depth)
+{
+
+    let array = [10, 20, 30,[40, 50, 60,[70, 80 ,90]]]
+    console.log(array);
+    let flat = array.flat(2)
+    console.log(flat);
+    
+    flat.map((item) => console.log(item))
+    console.log(array);   
+    
+}
+// Array.flatMap()
+// flatMap(callbackFn)
+// flatMap(callbackFn, thisArg)
+
+{
+    let array = [1, 2, 3, 4, 5]
+    let flatmap = array.flatMap((item) => item >= 2 ? [2, 1]:item)
+    console.log(flatmap);
+    console.log(array);
+}
+
+// Array.reduce()
+
+// reduce(callbackFn)
+// reduce(callbackFn, initialValue)
 // let products =  [
 //     {
 //       id: 1,
