@@ -100,13 +100,13 @@
     // console.log(array.copyWithin(4, 3, 7));
 }
 
-// const element = 4
-// let secondelement = element
-// let firstelement = element - secondelement
+const element = 4
+let secondelement = element
+let firstelement = element - secondelement
 
-// for (let i = 0; i < element; i++) {
-//     console.log(`firstelement:${firstelement},secondelement:${secondelement}`);
-//     firstelement = secondelement
-//     secondelement = firstelement + element
+for (let i = 0; i < element; i++) {
+    console.log(`firstelement:${firstelement},secondelement:${secondelement}`);
+    firstelement = secondelement
+    secondelement = firstelement + element
 
-// }
+}
