@@ -93,20 +93,20 @@
     // copyWithin(target, start)
     // copyWithin(target, start, end)
 
-    let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-    console.log(array);
-    console.log(array.copyWithin(3));
-    console.log(array.copyWithin(2, 4));
-    console.log(array.copyWithin(4, 3, 7));
+    // let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    // console.log(array);
+    // console.log(array.copyWithin(3));
+    // console.log(array.copyWithin(2, 4));
+    // console.log(array.copyWithin(4, 3, 7));
 }
 
-const element = 4
-let secondelement = element
-let firstelement = element - secondelement
+// const element = 4
+// let secondelement = element
+// let firstelement = element - secondelement
 
-for (let i = 0; i < element; i++) {
-    console.log(`firstelement:${firstelement},secondelement:${secondelement}`);
-    firstelement = secondelement
-    secondelement = firstelement + element
+// for (let i = 0; i < element; i++) {
+//     console.log(`firstelement:${firstelement},secondelement:${secondelement}`);
+//     firstelement = secondelement
+//     secondelement = firstelement + element
 
-}
+// }
