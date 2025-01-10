@@ -1,4 +1,9 @@
 /* Javascript Array */
+// Array.from()
+// Array.of()
+// Array.prototype.at()
+// Array.prototype.concat()
+
 // {
 //     let array = [undefined]
 //     console.log(array);
@@ -241,6 +246,49 @@ for(const value of values){
 
 // reduce(callbackFn)
 // reduce(callbackFn, initialValue)
+{
+    let num = [10, 20, 30, 40, 50]
+    let reduce = num.reduce((prev,next)=>prev+next)
+    console.log(reduce);
+}
+
+// Array.prototype.reduceRight()
+// reduceRight(callbackFn)
+// reduceRight(callbackFn, initialValue)
+{
+    let num = [10, 20, 30, 40, 50]
+    let reduce = num.reduceRight((prev,next)=>prev*next)
+    console.log(reduce);
+    
+}
+
+// Array.sort()
+{
+    //   let language = ['Html' , 'Css' , 'Sass' , 'Bootstrap' , 'TailwindCss' , 'Jvascript' , 'ReactJS' , 'JQuery' , 'AngularJs']
+    //   let short = language.sort()
+      let language = [10 , 29 , 338 , 40 , 50 , 264 , 70 , 84 , 190]
+      let short = language.sort((a,b)=>(a-b))
+      console.log(short);
+     
+}
+
+// Array.With()
+// arrayInstance.with(index, value)
+{
+    const arrayLike = {
+      length: 3,
+      unrelated: "foo",
+      0: 5,
+      2: 4,
+      3: 3,
+    };
+  
+    console.log(arrayLike);
+  
+    console.log(Array.prototype.with.call(arrayLike , 2 , 4));
+  }
+
+
 // let products =  [
 //     {
 //       id: 1,
@@ -972,6 +1020,5 @@ for(const value of values){
 
 // console.log(filterItem);
 // console.log(filterItem1);
-
 
 
