@@ -274,19 +274,7 @@ for (const value of values) {
 
 // Array.With()
 // arrayInstance.with(index, value)
-{
-    const arrayLike = {
-      length: 3,
-      unrelated: "foo",
-      0: 5,
-      2: 4,
-      3: 3,
-    };
-  
-    console.log(arrayLike);
-  
-    console.log(Array.prototype.with.call(arrayLike , 2 , 4));
-  }
+
 
 
 // let products =  [
