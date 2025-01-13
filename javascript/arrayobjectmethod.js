@@ -122,11 +122,11 @@ console.log(findlast);
 
 // Array.prototype.findLastIndex()
 let array3 = [8, 20, 10, 50, 6, 40]
-let findlastindex = array3.findLastIndex((element) => element > 6) 
+let findlastindex = array3.findLastIndex((element) => element > 6)
 console.log(findlastindex);
 
 // Array.prototype.join()
-const element = ['abc' , 'def', 'hij', 'klm', 'opq']
+const element = ['abc', 'def', 'hij', 'klm', 'opq']
 console.log(element.join('-'));
 
 // Array.prototype.lastIndexOf()
@@ -155,7 +155,7 @@ console.log(shift);
 
 // Array.prototype.unshift()
 let array10 = [1, 2, 3, 4, 5]
-let unshift = array10.unshift(6,7)
+let unshift = array10.unshift(6, 7)
 console.log(array10);
 
 // Array.prototype.includes()
@@ -165,11 +165,11 @@ console.log(array7.includes(2));
 // Array.prototype.splice()
 let array8 = ['jan', 'feb', 'april', 'jun']
 // console.log(array8.splice(1));
-console.log(array8.splice(1,1,'july','augst'));
+console.log(array8.splice(1, 1, 'july', 'augst'));
 console.log(array8);
 
 // Array.prototype.entries()
-let array9 = ['a','b','c','d']
+let array9 = ['a', 'b', 'c', 'd']
 let entries = array9.entries()
 console.log(entries.next().value);
 console.log(entries.next().value);
@@ -179,8 +179,8 @@ console.log(entries.next().value);
 let array11 = ['a', 'b', 'c']
 let values = array11.values()
 
-for(const value of values){
-    console.log(value);  
+for (const value of values) {
+    console.log(value);
 }
 
 // * Array.every */
@@ -199,10 +199,10 @@ for(const value of values){
 // some(callbackFn)
 // some(callbackFn, thisArg)
 {
-//    let num = [10, 20, 40, 50, 80]
-   let num = [110, 210, 140, 510, 180]
-   let some = num.some((num) => num < 50)
-   console.log(some);   
+    //    let num = [10, 20, 40, 50, 80]
+    let num = [110, 210, 140, 510, 180]
+    let some = num.some((num) => num < 50)
+    console.log(some);
 }
 
 // Array.fill
@@ -222,14 +222,14 @@ for(const value of values){
 // flat(depth)
 {
 
-    let array = [10, 20, 30,[40, 50, 60,[70, 80 ,90]]]
+    let array = [10, 20, 30, [40, 50, 60, [70, 80, 90]]]
     console.log(array);
     let flat = array.flat(2)
     console.log(flat);
-    
+
     flat.map((item) => console.log(item))
-    console.log(array);   
-    
+    console.log(array);
+
 }
 // Array.flatMap()
 // flatMap(callbackFn)
@@ -237,7 +237,7 @@ for(const value of values){
 
 {
     let array = [1, 2, 3, 4, 5]
-    let flatmap = array.flatMap((item) => item >= 2 ? [2, 1]:item)
+    let flatmap = array.flatMap((item) => item >= 2 ? [2, 1] : item)
     console.log(flatmap);
     console.log(array);
 }
@@ -900,7 +900,7 @@ for(const value of values){
 //       ],
 //       thumbnail: "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/thumbnail.png"
 //     },
-    
+
 //   ]
 
 //   let arrays = [
@@ -1020,5 +1020,6 @@ for(const value of values){
 
 // console.log(filterItem);
 // console.log(filterItem1);
+
 
 

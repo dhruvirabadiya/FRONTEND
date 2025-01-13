@@ -1,4 +1,7 @@
 // 3 types - var , let , const
+// var   : [global scope variable] reassigned , redeclaired
+// let   : [block scope variable] reassigned , not redeclaired
+// const : [block scope variable]  not reassigned , not redeclaired
 
 // var [global scope variable]
 
@@ -14,6 +17,7 @@
 // }
 // console.log(a);
 
+// let [block scope variable]
 // let a = 10;
 // a = 30;
 
@@ -24,6 +28,7 @@
 
 // console.log(a);
 
+// const [block scope variable]
 // {
 //     const profile = "john";
 //     profile = "john";
