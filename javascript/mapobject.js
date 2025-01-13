@@ -1,4 +1,13 @@
 // Map Object In Javascript
+//set method
+//get method
+//has method
+//delete method
+//clear method
+//value
+//entries
+//keys
+//forEach()
 // {
 //     let map = new Map()
 //     console.log(map);
@@ -8,7 +17,7 @@
 //     let map1 = map.set('key1','javascript')
 //     let map2 = map.set('key2','tailwandscript')
 //     let map3 = map.set('key3','html')
-    
+
 //     console.log(map);
 //     console.log(map.size);
 
@@ -34,113 +43,119 @@
 //     //value
 //     let map9 = map.values()
 //     console.log(map9);
-    
+
 //     //entries
 //     let map10 = map.entries()
 //     console.log(map10);
-    
+
 //     //keys
 //     let map11 = map.keys()
 //     console.log(map11);
-    
-//     Map.prototype.forEach()
-                    // let mapobject = new Map([['key1','objrct1'],['key2','object2']]).forEach(print)
-                    // function print(value1,value2,mapobject){
-                    //   console.log(`${value1}=${value2}`);   
-                    // }
+
+//Map.prototype.forEach()
+// let mapobject = new Map([['key1','objrct1'],['key2','object2']]).forEach(print)
+// function print(value1,value2,mapobject){
+//   console.log(`${value1}=${value2}`);
+// }
 // }
 
-// Javascript SET Object Method 
+// Javascript SET Object Method
+//add
+//clear
+//delete
+//difference
+//entries
+//foreach
+//has
+//keys
+
 {
-     // let set = new Set()
+  // let set = new Set()
 
-     // console.log(set);
+  // console.log(set);
 
-     // console.log(set.size);
+  // console.log(set.size);
 
-     // let set1 = set.add([10 , 20])
+  // let set1 = set.add([10 , 20])
 
-     // console.log(set1);  
+  // console.log(set1);  
 }
 
 {
-    // let set1 = new Set ([10 , 20 , 30 , 40 , 50])
-    // let set2 = new Set ([10 , 19 , 30 , 41 , 52])
+  // let set1 = new Set ([10 , 20 , 30 , 40 , 50])
+  // let set2 = new Set ([10 , 19 , 30 , 41 , 52])
 
-    // console.log(set1);
-    // console.log(set2);
+  // console.log(set1);
+  // console.log(set2);
 
-    // //add
-    // let set3 = new Set()
-    // set3.add(13)
-    // set3.add(15)
-    // set3.add(18)
-    // console.log(set3);
+  // //add
+  // let set3 = new Set()
+  // set3.add(13)
+  // set3.add(15)
+  // set3.add(18)
+  // console.log(set3);
 
-    //clear
-    // let  set4 = new Set()
-    // set4.clear()
-    // console.log(set4);
+  //clear
+  // let  set4 = new Set()
+  // set4.clear()
+  // console.log(set4);
 
-    //delete
-    // let set5 = new Set()
-    // set5.delete(set2)
-    // console.log(set5);
-    
-    //difference
-    // let set3 = set2.difference(set1)
-    // let set4 = set1.difference(set2)
-    // console.log(set3);
-    // console.log(set4);
+  //delete
+  // let set5 = new Set()
+  // set5.delete(set2)
+  // console.log(set5);
 
-    //entries
-    //foreach
+  //difference
+  // let set3 = set2.difference(set1)
+  // let set4 = set1.difference(set2)
+  // console.log(set3);
+  // console.log(set4);
 
-    //has
-    // let set4 = new Set ([10 , 20 , 30 , 40 , 50])
-    // console.log(set4.has(10));
-    
-    //entries
-    // let set5 = set1.entries()
-    // console.log(set5.next().value);
-    // console.log(set5.next().value);
-    // console.log(set5.next().value);
+  //has
+  // let set4 = new Set ([10 , 20 , 30 , 40 , 50])
+  // console.log(set4.has(10));
 
-    //keys
-    // let set6 = set1.keys()
-    // console.log(set6.next().value);
-    // console.log(set6.next().value);
-    // console.log(set6.next().value);    
+  //entries
+  // let set5 = set1.entries()
+  // console.log(set5.next().value);
+  // console.log(set5.next().value);
+  // console.log(set5.next().value);
 
-    //values
-    // let set7 = set1.values()
-    // console.log(set7.next().value);
-    // console.log(set7.next().value);
-    // console.log(set7.next().value);
-    
-    // let set8 = new Set()
-    // set8.add(13)
-    // set8.add(15)
-    // set8.add(11)
-    // console.log(set8);
-    
-    // const iterator1 = set8[Symbol.iterator]();
-    // console.log(iterator1.next().value);
-    // console.log(iterator1.next().value);
-    // console.log(iterator1.next().value);
-     
-    //foreach
-    function element(value1){
-        console.log(`${value1}`);    
-    }
-    let set4 = new Set([10 , 20 , 30 , 40 , 50]).forEach(element)
-    console.log(set4);
+  //keys
+  // let set6 = set1.keys()
+  // console.log(set6.next().value);
+  // console.log(set6.next().value);
+  // console.log(set6.next().value);    
 
-    function element1(value1,value2){
-      console.log(`${value1} = ${value2}`);
-    }
+  //values
+  // let set7 = set1.values()
+  // console.log(set7.next().value);
+  // console.log(set7.next().value);
+  // console.log(set7.next().value);
 
-    let set5 = new Set([[10,20,30],[10,20,30,40]]).forEach(element1)
-    console.log(set5);
-    
+  // let set8 = new Set()
+  // set8.add(13)
+  // set8.add(15)
+  // set8.add(11)
+  // console.log(set8);
+
+  // const iterator1 = set8[Symbol.iterator]();
+  // console.log(iterator1.next().value);
+  // console.log(iterator1.next().value);
+  // console.log(iterator1.next().value);
+
+  //foreach
+  function element(value1) {
+    console.log(`${value1}`);
+  }
+  let set4 = new Set([10, 20, 30, 40, 50]).forEach(element)
+  console.log(set4);
+
+  function element1(value1, value2) {
+    console.log(`${value1} = ${value2}`);
+  }
+
+  let set5 = new Set([[10, 20, 30], [10, 20, 30, 40]]).forEach(element1)
+  console.log(set5);
+
 }

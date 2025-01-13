@@ -6,7 +6,7 @@
 // -->String.prototype.includes()
 // -->String.prototype.indexOf()
 // -->String.prototype.lastIndexOf()
-// -->String.prototype.padStart() /  padEnd()()
+// -->String.prototype.padStart() /  padEnd()
 // -->String.prototype.Slice()
 // -->String.prototype.Substring()
 // -->String.prototype.split()

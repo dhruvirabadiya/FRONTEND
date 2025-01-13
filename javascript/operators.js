@@ -14,7 +14,7 @@
 
 // Assignment operator
 // {
-   
+
 //     let x = 5
 //     let y = 3
 //     console.log(x = y);
@@ -23,7 +23,7 @@
 //     console.log(x *= y);
 //     console.log(x /= y);
 //     console.log(x **= y);
-//     console.log(x %= y); 
+//     console.log(x %= y);
 // }
 
 // Comparision operator
@@ -38,10 +38,16 @@
 //     console.log(x < y);
 //     console.log(x > y);
 //     console.log(x <=  y);
-//     console.log(x >= y);    
+//     console.log(x >= y);
 // }
 
 // Logical operator
+// 1. Logical AND (&&)
+// Returns true if both operands are truthy; otherwise, it returns the first falsy operand.
+// 2. Logical OR (||)
+// Returns true if at least one operand is truthy; otherwise, it returns the last falsy operand.
+// 3. Logical NOT (!)
+// Returns true if the operand is falsy and false if the operand is truthy. It inverts the boolean value.
 // {
 //     let x = true
 //     let y = false
@@ -51,11 +57,11 @@
 //     console.log(x && y && z);
 //     console.log(x || y || z);
 //     console.log(!(x && y) && !(z || x) || !(x && z));  
-    
+
 // }
 
 //Ternery operator
-// statement ? condition1 : condition2
+//syntax: statement ? condition1 : condition2
 // {
 //     let age = 18
 //     age >= 18 ? console.log('you are aligable') : console.log('you are not aligable');
@@ -81,7 +87,7 @@
 //     console.log(x ^ y);
 //     console.log(x ^ x);
 //     console.log(y ^ y);
-    
+
 //     console.log(!(x ^ y));
 //     console.log(!(x ^ x));
 //     console.log(!(y ^ y));

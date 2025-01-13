@@ -169,3 +169,130 @@
 // } else {
 //     console.log(`${num} is not an Armstrong number.`);
 // }
+
+// 19)JavaScript Program to Find Armstrong Number in an Interval
+// function isArmstrong(num) {
+//     let sum = 0
+//     let temp = num
+//     const digits = String(num).length
+//     while (temp > 0) {
+//         sum += (temp % 10) ** digits
+//         temp = Math.floor(temp / 10)
+//     }
+//     return sum == num
+// }
+// function findarmstrongnum(start, end) {
+//     const result = []
+//     for (let i = start; i <= end; i++) {
+//         if (isArmstrong(i)) {
+//             result.push(i)
+//         }
+//     }
+//     return result
+// }
+// console.log(findarmstrongnum(100, 999));
+
+// 20)JavaScript Program to Make a Simple Calculator
+// function calculator(num1, num2, calc) {
+//     switch (calc) {
+//         case '+':
+//             return num1 + num2
+//         case '-':
+//             return num1 - num2
+//         case '*':
+//             return num1 * num2
+//         case '/':
+//             if (num2 !== 0) {
+//                 return num1 / num2
+//             } else {
+//                 return "Division by zero is not allowed."
+//             }
+//         default:
+//             return "Invalid operator."
+//     }
+// }
+
+// const num1 = parseFloat(prompt("Enter The First Number:"))
+// const num2 = parseFloat(prompt("Enter The Second Number:"))
+// const calc = prompt("Enter A Sign For Calculation")
+
+// const result = calculator(num1, num2, calc)
+// alert(`Result: ${result}`);
+
+// 21)JavaScript Program to Find the Sum of Natural Numbers
+// let n = 10
+// if (n > 0) {
+//     const sum = (n * (n + 1) / 2)
+//     console.log(`The sum of the first ${n} natural numbers is ${sum}`);
+// } else {
+//     console.log("Please enter a valid positive integer.");
+// }
+
+// 22)JavaScript Program to Check if the Numbers Have Same Last Digit
+// const num1 = 456
+// const num2 = 176
+
+// const lastdigit1 = num1 % 10
+// const lastdigit2 = num2 % 10
+
+// if (lastdigit1 === lastdigit2) {
+//     console.log(`The numbers ${num1} and ${num2} have the same last digit: ${lastdigit1}`);
+// } else {
+//     console.log(`The numbers ${num1} and ${num2} do not have the same last digit.`);
+// }
+
+// 23)JavaScript Program to Find HCF or GCD
+// function findgcd(num1, num2) {
+//     num1 = Math.abs(num1)
+//     num2 = Math.abs(num2)
+
+//     while (num2 !== 0) {
+//         const temp = num2
+//         num2 = num1 % num2
+//         num1 = temp
+//     }
+//     return num1
+// }
+
+// const a = 56
+// const b = 96
+// const gcd = findgcd(a, b);
+// console.log(`The HCF (or GCD) of ${a} and ${b} is ${gcd}`);
+
+// 24)JavaScript Program to Find LCM
+// function findgcd(num1, num2) {
+//     num1 = Math.abs(num1)
+//     num2 = Math.abs(num2)
+
+//     while (num2 !== 0) {
+//         const temp = num2
+//         num2 = num1 % num2
+//         num1 = temp
+//     }
+//     return num1
+// }
+
+// function findlcm(num1, num2) {
+//     const gcd = findgcd(num1, num2)
+//     const lcm = (Math.abs(num1 * num2)) / gcd
+//     return lcm
+// }
+
+// const a = 15;
+// const b = 20;
+// const lcm = findlcm(a, b);
+// console.log(`The LCM of ${a} and ${b} is ${lcm}`);
+
+// 25)JavaScript Program to Find the Factors of a Number
+function findfactor(num) {
+    const factor = []
+    for (let i = 0; i <= num; i++) {
+        if (num % i === 0) {
+            factor.push(i);
+        }
+    }
+    return factor
+}
+const number = 36;
+const factors = findfactor(number);
+console.log(`The factors of ${number} are: ${factors.join(', ')}`);
