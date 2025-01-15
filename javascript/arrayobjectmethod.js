@@ -189,7 +189,7 @@ for (const value of values) {
     console.log(every);
 }
 
-// * Array.every */
+// * Array.some */
 
 // some(callbackFn)
 // some(callbackFn, thisArg)
@@ -238,9 +238,30 @@ for (const value of values) {
 }
 
 // Array.reduce()
-
 // reduce(callbackFn)
 // reduce(callbackFn, initialValue)
+{
+    let num = [10, 20, 30, 40, 50]
+    let reduce = num.reduce((prev, next) => prev + next)
+    console.log(reduce);
+
+}
+
+// Array.reduceRight()
+// reduceRight(callbackFn)
+// reduceRight(callbackFn, initialValue)
+{
+    let num = [10, 20, 30, 40, 50]
+    let reduce = num.reduceRight((prev, next) => prev + next)
+    console.log(reduce);
+
+}
+
+//Array.sort()
+{
+
+}
+
 // let products =  [
 //     {
 //       id: 1,

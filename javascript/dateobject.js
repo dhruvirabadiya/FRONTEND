@@ -1,4 +1,23 @@
 // Javascript Date Object Method
+//get methods
+// -->getDate()
+// -->getMonth()
+// -->getFullYear()
+// -->getDay()
+// -->getHours()
+// -->getMinutes()
+// -->getSeconds()
+// -->getMilliseconds()
+//set methods
+// -->setDate()
+// -->setFullYear()
+// -->setMonth()
+// -->setHours()
+// -->setMinutes()
+// -->setSeconds()
+// -->setMilliseconds()
+
+
 // let today = new Date()
 // console.log(today);
 

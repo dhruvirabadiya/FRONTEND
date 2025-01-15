@@ -34,7 +34,7 @@
 //       console.log(demo);
 // }
 
-// replace(pattern, replacement)
+// replace & replaceAll(pattern, replacement)
 
 
 {
