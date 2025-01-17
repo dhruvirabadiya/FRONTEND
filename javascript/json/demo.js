@@ -3,25 +3,25 @@
 
 /* JSON */
 
-// {
-//     let obj = { name: 'bansi', gender: 'female', age: 24 }
+{
+    let obj = { name: 'bansi', gender: 'female', age: 24 }
 
-//     console.log(obj);
+    console.log(obj);
 
-//     let jsonObj = JSON.stringify(obj)
-//     console.log(jsonObj);
-// }
+    let jsonObj = JSON.stringify(obj)
+    console.log(jsonObj);
+}
 
 
-// {
-//     let jsonString = '{"name":"bansi","gender":"female","age":24}';
+{
+    let jsonString = '{"name":"bansi","gender":"female","age":24}';
 
-//     console.log(jsonString);
+    console.log(jsonString);
 
-//     let parseObj = JSON.parse(jsonString);
-//     console.log(parseObj);
+    let parseObj = JSON.parse(jsonString);
+    console.log(parseObj);
 
-// }
+}
 
 // javascript fetch
 

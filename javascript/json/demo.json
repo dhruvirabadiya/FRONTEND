@@ -3,7 +3,17 @@
         {
             "name": "mansi",
             "gender": "female",
-            "age": 34
+            "age": 34,
+            "property":[
+                "Home" , "Car" , "jetPlane"
+            ],
+            "Details":[
+                {
+                    "Hair":"long hair",
+                    "skincolor":"dark",
+                    "eye":"cateyes"
+                }
+            ]
         }
     ]
 }
