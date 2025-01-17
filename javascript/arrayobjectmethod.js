@@ -245,6 +245,42 @@ for (const value of values) {
 // Array.reduce()
 // reduce(callbackFn)
 // reduce(callbackFn, initialValue)
+{
+    let num = [10, 20, 30, 40, 50]
+    let reduce = num.reduce((prev, next) => prev + next)
+    console.log(reduce);
+}
+
+//Array.reduceRight()
+// reduceRight(callbackFn)
+// reduceRight(callbackFn, initialValue)
+{
+    let num = [10, 20, 30, 40, 50]
+    let reduce = num.reduceRight((prev, next) => prev + next)
+    console.log(reduce);
+}
+
+// Array.short()
+{
+    let language = ['html', 'css', 'bootstrap', 'tailwand-css', 'javascript', 'reactjs', 'angularjs', 'jquery', 'mongodb', 'mysql']
+    let sort = language.sort()
+    console.log(sort);
+}
+
+//Array.with()
+{
+    const arraylike = {
+        length: 3,
+        unrelated: "foo",
+        0: 5,
+        2: 4,
+        3: 3,
+    };
+    console.log(arraylike);
+    console.log(Array.prototype.copyWithin.call(arraylike, 2, 4));
+}
+
+
 // let products =  [
 //     {
 //       id: 1,

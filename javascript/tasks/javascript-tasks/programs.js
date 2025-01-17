@@ -284,15 +284,116 @@
 // console.log(`The LCM of ${a} and ${b} is ${lcm}`);
 
 // 25)JavaScript Program to Find the Factors of a Number
-function findfactor(num) {
-    const factor = []
-    for (let i = 0; i <= num; i++) {
-        if (num % i === 0) {
-            factor.push(i);
-        }
-    }
-    return factor
-}
-const number = 36;
-const factors = findfactor(number);
-console.log(`The factors of ${number} are: ${factors.join(', ')}`);
+// function findfactor(num) {
+//     const factor = []
+//     for (let i = 0; i <= num; i++) {
+//         if (num % i === 0) {
+//             factor.push(i);
+//         }
+//     }
+//     return factor
+// }
+// const number = 36;
+// const factors = findfactor(number);
+// console.log(`The factors of ${number} are: ${factors.join(', ')}`);
+
+// 26)JavaScript Program to Find Sum of Natural Numbers Using Recursion
+// function findsum(n) {
+//     if (n !== 0) {
+//         return n + findsum(n - 1)
+//     } else {
+//         return n
+//     }
+// }
+
+// let n = 5
+// console.log(findsum(n));
+
+// 27)JavaScript Program to Guess a Random Number
+// function guessnumber() {
+//     let random = Math.floor(Math.random() * 10) + 1
+//     let number = parseInt(prompt('Guess a number from 1 to 10:'))
+//     while (number != random) {
+//         number = parseInt(prompt('Guess a number from 1 to 10:'))
+//     }
+//     if (number == random) {
+//         console.log('you guess correct number');
+//     } else {
+//         console.log('oops number not correct!!!');
+//     }
+// }
+// guessnumber()
+
+// 28)JavaScript Program to Shuffle Deck of Cards
+// let cards = ["spades", "diamonds", "club", "heart"]
+// const values = ["ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "jack", "queen", "king"]
+// let deck = []
+// for (let i = 0; i < cards.length; i++) {
+//     for (let x = 0; x < values.length; x++) {
+//         let card = { values: values[x], cards: cards[i] }
+//         deck.push(card)
+//     }
+// }
+
+// for (let i = deck.length - 1; i > 0; i--) {
+//     let j = Math.floor(Math.random() * i)
+//     let temp = deck[i]
+//     deck[i] = deck[j]
+//     deck[j] = temp
+// }
+
+// console.log('first five cards are:');
+
+// for (let i = 0; i < 5; i++) {
+//     console.log(`${deck[i].values} of ${deck[i].cards}`);
+// }
+
+// 29)JavaScript Program to Display Fibonacci Sequence Using Recursion
+// function fibonacci(n) {
+//     if (n <= 1) {
+//         return n
+//     }
+//     return fibonacci(n - 1) + fibonacci(n - 2)
+// }
+
+// function fibonaccisequence(terms) {
+//     if (terms <= 0) {
+//         console.log('please enter a positive integer');
+//         return
+//     }
+//     console.log('fibonacci series:');
+//     for (let i = 0; i < terms; i++) {
+//         console.log(fibonacci(i));
+//     }
+// }
+
+// let terms = 10
+// fibonaccisequence(terms)
+
+// 30)JavaScript Program to Find Factorial of Number Using Recursion
+// function factorial(n) {
+//     if (n === 0 || n === 1) {
+//         return 1
+//     }
+//     return n * factorial(n - 1)
+// }
+
+// let number = 5
+// if (number < 0) {
+//     console.log("Factorial is not defined for negative numbers.");
+// } else {
+//     console.log(`The factorial of ${number} is ${factorial(number)}.`);
+// }
+
+// 31)JavaScript Program to Convert Decimal to Binary
+// let decimal = 25;
+// let binary = decimal.toString(2);
+
+// console.log(binary);
+
+// 32)JavaScript Program to Find ASCII Value of Character
+let character = 'A'
+console.log(character.charCodeAt(0));
+
+// 33)JavaScript Program to Check Whether a String is Palindrome or Not
+
