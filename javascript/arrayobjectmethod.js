@@ -1,4 +1,9 @@
 /* Javascript Array */
+// Array.from()
+// Array.of()
+// Array.prototype.at()
+// Array.prototype.concat()
+
 // {
 //     let array = [undefined]
 //     console.log(array);
@@ -240,28 +245,6 @@ for (const value of values) {
 // Array.reduce()
 // reduce(callbackFn)
 // reduce(callbackFn, initialValue)
-{
-    let num = [10, 20, 30, 40, 50]
-    let reduce = num.reduce((prev, next) => prev + next)
-    console.log(reduce);
-
-}
-
-// Array.reduceRight()
-// reduceRight(callbackFn)
-// reduceRight(callbackFn, initialValue)
-{
-    let num = [10, 20, 30, 40, 50]
-    let reduce = num.reduceRight((prev, next) => prev + next)
-    console.log(reduce);
-
-}
-
-//Array.sort()
-{
-
-}
-
 // let products =  [
 //     {
 //       id: 1,
@@ -993,3 +976,6 @@ for (const value of values) {
 
 // console.log(filterItem);
 // console.log(filterItem1);
+
+
+
