@@ -447,8 +447,42 @@
 // console.log(object);
 
 // 3.Using the Object.create() Method
-const Obj = { greet: "Hello" };
-const obj = Object.create(Obj);
-obj.name = "Bob";
-console.log(obj);
-console.log(obj.greet); 
+// const Obj = { greet: "Hello" };
+// const obj = Object.create(Obj);
+// obj.name = "Bob";
+// console.log(obj);
+// console.log(obj.greet); 
+
+// 38)JavaScript Program to Check the Number of Occurrences of a Character in the String
+// function checkcharacter(str , letter){
+//      let count = 0
+//      for (let i = 0; i < str.length; i++){
+//          if(str.charAt(i) == letter){
+//             count += 1
+//          }
+//      }
+//      return count
+// }
+
+// let string = "hello world"
+// let result = checkcharacter(string,"l")
+// console.log(result);
+
+
+// 39)JavaScript Program to Convert the First Letter of a String into UpperCase
+// function firstlcapital(str){
+//            let capital = str.charAt(0).toUpperCase() + str.slice(1)
+//            return capital
+// }
+
+// let string = "javascript"
+// let result = firstlcapital(string)
+// console.log(result);
+
+// 40)JavaScript Program to Count the Number of Vowels in a String
+function countvowel(str){
+    let count = str.match(/[aeiou]/).length
+    return count
+}
+
+let string = "hello world"
