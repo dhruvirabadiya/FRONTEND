@@ -392,8 +392,63 @@
 // console.log(binary);
 
 // 32)JavaScript Program to Find ASCII Value of Character
-let character = 'A'
-console.log(character.charCodeAt(0));
+// let character = 'A'
+// console.log(character.charCodeAt(0));
 
 // 33)JavaScript Program to Check Whether a String is Palindrome or Not
+// function ispalindrome(str) {
+//     let reversestr = str.split('').reverse('').join('')
+//     return str === reversestr
+// }
 
+// console.log(ispalindrome('madam'));
+// console.log(ispalindrome('hello'));
+
+// 34)JavaScript Program to Find Factorial of Number Using Recursion
+// function sortword(str) {
+//     return str.split(' ').sort().join(' ');
+// }
+
+// console.log(sortword("banana apple orange grape"));
+
+// 35)JavaScript Program to Replace Characters of a String
+// function replacechar(str, targetchar, replacechar) {
+//     return str.split(targetchar).join(replacechar)
+// }
+
+// let string = "hello world"
+// let result = replacechar(string, "hello", "hii")
+
+// console.log(string);
+// console.log(result);
+
+// 36)JavaScript Program to Reverse a String
+// function reversestr(str) {
+//     return str.split("").reverse().join("")
+// }
+// let string = "hello world"
+// let reversestring = reversestr(string)
+
+// console.log(string);
+// console.log(reversestring);
+
+// 37)JavaScript Program to Create Objects in Different Ways
+// 1. Using Object Literals
+// let object = {
+//     name: "dhruvi",
+//     age: 20
+// };
+// console.log(object);
+
+// 2. Using the new Object()
+// let object = new Object()
+// object.name = "dhruvi"
+// object.age = 20
+// console.log(object);
+
+// 3.Using the Object.create() Method
+const Obj = { greet: "Hello" };
+const obj = Object.create(Obj);
+obj.name = "Bob";
+console.log(obj);
+console.log(obj.greet); 
