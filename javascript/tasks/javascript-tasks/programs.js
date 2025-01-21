@@ -330,7 +330,7 @@
 // let deck = []
 // for (let i = 0; i < cards.length; i++) {
 //     for (let x = 0; x < values.length; x++) {
-//         let card = { values: values[x], cards: cards[i] }
+//         let card = { values: values[x], cards: cards[i] }        
 //         deck.push(card)
 //     }
 // }
@@ -480,9 +480,102 @@
 // console.log(result);
 
 // 40)JavaScript Program to Count the Number of Vowels in a String
-function countvowel(str){
-    let count = str.match(/[aeiou]/).length
-    return count
-}
+// function countvowel(str){
+//     let count = str.match(/[aeiou]/gi).length
+//     return count
+// }
 
-let string = "hello world"
+// let string = "hello world"
+// let result = countvowel(string)
+// console.log(result);
+
+// 41)JavaScript Program to Remove a Property from an Object
+// let person = {
+//     name : "dhruvi",
+//     age : 20,
+// }
+
+// console.log(person);
+// delete person.age
+// console.log(person);
+
+// 42)JavaScript Program to Check Whether a String Starts and Ends With Certain Characters
+// let checkchar = (string, startindex, endsindex) =>{
+//        let startscheck = string.startsWith(startindex)
+//        let endscheck = string.endsWith(endsindex)
+
+//        return startscheck && endscheck
+// };
+
+// let string = "hello world"
+// let startindex = "a"
+// let endsindex = "d"
+
+// if(checkchar(string, startindex, endsindex)){
+//     console.log(true); 
+// }else{
+//     console.log(false); 
+// }
+
+// 43)JavaScript Program to Check if a Key Exists in an Object
+
+// let set1 = new Set()
+// const obj1 = {key1 : 1}
+// set1.add(obj1)
+
+// console.log(set1.has(obj1));
+
+// 44)JavaScript Program to Clone a JS Object
+// let cloneobject = {a : 1, b : 2, c : 3}
+// let Clone_Object = {};
+// Clone_Object = Object.assign({},cloneobject)
+// console.log(Clone_Object);
+
+// 45)JavaScript Program to Loop Through an Object
+// const student = {
+//     name : "dhruvi",
+//     age : 20,
+//     hobbie : ['music', 'coding']
+// };
+
+// for(let key in student){
+//     let value = student[key]
+//     console.log(key + " - " + value);  
+// }
+
+// 46)JavaScript Program to Merge Property of Two Objects
+// let object1 = {
+//     name : "dhruvi",
+//     age : 20
+// };
+
+// let object2 = {
+//     gender : "female",
+//     passion : "devloper"
+// }
+
+// let assign = Object.assign(object1,object2)
+// console.log(assign);
+
+// 47)JavaScript Program to Count the Number of Keys/Properties in an Object
+// const student = {
+//     name : "dhruvi",
+//     age : 20,
+//     hobbie : ['music', 'coding'],
+//     passion : 'devloper',
+//     gender : "female"
+// };
+
+// let count = 0 
+
+// for (key in student){
+//      ++count
+// }
+
+// console.log(count);
+
+// 48)JavaScript Program to Add Key/Value Pair to an Object
+const object = {language : "html"};
+object.lan = "css";
+console.log(object);
+

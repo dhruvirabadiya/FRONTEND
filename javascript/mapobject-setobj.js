@@ -14,10 +14,10 @@
 //     console.log(map);
 //     console.log(map.size);
 
-//     //set method
-//     let map1 = map.set('key1','javascript')
-//     let map2 = map.set('key2','tailwandscript')
-//     let map3 = map.set('key3','html')
+    //set method
+    // let map1 = map.set('key1','javascript')
+    // let map2 = map.set('key2','tailwandscript')
+    // let map3 = map.set('key3','html')
 
 //     console.log(map);
 //     console.log(map.size);
@@ -29,9 +29,9 @@
 //     console.log(map4);
 //     console.log(map5);
 
-//     //has method
-//     let map6 = map.has('key4')
-//     console.log(map6);
+    //has method
+    // let map6 = map.has('key4')
+    // console.log(map6);
 
 //     //delete method
 //     let map7 = map.delete('key3')
