@@ -579,3 +579,22 @@ const object = {language : "html"};
 object.lan = "css";
 console.log(object);
 
+// 49)JavaScript Program to Replace All Occurrences of a String
+let string = "mr red has a red house and a red car"
+let regex = /red/gi
+let newstring = string.replace(regex,'blue')
+console.log(newstring);
+
+// 50)JavaScript Program to Create Multiline Strings
+let meassage = "this is long meassage\n"+
+"this is long meassage\n"+
+"heloo this is javascript"
+
+console.log(meassage);
+
+// 51)JavaScript Program to Format Numbers as Currency Strings
+const number = new Intl.NumberFormat('en-us',{
+    style:'currency',
+    currency:'USD'
+})
+number.format(2500)
