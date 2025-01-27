@@ -330,7 +330,7 @@
 // let deck = []
 // for (let i = 0; i < cards.length; i++) {
 //     for (let x = 0; x < values.length; x++) {
-//         let card = { values: values[x], cards: cards[i] }        
+//         let card = { values: values[x], cards: cards[i] }
 //         deck.push(card)
 //     }
 // }
@@ -451,7 +451,7 @@
 // const obj = Object.create(Obj);
 // obj.name = "Bob";
 // console.log(obj);
-// console.log(obj.greet); 
+// console.log(obj.greet);
 
 // 38)JavaScript Program to Check the Number of Occurrences of a Character in the String
 // function checkcharacter(str , letter){
@@ -512,9 +512,9 @@
 // let endsindex = "d"
 
 // if(checkchar(string, startindex, endsindex)){
-//     console.log(true); 
+//     console.log(true);
 // }else{
-//     console.log(false); 
+//     console.log(false);
 // }
 
 // 43)JavaScript Program to Check if a Key Exists in an Object
@@ -540,7 +540,7 @@
 
 // for(let key in student){
 //     let value = student[key]
-//     console.log(key + " - " + value);  
+//     console.log(key + " - " + value);
 // }
 
 // 46)JavaScript Program to Merge Property of Two Objects
@@ -566,7 +566,7 @@
 //     gender : "female"
 // };
 
-// let count = 0 
+// let count = 0
 
 // for (key in student){
 //      ++count
@@ -575,26 +575,72 @@
 // console.log(count);
 
 // 48)JavaScript Program to Add Key/Value Pair to an Object
-const object = {language : "html"};
-object.lan = "css";
-console.log(object);
+// const object = { language: "html" };
+// object.lan = "css";
+// console.log(object);
 
 // 49)JavaScript Program to Replace All Occurrences of a String
-let string = "mr red has a red house and a red car"
-let regex = /red/gi
-let newstring = string.replace(regex,'blue')
-console.log(newstring);
+// let string = "mr red has a red house and a red car"
+// let regex = /red/gi
+// let newstring = string.replace(regex, 'blue')
+// console.log(newstring);
 
 // 50)JavaScript Program to Create Multiline Strings
-let meassage = "this is long meassage\n"+
-"this is long meassage\n"+
-"heloo this is javascript"
+// let meassage = "this is long meassage\n" +
+//     "this is long meassage\n" +
+//     "heloo this is javascript"
 
-console.log(meassage);
+// console.log(meassage);
 
 // 51)JavaScript Program to Format Numbers as Currency Strings
-const number = new Intl.NumberFormat('en-us',{
-    style:'currency',
-    currency:'USD'
-})
-number.format(2500)
+// const number = new Intl.NumberFormat('en-us', {
+//     style: 'currency',
+//     currency: 'USD'
+// })
+// console.log(number.format(2500));
+
+// 52)JavaScript Program to Generate Random String
+// function genranstring(length) {
+//     const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'
+//     let result = ''
+//     for (let i = 0; i < length; i++) {
+//         const randomstr = Math.floor(Math.random() * characters.length)
+//         result += characters.charAt(randomstr)
+//     }
+//     return result
+// }
+// const randomstring = genranstring(10)
+// console.log(randomstring);
+
+// 53)JavaScript Program to Check if a String Starts With Another String
+// const string = 'hello world'
+// const tocheckstring = 'he'
+// if (string.startsWith(tocheckstring)) {
+//     console.log('the string starts with "he" ')
+// } else {
+//     console.log(`The string does not starts with "he".`)
+// }
+
+// 54)JavaScript Program to Trim a String
+// const string = '        hello javascript      '
+// const result = string.trim()
+// console.log(result);
+
+// 55)JavaScript Program to Convert Objects to Strings
+// const person = {
+//     name: "dhruvi",
+//     age: 20
+// }
+// const result = JSON.stringify(person)
+// console.log(result);
+// console.log(typeof result);
+
+// 56)JavaScript Program to Check Whether a String Contains a Substring
+const str = prompt("Enter A String:")
+const checkstr = prompt("Enter a string you want to check")
+
+if (str.includes(checkstr)) {
+    console.log(`the string contains ${checkstr}`);
+} else {
+    console.log(`the string not conatins ${checkstr}`);
+}
