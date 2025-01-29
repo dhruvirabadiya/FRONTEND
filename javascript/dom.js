@@ -9,14 +9,16 @@
 
 /* Document.getElementById() */
 // {
-//     let dom = document.getElementById('firstdiv').innerHTML
-//     console.log(dom);
-    
-//     let dom1 = document.getElementById('firstdiv').textContent
-//     console.log(dom1);
-    
-//    let  dom2 = document.getElementById('firstDiv').innerText
-//    console.log(dom2);
+//     function styles() {
+//         let dom = document.getElementById('firstdiv').innerHTML
+//         console.log(dom);
+
+//         let dom1 = document.getElementById('firstdiv').textContent
+//         console.log(dom1);
+
+//         let dom2 = document.getElementById('firstdiv').innerText;
+//         console.log(dom2);
+//     }
 // }
 
 // New Element Create In Html Using Javascript
@@ -29,10 +31,10 @@
 //     console.log(newelement);
 
 //     newelement.textContent = "this is bdo tag"
-//     newelement.setAttribute('dir','rtl')
+//     newelement.setAttribute('dir', 'rtl')
 
 //     document.getElementById('firstdiv').appendChild(newelement)
-//     document.querySelector('#firstdiv span i ' ).appendChild(newelement)
+//     document.querySelector('#firstdiv span i ').appendChild(newelement)
 //     document.body.appendChild(newelement)
 // }
 
@@ -40,7 +42,7 @@
 // {
 //     let dom = document.getElementsByClassName('box')
 //     console.log(dom);
-    
+
 //     let colors = ['orange','aqua','slatgray']
 
 //     for(let i = 0;i < 10; i++){
@@ -71,20 +73,27 @@
 // document.getElementByTagName()
 // {
 //     let dom = document.getElementsByName('span')
-//     console.log(dom); 
+//     console.log(dom);
 // }
 
 // addClass , removeClass , toggleClass , classList
-{
-    function remove(){
-        let dom = document.getElementById('demo').classList
-        dom.remove('box')
-        console.log(dom);  
-    }
+// {
+//     function remove() {
+//         let dom = document.getElementById('demo').classList
+//         dom.remove('box')
+//         console.log(dom);
+//     }
 
-    function add(){
-        let dom = document.getElementById('demo').classList
-        dom.add('box')
-        console.log(dom);
-    }
-}
+//     function add() {
+//         let dom = document.getElementById('demo').classList
+//         dom.add('box')
+//         console.log(dom);
+//     }
+
+//     function toggle() {
+//         let dom = document.getElementById('demo').classList
+//         dom.toggle('box')
+//         console.log(dom);
+
+//     }
+// }
