@@ -45,6 +45,4 @@
             console.log(`my name is ${this.firstname} ${this.lastname} `);  
          }
     }
-
-    
 }
