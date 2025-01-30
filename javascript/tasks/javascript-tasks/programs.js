@@ -745,6 +745,7 @@
 // let countdate = new Date().getTime() + 24 * 60 * 60 * 1000
 // let x = setInterval(function(){
 //     let now = new Date().getTime()
+
 //     let timeleft = countdate - now
 
 //     const days = Math.floor(timeleft /(1000 * 60 * 60 * 24))
