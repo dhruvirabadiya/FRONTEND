@@ -18,7 +18,7 @@
 //         }
 //     })
 //     DataModule.then((result) => {
-//               console.log(result);        
+//               console.log(result);
 //     }).then(()=>{
 //         console.log("program is complate!!!");
 //     }).then(()=>{
@@ -46,24 +46,67 @@
 // }
 
 
-{
-    let kayo = 'sick'
-    let kayopromise = new Promise((resolve , reject)=>{
-        if(kayo==='healthy'){
-            resolve('kayo is healthy')
-        }else{
-            reject('kayo is sick')
-        }
-    })
+// {
+//     let kayo = 'sick'
+//     let kayopromise = new Promise((resolve, reject) => {
+//         if (kayo === 'healthy') {
+//             resolve('kayo is healthy')
+//         } else {
+//             reject('kayo is sick')
+//         }
+//     })
 
-    kayopromise.then((result) => {
+//     kayopromise.then((result) => {
+//         console.log(result);
+//     }).then(() => {
+//         console.log('I Have Cake And I am Happy!!!');
+//     }).catch((error) => {
+//         console.log(error);
+//     }).finally(() => {
+//         console.log('I Still Have a Party');
+//     })
+// }
+
+let kayo = 'sick';
+let kayopromise = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        if (kayo === 'healthy') {
+            resolve('kayo is healthy');
+        } else {
+            reject('kayo is sick');
+        }
+    }, 5000);
+}).then((result) => {
+    console.log(result);
+}).then(() => {
+    console.log('i am present');
+}).catch((error) => {
+    console.log(error);
+}).finally(() => {
+    console.log('i still have party!!');
+});
+
+async function Schoolattandance() {
+    return new Promise((resolve, reject) => {
+        if (kayo === 'healthy') {
+            resolve('kayo goes to school!!!!')
+        } else {
+            reject('go to hospital')
+        }
+    }).then((result) => {
         console.log(result);
-    }).then(()=>{
-        console.log('I Have Cake And I am Happy!!!');
-    }).catch((error)=>{
+    }).then(() => {
+        console.log('i am present');
+    }).catch((error) => {
         console.log(error);
-    }).finally(()=>{
-        console.log('I Still Have a Party');
-        
+    }).finally(() => {
+        console.log('I Still Have a Party!!');
     })
 }
+
+async function kayolife() {
+    let promise1 = await kayopromise
+    let promise2 = await Schoolattandance()
+}
+
+kayolife()
