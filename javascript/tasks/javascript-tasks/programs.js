@@ -636,11 +636,129 @@
 // console.log(typeof result);
 
 // 56)JavaScript Program to Check Whether a String Contains a Substring
-const str = prompt("Enter A String:")
-const checkstr = prompt("Enter a string you want to check")
+// const str = prompt("Enter A String:")
+// const checkstr = prompt("Enter a string you want to check")
 
-if (str.includes(checkstr)) {
-    console.log(`the string contains ${checkstr}`);
-} else {
-    console.log(`the string not conatins ${checkstr}`);
-}
+// if (str.includes(checkstr)) {
+//     console.log(`the string contains ${checkstr}`);
+// } else {
+//     console.log(`the string not conatins ${checkstr}`);
+// }
+
+// 57)JavaScript Program to Compare Two Strings
+// const string1 = "javascript program"
+// const string2 = "JAVASCRIPT PROGRAM"
+
+// // const result = string1.toLowerCase() === string2.toLowerCase()
+// const result = string1.toUpperCase() === string2.toUpperCase()
+
+// if(result){
+//     console.log('the string are simillar');
+// }else{
+//     console.log('the string are not simillar');
+// }
+
+// 58)JavaScript Program to Encode a String to Base64
+// const str = "hello javascript"
+// const result = window.btoa(str)
+// console.log(result);
+
+// const result1 = window.atob(result)
+// console.log(result1);
+
+// 59)JavaScript Program to Replace all Instances of a Character in a String
+// const string = "hello html javascript html javascript html"
+// const regex = /html/gi
+// const newtext = string.replace(regex,'javascript')
+// console.log(newtext);
+
+// 60)JavaScript Program to Replace All Line Breaks with
+// const string = `i am learning javascript
+//                 javascript is fun
+//                 javascript is easy`
+// const result = string.replace(/(\r\n|\r|\n)/g,'<br>')
+// console.log(result);
+
+// 61)JavaScript Program to Display Date and Time
+// const date = new Date()
+// const n = date.toDateString()
+// const time = date.toLocaleTimeString()
+// console.log('Date: ' + n);
+// console.log('Time: ' + time);
+
+// 62)JavaScript Program to Check Leap Year
+// function leapyear(year){
+//         if((0 == year % 4) && (0 == year % 100) || (0 == year % 400)){
+//             console.log(`${year} is leap year`);
+//         }else{
+//             console.log(`${year} is not leap year`); 
+//         }
+// }
+
+// const year = 2000
+// leapyear(year)
+
+// 63)JavaScript Program to Format the Date
+// let currentdate = new Date()
+// let day = currentdate.getDate()
+// let month = currentdate.getMonth() + 1
+// let year = currentdate.getFullYear()
+
+// if(day < 10){
+//     day = '0' + day
+// }
+
+// if(month < 10){
+//     month = '0' + month
+// }
+
+// const formatdate = month + '/' + day + '/' + year
+// const formatdate1 = day + '/' + month + '/' + year
+// console.log(formatdate);
+// console.log(formatdate1);
+
+// 64)Javascript Program to Display Current Date
+// let date = new Date()
+// let currentdate = date.getDate()
+// console.log(currentdate);
+
+// 65)JavaScript Program to Compare The Value of Two Dates
+// let date1 = new Date()
+// let date2 = new Date()
+
+// let comapare1 = date1 > date2
+// console.log(comapare1);
+
+// let comapare2 = date1 < date2
+// console.log(comapare2);
+
+// let compare3 = date1 >= date2
+// console.log(compare3);
+
+// let compare4 = date1 <= date2
+// console.log(compare4);
+
+// let comapare5 = date1.getTime() === date2.getTime()
+// console.log(comapare5);
+
+// 66)JavaScript Program to Create Countdown Timer
+// let countdate = new Date().getTime() + 24 * 60 * 60 * 1000
+// let x = setInterval(function(){
+//     let now = new Date().getTime()
+//     let timeleft = countdate - now
+
+//     const days = Math.floor(timeleft /(1000 * 60 * 60 * 24))
+//     const hours = Math.floor((timeleft / (1000 * 60 * 60) ) % 24)
+//     const minutes = Math.floor((timeleft / 1000 / 60 ) % 60)
+//     const seconds = Math.floor((timeleft / 1000 ) % 60)
+
+//     console.log(days + "d " + hours + "h " + minutes + "m " + seconds + "s ");
+
+//     if(timeleft < 0){
+//         clearInterval(x)
+//         console.log('countdown finished'); 
+//     }
+    
+// },2000)
+
+// 67)JavaScript Program to Remove Specific Item From an Array
