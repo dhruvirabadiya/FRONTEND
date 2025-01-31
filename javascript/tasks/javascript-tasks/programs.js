@@ -468,7 +468,6 @@
 // let result = checkcharacter(string,"l")
 // console.log(result);
 
-
 // 39)JavaScript Program to Convert the First Letter of a String into UpperCase
 // function firstlcapital(str){
 //            let capital = str.charAt(0).toUpperCase() + str.slice(1)
@@ -691,7 +690,7 @@
 //         if((0 == year % 4) && (0 == year % 100) || (0 == year % 400)){
 //             console.log(`${year} is leap year`);
 //         }else{
-//             console.log(`${year} is not leap year`); 
+//             console.log(`${year} is not leap year`);
 //         }
 // }
 
@@ -757,9 +756,52 @@
 
 //     if(timeleft < 0){
 //         clearInterval(x)
-//         console.log('countdown finished'); 
+//         console.log('countdown finished');
 //     }
-    
+
 // },2000)
 
 // 67)JavaScript Program to Remove Specific Item From an Array
+// function removeitem(array , n){
+//     const newarray = []
+//     for(let i = 0; i < array.length; i++){
+//         if(array[i] !== n){
+//             newarray.push(array[i])
+//         }
+//     }
+//     return newarray
+// }
+// const result = removeitem([1,2,3,4,5],2)
+// console.log(result);
+
+// 68)JavaScript Program to Check if An Array Contains a Specified Value
+// const array = ['you' , 'will' , 'learn' , 'javascript']
+// const value = array.includes('javascript')
+// if(value){
+//     console.log('array contains value');
+// } else{
+//     console.log('array does not conatains value');
+// }
+
+// 69)JavaScript Program to Insert Item in an Array
+// function insertelement() {
+//   let array = [1, 2, 3, 4, 5];
+//   let index = 3;
+//   let element = 8;
+//   array.splice(index, 0, element);
+//   console.log(array);
+// }
+
+// insertelement();
+
+// 70)JavaScript Program to Append an Object to an Array
+// function insertobject(arr, obj) {
+//   arr.push(obj);
+//   console.log(arr);
+// }
+
+// let arr = [1, 2, 3, 4, 5];
+// let object = { x: 12, y: 18 };
+// insertobject(arr, object);
+
+// 71)JavaScript Program to Check if An Object is An Array
