@@ -762,16 +762,10 @@
 // },2000)
 
 // 67)JavaScript Program to Remove Specific Item From an Array
-// function removeitem(array , n){
-//     const newarray = []
-//     for(let i = 0; i < array.length; i++){
-//         if(array[i] !== n){
-//             newarray.push(array[i])
-//         }
-//     }
-//     return newarray
+// function removeitem(array, n) {
+//     return array.filter(item => item !== n);
 // }
-// const result = removeitem([1,2,3,4,5],2)
+// const result = removeitem([1, 2, 3, 4, 5], 2)
 // console.log(result);
 
 // 68)JavaScript Program to Check if An Array Contains a Specified Value
@@ -805,3 +799,15 @@
 // insertobject(arr, object);
 
 // 71)JavaScript Program to Check if An Object is An Array
+// function checkobj(arr) {
+//     const result = Array.isArray(arr)
+//     if (result) {
+//         console.log(`[${arr}] is an array.`);
+//     } else {
+//         console.log(`${arr} is not an array.`);
+//     }
+// }
+
+// // const array = [1, 2, 3]
+// // const array = { name: "Dhruvi" }
+// checkobj(array)
