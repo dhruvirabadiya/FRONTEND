@@ -811,3 +811,120 @@
 // // const array = [1, 2, 3]
 // // const array = { name: "Dhruvi" }
 // checkobj(array)
+
+// 72)JavaScript Program to Empty an Array
+// function emptyarray(){
+//     arr = []
+//     return arr
+// }
+
+// const array = [1, 2, 3, 4, 5]
+// console.log(array);
+
+// const result = emptyarray(array)
+// console.log(result);
+
+// 73)JavaScript Program to Add Element to Start of an Array
+// const array = [1, 2, 3, 4, 5]
+// array.unshift(10)
+// console.log(array);
+
+// 74)JavaScript Program to Remove Duplicates From Array
+// let array = [10, 20 ,30, 30, 40, 50, 40]
+// let set = new Set(array)
+// let a1 = [...set]
+// console.log(a1);
+
+// 75)JavaScript Program to Merge Two Arrays and Remove Duplicate Items
+// let arr1 = [10, 20, 30, 40, 50]
+// let arr2 = [30, 40, 50, 60, 70]
+// let s = new Set([...arr1,...arr2])
+// let a = [...s]
+// console.log(a);
+
+// 76)JavaScript Program to Sort Array of Objects by Property Values
+// let employeedetails = [
+//     {
+//         name : "mohan",
+//         age : 17
+//     },
+//     {
+//         name :"mohan",
+//         age : 30 
+//     },
+//     {
+//         name : "shyam",
+//         age : 15
+//     },
+//     {
+//         name : "shyam",
+//         age : 17
+//     }
+// ];
+
+// let compare = (a, b) =>{
+//     if(a.age < b.age){
+//         return -1
+//     }
+//     if(a.age > b.age){
+//         return 1
+//     }
+//     return 0
+// }
+
+// employeedetails.sort(compare)
+// console.log(employeedetails);
+
+// 78)JavaScript Program to Extract Given Property Values from Objects as Array
+// function extractvalue(arr, prop){
+//     let extractvalue = arr.map(item => item[prop])
+//     return extractvalue
+// }
+
+// const array = [{a:1, b:2},{a:4, b:5},{a:8,b:9}]
+// const result = extractvalue(array,'b')
+// console.log(result);
+
+// 79)JavaScript Program to Compare Elements of Two Arrays
+// function comparearray (arr1,arr2){
+//     const result = JSON.stringify(arr1) == JSON.stringify(arr2)
+
+//     if(result){
+//         console.log('the array have same elemaents');
+//     }else{
+//         console.log('the array have different element');
+//     }
+// }
+
+// const array1 = [1, 3, 5, 8]
+// const array2 = [1, 3, 5, 8]
+// comparearray(array1, array2)
+
+// 80)JavaScript Program to Get Random Item From an Array
+// let array = [10, 20, 30, 40, 50]
+// let i = Math.floor(Math.random() * array.length)
+// let r = array[i]
+// console.log(r);
+
+// 81)JavaScript Program To Perform Intersection Between Two Arrays
+// function intersection(arr1, arr2){
+//          return arr1.filter(item => arr2.includes(item))
+// }
+
+// const arr1 = [3, 1, 5, 2]
+// const arr2 = [5, 2, 7]
+// console.log(intersection(arr1, arr2));
+
+// 82)JavaScript Program to Split Array into Smaller Chunks
+function splitchunk(arr, chunk){
+         for(let i = 0; i < arr.length ; i += chunk){
+            let temparray
+            temparray = arr.slice(i, i += chunk)
+            console.log(temparray);
+            
+         }
+}
+
+const array = [1, 2, 3, 4, 5, 6, 7, 8]
+const chunk = 2
+splitchunk(array, chunk)
