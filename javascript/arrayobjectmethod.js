@@ -3,6 +3,22 @@
 // Array.of()
 // Array.prototype.at()
 // Array.prototype.concat()
+// Array.prototype.copyWithin()
+// Array.prototype.find()
+// Array.prototype.findIndex()
+// Array.prototype.findLast()
+// Array.prototype.findLastIndex()
+// Array.prototype.join()
+// Array.prototype.lastIndexOf()
+// Array.prototype.pop()
+// Array.prototype.push()
+// Array.prototype.reverse()
+// Array.prototype.shift()
+// Array.prototype.unshift()
+// Array.prototype.includes()
+// Array.prototype.splice()
+// Array.prototype.entries()
+// Array.prototype.values()
 
 // {
 //     let array = [undefined]
