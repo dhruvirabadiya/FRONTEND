@@ -916,15 +916,39 @@
 // console.log(intersection(arr1, arr2));
 
 // 82)JavaScript Program to Split Array into Smaller Chunks
-function splitchunk(arr, chunk){
-         for(let i = 0; i < arr.length ; i += chunk){
-            let temparray
-            temparray = arr.slice(i, i += chunk)
-            console.log(temparray);
-            
-         }
-}
+// function splitchunk(arr, chunk) {
+//     for (let i = 0; i < arr.length; i += chunk) {
+//         let temparray
+//         temparray = arr.slice(i, i += chunk)
+//         console.log(temparray);
 
-const array = [1, 2, 3, 4, 5, 6, 7, 8]
-const chunk = 2
-splitchunk(array, chunk)
+//     }
+// }
+
+// const array = [1, 2, 3, 4, 5, 6, 7, 8]
+// const chunk = 2
+// splitchunk(array, chunk)
+
+
+// 83)JavaScript Program to Include a JS file in Another JS file
+
+// 84) JavaScript Program to Get File Extension
+// function fileextension(filename) {
+//     return filename.split('.').pop()
+// }
+
+// console.log(fileextension("document.pdf"));
+// console.log(fileextension("document.txt"));
+
+// 85)JavaScript Program To Check If A Variable Is undefined or null
+// function checekvariable(variable) {
+//     if (variable == null) {
+//         console.log('variable is undefine or null');
+//     } else {
+//         console.log(`variable type is ${typeof variable}`);
+//     }
+// }
+
+// let newVariable;
+// checekvariable(5)
+// checekvariable(null)
