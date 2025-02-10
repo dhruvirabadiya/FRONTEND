@@ -10,6 +10,15 @@
     <script type="module" src="strictmode.js"></script>
     <script type="module">
         
+        import names from "./strictmode.js"
+        console.log(names);
+
+        import {call} from "./strictmode.js"
+
+        document.getElementById('btn').addEventListener("click",function callback(){
+            return call()
+        })
+        
     </script>
 
     
