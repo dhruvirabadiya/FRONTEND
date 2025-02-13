@@ -72,3 +72,18 @@ $('#fadeToggle').click(function(){
 })
 
 // slide in jQuery
+$('.panel').click(function(){
+  $('.dropdown').slideDown(1000)
+  $('.dropdown').fadeTo(2000,0.2)
+  $('.dropdown').slideUp(3000,function(){
+    alert('jQuery slide Effect')
+  })
+})
+
+$('.panel').click(function(){
+  $('.dropdown').slideUp(3000)
+})
+
+$('.panel').click(function(){
+  $('.dropdown').slideDown(500)
+})
