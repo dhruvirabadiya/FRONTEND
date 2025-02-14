@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parentDiv{
+          height: 600px;
+          width: 600px;
+          background-color: white;
+          border:2px solid black;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .parentUl{
+          height: 500px;
+          width: 500px;
+          background-color: white;
+          border:2px solid black;
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          padding: 0;
+        }
+        .parentUl li{
+          height: 200px;
+          width: 200px;
+          background-color: white;
+          border:2px solid black;
+          list-style-type: none;
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+        }
+        .parentUl li b{
+          height: 70px;
+          width: 70px;
+          background-color: white;
+          border:2px solid black;
+          display: inline-block;
+        }
+        .parentUl li span{
+          height: 70px;
+          width: 70px;
+          background-color: white;
+          border:2px solid black;
+          display: inline-block;
+        }
+        .parentUl li i{
+          height: 70px;
+          width: 70px;
+          background-color: white;
+          border:2px solid black;
+          display: inline-block;
+        }
+  
+      </style>
+</head>
+<body>
+       <!-- jQuery Traversing -->
+       <button class="btn">click</button>
+
+       <div class="parentDiv">
+        <ul class="parentUl">
+            <li class="child-1">
+                <b>This is b tag</b>
+                <span>This is span tag</span>
+            </li>
+            <li class="child-2">
+                <span>This is span tag</span>
+                <i>This is i tag</i>
+            </li>
+            <li>option-1</li>
+            <li>option-2</li>
+        </ul>
+    </div>
+
+    <script src="./j-queryhideshow.js"></script>
+    <script src="./traversing.js"></script>
+</body>
+</html>
