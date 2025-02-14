@@ -850,7 +850,7 @@
 //     },
 //     {
 //         name :"mohan",
-//         age : 30 
+//         age : 30
 //     },
 //     {
 //         name : "shyam",
@@ -925,6 +925,137 @@
 //     }
 // }
 
-const array = [1, 2, 3, 4, 5, 6, 7, 8]
-const chunk = 2
-splitchunk(array, chunk)
+// const array = [1, 2, 3, 4, 5, 6, 7, 8]
+// const chunk = 2
+// splitchunk(array, chunk)
+
+// 84)JavaScript Program to Get File Extension
+// function getFileExtenstion() {
+//     let filename = "example.txt"
+//     let extenstion = filename.split('.').pop()
+//     console.log('File Extenstion:', extenstion);
+// }
+// getFileExtenstion()
+
+// 85)JavaScript Program To Check If A Variable Is undefined or null
+// let a;
+// let b = null;
+
+// console.log(a === undefined);
+// console.log(b === null);
+// console.log(a === null);
+// console.log(b === undefined);
+
+// 86)JavaScript Program to Set a Default Parameter Value For a Function
+// function greet(name = 'visitor') {
+//     console.log(`hello , ${name}!`);
+// }
+// greet()
+// greet('manan')
+
+// 87)JavaScript Program to Illustrate Different Set Operations
+// function unionSet(setA, setB) {
+//     return new Set([...setA, ...setB])
+// }
+
+// function intersection(setA, setB) {
+//     return new Set([...setA].filter(element => setB.has(element)))
+// }
+
+// function difference(setA, setB) {
+//     return new Set([...setA].filter(element => !setB.has(element)))
+// }
+
+// function isSubset(setA, setB) {
+//     return [...setA].every(element => setB.has(element))
+// }
+
+// let setA = new Set([1, 2, 3, 4])
+// let setB = new Set([3, 4, 5, 6])
+
+// console.log("SetA:", setA);
+// console.log("SetB:", setB);
+
+// console.log("Union:", unionSet(setA, setB));
+// console.log("Intersection:", intersection(setA, setB));
+// console.log("Difference(A-B):", intersection(setA, setB));
+// console.log("Difference(B-A):", intersection(setA, setB));
+// console.log("Is A a subset of B?", isSubset(setA, setB));
+// console.log("Is {3, 4} a subset of A?", isSubset(new Set([3, 4]), setA));
+
+// 88)Javascript Program to Generate a Random Number Between Two Numbers
+// const min = parseInt(prompt("Enter a min value"))
+// const max = parseInt(prompt("Enter a max value"))
+
+// const a = Math.floor(Math.random() * (max - min + 1)) + min
+// console.log(`Random value between ${min} and ${max} is ${a}`);
+
+// 89)JavaScript Program To Get The Current URL
+// function getUrl() {
+//     return window.location.href
+// }
+// console.log("Current URL:", getUrl());
+
+// 90)JavaScript Program to Validate An Email Address
+// function validEmail(email) {
+//     const pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+//     return pattern.test(email)
+// }
+
+// const email = 'example@gmail.com'
+// console.log(validEmail(email) ? 'valid email address' : 'invalid email address');
+
+// 91)JavaScript Program to Check If a Variable is of Function Type
+// function testVariable(variable) {
+//     if (typeof variable === 'function') {
+//         console.log('the variable is of function type');
+//     } else {
+//         console.log('the variable is not of function type');
+//     }
+// }
+// const count = true
+// const x = function () {
+//     console.log('hello javascript');
+// }
+// testVariable(count)
+// testVariable(x)
+
+// 92)JavaScript Program To Work With Constants
+
+// 93)JavaScript Program to Pass Parameter to a setTimeout() Function
+// function greet() {
+//     console.log('hello world');
+// }
+// setTimeout(greet, 3000)
+// console.log('this meassage shown first');
+
+// 94)JavaScript Program to Generate a Range of Numbers and Characters
+function genrateRange(start, end, step = 1) {
+    let result = []
+    if (typeof start === 'number' && typeof end === 'number') {
+        for (let i = start; i <= end; i += step) {
+            result.push(i)
+        }
+    } else if (typeof start === 'string' && typeof end === 'string') {
+        let startcode = start.charCodeAt(0)
+        let endcode = end.charCodeAt(0)
+
+        for (let i = startcode; i <= endcode; i++) {
+            result.push(String.fromCharCode(i))
+        }
+    }
+    return result
+}
+console.log(genrateRange(1, 5));
+console.log(genrateRange('a', 'e'));
+
+
+//OTP Genrating
+// function genrateOTP(length) {
+//     let otp = ''
+//     for (let i = 0; i < length; i++) {
+//         otp += Math.floor(Math.random() * 10)
+//     }
+//     return otp;
+// }
+// console.log(genrateOTP(4));
