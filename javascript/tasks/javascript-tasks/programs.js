@@ -1030,32 +1030,107 @@
 // console.log('this meassage shown first');
 
 // 94)JavaScript Program to Generate a Range of Numbers and Characters
-function genrateRange(start, end, step = 1) {
-    let result = []
-    if (typeof start === 'number' && typeof end === 'number') {
-        for (let i = start; i <= end; i += step) {
-            result.push(i)
-        }
-    } else if (typeof start === 'string' && typeof end === 'string') {
-        let startcode = start.charCodeAt(0)
-        let endcode = end.charCodeAt(0)
+// function genrateRange(start, end, step = 1) {
+//     let result = []
+//     if (typeof start === 'number' && typeof end === 'number') {
+//         for (let i = start; i <= end; i += step) {
+//             result.push(i)
+//         }
+//     } else if (typeof start === 'string' && typeof end === 'string') {
+//         let startcode = start.charCodeAt(0)
+//         let endcode = end.charCodeAt(0)
 
-        for (let i = startcode; i <= endcode; i++) {
-            result.push(String.fromCharCode(i))
-        }
+//         for (let i = startcode; i <= endcode; i++) {
+//             result.push(String.fromCharCode(i))
+//         }
+//     }
+//     return result
+// }
+// console.log(genrateRange(1, 5));
+// console.log(genrateRange('a', 'e'));
+
+// 95)JavaScript Program to Perform Function Overloading
+// function sum() {
+//     if (arguments.length == 0) {
+//         console.log('you have not passed any argument');
+//     } else if (arguments.length == 1) {
+//         console.log('pass at least two argument');
+//     } else {
+//         let result = 0
+//         let length = arguments.length
+
+//         for (i = 0; i < length; i++) {
+//             for (i = 0; i < length; i++) {
+//                 result = result + arguments[i]
+//             }
+//         }
+//         console.log(result);
+//     }
+// }
+
+// sum()
+// sum(5)
+// sum(5, 10)
+// sum(1, 2, 3, 4, 5, 6, 7, 8)
+
+// 96)JavaScript Program to Implement a Stack
+class Stack {
+    constructor() {
+        this.item = []
     }
-    return result
+
+    push(element) {
+        this.item.push(element)
+    }
+
+    pop() {
+        if (this.isEmpty()) {
+            return "Stack Is Empty"
+        }
+        return this.item.pop()
+    }
+
+    peek() {
+        if (this.isEmpty()) {
+            return "Stack Is Empty"
+        }
+        return this.item[this.item.length - 1]
+    }
+
+    isEmpty() {
+        return this.item.length === 0
+    }
+
+    size() {
+        return this.item.length
+    }
+
+    printStack() {
+        console.log(this.item.join(','));
+
+    }
 }
-console.log(genrateRange(1, 5));
-console.log(genrateRange('a', 'e'));
+const stack = new Stack()
+stack.push(10)
+stack.push(20)
+stack.push(30)
+stack.push(40)
+stack.push(50)
+console.log("Top Element:", stack.peek());
+console.log("Stack Size:", stack.size());
+console.log("Popped:", stack.pop());
+console.log("Stack after pop:");
+stack.printStack();
+
+
 
 
 //OTP Genrating
-function genrateOTP(length) {
-    let otp = ''
-    for (let i = 0; i < length; i++) {
-        otp += Math.floor(Math.random() * 10)
-    }
-    return otp;
-}
-console.log(genrateOTP(5));
+// function genrateOTP(length) {
+//     let otp = ''
+//     for (let i = 0; i < length; i++) {
+//         otp += Math.floor(Math.random() * 10)
+//     }
+//     return otp;
+// }
+// console.log(genrateOTP(5));
