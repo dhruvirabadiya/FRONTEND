@@ -1074,56 +1074,156 @@
 // sum(1, 2, 3, 4, 5, 6, 7, 8)
 
 // 96)JavaScript Program to Implement a Stack
-class Stack {
-    constructor() {
-        this.item = []
-    }
+// class Stack {
+//     constructor() {
+//         this.item = []
+//     }
 
-    push(element) {
-        this.item.push(element)
-    }
+//     push(element) {
+//         this.item.push(element)
+//     }
 
-    pop() {
-        if (this.isEmpty()) {
-            return "Stack Is Empty"
-        }
-        return this.item.pop()
-    }
+//     pop() {
+//         if (this.isEmpty()) {
+//             return "Stack Is Empty"
+//         }
+//         return this.item.pop()
+//     }
 
-    peek() {
-        if (this.isEmpty()) {
-            return "Stack Is Empty"
-        }
-        return this.item[this.item.length - 1]
-    }
+//     peek() {
+//         if (this.isEmpty()) {
+//             return "Stack Is Empty"
+//         }
+//         return this.item[this.item.length - 1]
+//     }
 
-    isEmpty() {
-        return this.item.length === 0
-    }
+//     isEmpty() {
+//         return this.item.length === 0
+//     }
 
-    size() {
-        return this.item.length
-    }
+//     size() {
+//         return this.item.length
+//     }
 
-    printStack() {
-        console.log(this.item.join(','));
+//     printStack() {
+//         console.log(this.item.join(','));
 
-    }
-}
-const stack = new Stack()
-stack.push(10)
-stack.push(20)
-stack.push(30)
-stack.push(40)
-stack.push(50)
-console.log("Top Element:", stack.peek());
-console.log("Stack Size:", stack.size());
-console.log("Popped:", stack.pop());
-console.log("Stack after pop:");
-stack.printStack();
+//     }
+// }
+// const stack = new Stack()
+// stack.push(10)
+// stack.push(20)
+// stack.push(30)
+// stack.push(40)
+// stack.push(50)
+// console.log("Top Element:", stack.peek());
+// console.log("Stack Size:", stack.size());
+// console.log("Popped:", stack.pop());
+// console.log("Stack after pop:");
+// stack.printStack();
 
+// 97)JavaScript Program to Implement a Queue
+// class Queue {
+//     constructor() {
+//         this.items = []
+//     }
 
+//     enqueue(element) {
+//         this.items.push(element)
+//     }
 
+//     dequeue() {
+//         if (this.isEmpty()) {
+//             return "Queue Is Empty"
+//         }
+//         return this.items.shift()
+//     }
+//     peek() {
+//         if (this.isEmpty()) {
+//             return "Queue Is Empty"
+//         }
+//         return this.items[0]
+//     }
+
+//     isEmpty() {
+//         return this.items.length === 0
+//     }
+
+//     size() {
+//         return this.items.length
+//     }
+
+//     printQueue() {
+//         console.log(this.items.join("->"));
+
+//     }
+// }
+
+// const queue = new Queue()
+// queue.enqueue(10)
+// queue.enqueue(20)
+// queue.enqueue(30)
+// queue.enqueue(40)
+// queue.enqueue(50)
+// console.log("Front Element:", queue.peek());
+// console.log("Queue Size:", queue.size());
+// console.log("Dequeued:", queue.dequeue());
+// console.log("Queue After Dequeue:");
+// queue.printQueue()
+
+// 98)JavaScript Program to Check if a Number is Float or Integer
+// function checkNumber(num) {
+//     if (Number.isInteger(num)) {
+//         console.log(num + " Number Is Integer");
+
+//     } else {
+//         console.log(num + " Number Is Float");
+//     }
+// }
+// checkNumber(10)
+// checkNumber(10.5)
+
+// 99)JavaScript Program to Pass a Function as Parameter
+// function greet(name, callback) {
+//     console.log("Hello " + name + "!");
+//     callback()
+// }
+// function Goodbye() {
+//     console.log("Goodbye!!!!");
+// }
+// greet("Dhruvi", Goodbye)
+
+// 100) JavaScript Program to Get the Dimensions of an Image
+// function getdimentions(url) {
+//     let img = new Image()
+//     img.src = url
+
+//     img.onload = function () {
+//         console.log("Width:", img.width);
+//         console.log("Height:", img.height);
+//     }
+
+//     img.onerror = function () {
+//         console.log("Error: Image could not be loaded.");
+//     }
+// }
+// getdimentions("https://picsum.photos/300/200");
+
+// 101) JavaScript Program to Remove All Whitespaces From a Text
+// function removespace(text) {
+//     return text.replace(/\s/g, "")
+// }
+// console.log(removespace("    Hello    World !     I    am    Javascript"));
+
+// 102) JavaScript Program to Write to Console
+// console.log("Hello, World!");
+// console.log(42);
+// console.log({ name: "Dhruvi", role: "Web Developer" });
+
+// 103) JavaScript Program to Convert Date to Number
+// let date = new Date()
+// let number = date.getTime()
+// console.log(number);
 
 //OTP Genrating
 // function genrateOTP(length) {
