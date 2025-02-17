@@ -144,3 +144,19 @@
     width: 500px;
     overflow: visible;
 }
+
+/* content-2 */
+.section-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding: 0px 200px;
+}
+
+.img-div img {
+    max-width: 90%;
+    height: auto;
+}
+
+.about-div h6 {}
