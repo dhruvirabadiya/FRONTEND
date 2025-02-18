@@ -21,10 +21,14 @@
         font-size: 65px;
     }
 
-
     .section-1 {
         min-width: 100vh;
     }
+
+    .section-2 {
+        padding: 0px 50px;
+    }
+
 }
 
 @media(max-width: 1024px) {
@@ -44,6 +48,12 @@
     .content-1 h2 {
         font-size: 60px;
     }
+
+    .section-2 {
+        padding: 0px 10px;
+    }
+
+
 
 }
 
@@ -78,6 +88,10 @@
 
     .img-content svg {
         margin-top: 80px;
+    }
+
+    .section-2 {
+        display: block;
     }
 
 }

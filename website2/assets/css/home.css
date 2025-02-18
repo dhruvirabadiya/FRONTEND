@@ -2,6 +2,46 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .5px;
+
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5,
+    .h6,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        line-height: 1.2;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    a,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    span {
+        overflow-wrap: break-word;
+    }
+
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        color: #2b2b2b;
+        font-weight: 300;
+        line-height: 25px;
+    }
+
 }
 
 /* navbar */
@@ -27,7 +67,6 @@
     font-weight: 400;
     font-size: 15px;
     line-height: 25px;
-    letter-spacing: 0.5px;
 }
 
 .nav-items {
@@ -70,21 +109,13 @@
 
 .content-1 h2 {
     color: #2b2b2b;
-    font-family: 'Poppins', sans-serif;
     font-size: 70px;
     line-height: 80px;
     font-weight: 600;
-    letter-spacing: 0.5px;
     padding-bottom: 30px;
 }
 
 .content-1 p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    color: #2b2b2b;
-    font-weight: 300;
-    line-height: 25px;
-    letter-spacing: 0.5px;
     max-width: 460px;
     overflow-wrap: break-word;
     text-align: left;
@@ -101,7 +132,6 @@
     line-height: 1.8em;
     text-transform: capitalize;
     width: auto;
-    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     border: 2px solid transparent;
     letter-spacing: .5px;
@@ -125,10 +155,8 @@
     line-height: 1.8em;
     text-transform: capitalize;
     width: auto;
-    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     border: 2px solid transparent;
-    letter-spacing: .5px;
     margin-right: 10px;
     transition: all .5s ease;
 }
@@ -159,4 +187,43 @@
     height: auto;
 }
 
-.about-div h6 {}
+.about-div h6 {
+    margin-bottom: 15px;
+    font-weight: 400;
+    color: #a07bf7;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.about-div h2 {
+    margin-bottom: 25px;
+    font-weight: 500;
+    color: #2b2b2b;
+    font-size: 3rem;
+    text-align: left;
+    max-width: 500px;
+}
+
+.about-div p {
+    margin: 0 0 25px;
+    max-width: 950px;
+}
+
+.about-div li {
+    list-style: none;
+}
+
+.about-div li i {
+    font-size: 25px;
+    margin-right: 15px;
+    color: #a07bf7;
+    line-height: 1.5;
+}
+
+.about-div li span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #2b2b2b;
+    font-weight: 300;
+
+}
