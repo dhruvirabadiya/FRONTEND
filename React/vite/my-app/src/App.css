@@ -1,0 +1,10 @@
+.headText {
+  font-size: large;
+  color: white;
+  font-weight: 900;
+  background-color: purple;
+  text-align: center;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

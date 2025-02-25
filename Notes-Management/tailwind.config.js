@@ -9,7 +9,7 @@ module.exports = {
           md: "896px",
           lg: "960px",
           xl: "1065px",
-          "2xl": "1200px",
+          "2xl": "1250px",
         },
       },
     },

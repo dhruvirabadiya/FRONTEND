@@ -9,6 +9,8 @@
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="./input.css">
+
 </head>
 
 <body>
@@ -18,6 +20,7 @@
             <button class="text-white text-lg pr-5 pb-4 flex items-center"><i
                     class="fa-solid fa-grip text-white pr-4 text-2xl"></i>Overview
             </button>
+
             <button class="text-white text-lg flex items-center pb-4"><i
                     class="fa-solid fa-calendar pr-4"></i>Tasks</button>
             <button class="text-white text-lg flex items-center pb-4"><i
@@ -28,15 +31,13 @@
             <hr class="border-t-2 border-white w-full pb-6">
 
             <button class="text-white text-lg flex items-center"><i
-                    class="fa-solid fa-circle pr-4 text-yellow-300 text-xs"></i></i>Add
-                Notes</button>
+                    class="fa-solid fa-circle pr-4 text-yellow-300 text-xs"></i>Projects</button>
             <button class="text-white text-lg flex items-center"><i
-                    class="fa-solid fa-circle text-red-400 pr-4 text-xs"></i></i>Add
-                Notes</button>
+                    class="fa-solid fa-circle text-red-400 pr-4 text-xs"></i>Bussiness</button>
             <button class="text-white text-lg flex items-center"><i
-                    class="fa-solid fa-circle text-blue-400 pr-4 text-xs"></i></i>Add
-                Notes</button>
-            <button class="text-white text-lg flex items-center pb-4"><i class="fa-solid fa-plus pr-4"></i>Add
+                    class="fa-solid fa-circle text-blue-400 pr-4 text-xs"></i>Personal</button>
+            <button class="text-white text-lg flex items-center pb-4" id="Addnotes" onclick="addnotes()"><i
+                    class="fa-solid fa-plus pr-4"></i>Add
                 Notes</button>
 
             <hr class="border-t-2 border-white w-full ">
@@ -57,11 +58,54 @@
         <!-- Sidebar End -->
 
         <!-- Main-Content Start -->
-        <div class="main-content flex-1 p-6">
-            <div class="navbar"></div>
+        <div class="main-content p-16 bg-gray-50">
+            <div class="navbar">
+                <nav>
+                    <ul class="flex justify-center items-center gap-10">
+                        <li>
+                            <a href=""
+                                class="text-base hover:bg-violet-400 px-7 rounded-md hover:text-white py-2">All</a>
+                        </li>
+                        <li>
+                            <a href=""
+                                class="text-base hover:bg-violet-400 px-7 rounded-md hover:text-white py-2">Projects</a>
+                        </li>
+                        <li>
+                            <a href=""
+                                class="text-base hover:bg-violet-400 px-7 rounded-md hover:text-white py-2">Bussiness</a>
+                        </li>
+                        <li>
+                            <a href=""
+                                class="text-base hover:bg-violet-400 px-7 rounded-md hover:text-white py-2">Personal</a>
+                        </li>
+                        <li>
+                            <button class="ml-[470px] whitespace-nowrap text-violet-500"><i
+                                    class="fa-solid fa-plus pr-2"></i>Add New
+                                Notes</button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="add-notes grid grid-cols-4 gap-5 bg-gray-50">
+                <div
+                    class="notes-div h-[200px] w-[200px] bg-white mt-10 ml-5 rounded-md overflow-hidden overflow-y-scroll  custom-scrollbar shadow-xl">
+                    <span class="text-black pl-5 pt-4 font-sans block">hello</span>
+                    <h3 class=" text-black pl-5 pt-2 font-sans text-lg">abcdef ghij klmn opq</h3>
+                    <p class="text-black pl-5 pt-2 font-sans text-base">Lorem ipsum dolor sit, amet consectetur
+                        adipisicing elit. Magnam provident adipisci autem laudantium, similique quasi expedita quod,
+                        labore temporibus exercitationem tenetur vel odio nesciunt repudiandae, accusantium dignissimos
+                        laborum voluptas libero?</p>
+                </div>
+            </div>
+
         </div>
         <!-- Main-Content End -->
+
+
+
     </div>
+
+
 </body>
 
 </html>

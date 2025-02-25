@@ -2,11 +2,13 @@
 // import Gallery from "./problem-solve"
 // import Myfunction from "./problem-solve"
 
-import Profile from "./profile"
-import Gallery from "./gallery"
+// import Profile from "./profile"
+// import Gallery from "./gallery"
 
 // import { Profile } from "./profile"
 // import { Gallery } from "./gallery"
+
+import Props from "./react-props/props"
 
 function App() {
 
@@ -15,8 +17,9 @@ function App() {
       {/* <Profile />
       <Gallery /> */}
       {/* <Myfunction /> */}
-      <Profile />
-      <Gallery />
+      {/* <Profile />
+      <Gallery /> */}
+      <Props />
     </>
   )
 }
