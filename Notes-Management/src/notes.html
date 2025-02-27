@@ -11,6 +11,7 @@
     <link href="./output.css" rel="stylesheet">
     <link rel="stylesheet" href="./input.css">
 
+
 </head>
 
 <body>
@@ -36,7 +37,7 @@
                     class="fa-solid fa-circle text-red-400 pr-4 text-xs"></i>Bussiness</button>
             <button class="text-white text-lg flex items-center"><i
                     class="fa-solid fa-circle text-blue-400 pr-4 text-xs"></i>Personal</button>
-            <button class="text-white text-lg flex items-center pb-4" id="Addnotes" onclick="addnotes()"><i
+            <button class="text-white text-lg flex items-center pb-4" id="Addnotes" onclick="openModal()"><i
                     class="fa-solid fa-plus pr-4"></i>Add
                 Notes</button>
 
@@ -87,25 +88,24 @@
                 </nav>
             </div>
             <div class="add-notes grid grid-cols-4 gap-5 bg-gray-50">
-                <div
-                    class="notes-div h-[200px] w-[200px] bg-white mt-10 ml-5 rounded-md overflow-hidden overflow-y-scroll  custom-scrollbar shadow-xl">
-                    <span class="text-black pl-5 pt-4 font-sans block">hello</span>
-                    <h3 class=" text-black pl-5 pt-2 font-sans text-lg">abcdef ghij klmn opq</h3>
-                    <p class="text-black pl-5 pt-2 font-sans text-base">Lorem ipsum dolor sit, amet consectetur
-                        adipisicing elit. Magnam provident adipisci autem laudantium, similique quasi expedita quod,
-                        labore temporibus exercitationem tenetur vel odio nesciunt repudiandae, accusantium dignissimos
-                        laborum voluptas libero?</p>
-                </div>
             </div>
-
         </div>
         <!-- Main-Content End -->
-
-
-
     </div>
 
+    <div id="noteModal" class="fixed inset-0  items-center justify-center bg-black bg-opacity-50 hidden">
+        <div class="bg-white p-5 rounded-md shadow-lg w-1/3">
+            <h2 class="text-xl font-bold mb-4">Add Note</h2>
+            <input type="text" id="noteTitle" placeholder="Heading" class="w-full p-2 border rounded-md mb-3">
+            <textarea id="noteText" placeholder="Notes" class="w-full p-2 border rounded-md mb-3"></textarea>
+            <div class="flex justify-end">
+                <button onclick="closeModal()" class="px-4 py-2 bg-gray-400 text-white rounded-md mr-2">Cancel</button>
+                <button onclick="saveNote()" class="px-4 py-2 bg-blue-500 text-white rounded-md">Save</button>
+            </div>
+        </div>
+    </div>
 
+    <script src="./notes.js"></script>
 </body>
 
 </html>
