@@ -16,7 +16,7 @@ const Props = () => {
     return (
         <div>
             <h1 className="headText">This is Props Component</h1>
-            <ComA value={<Image />} />
+            <ComA value={array[0]} />
         </div>
     )
 }

@@ -10,6 +10,9 @@
 
 import Props from "./react-props/props"
 
+import ListProduct from "./listproduct"
+import Cart from "./conditionalrender.jsx/cart"
+
 function App() {
 
   return (
@@ -20,6 +23,8 @@ function App() {
       {/* <Profile />
       <Gallery /> */}
       <Props />
+      <ListProduct/>
+      <Cart/>
     </>
   )
 }
