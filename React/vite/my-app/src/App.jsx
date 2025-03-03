@@ -8,10 +8,12 @@
 // import { Profile } from "./profile"
 // import { Gallery } from "./gallery"
 
-import Props from "./react-props/props"
+// import Props from "./react-props/props"
 
-import ListProduct from "./listproduct"
-import Cart from "./conditionalrender.jsx/cart"
+// import ListProduct from "./listproduct"
+// import Cart from "./conditionalrender.jsx/cart"
+
+import ListRendering from "./conditionalrender.jsx/listrender"
 
 function App() {
 
@@ -22,9 +24,11 @@ function App() {
       {/* <Myfunction /> */}
       {/* <Profile />
       <Gallery /> */}
-      <Props />
+      {/* <Props />
       <ListProduct/>
-      <Cart/>
+      <Cart/> */}
+
+     <ListRendering/>
     </>
   )
 }
