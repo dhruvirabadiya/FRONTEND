@@ -11,11 +11,14 @@ const array = [
 let filterItem = array.filter((item) => item.length < 45);
 console.log("filterItem:", filterItem);
 
+let Listitem = filterItem.map((item) => <li>{item}</li>)
+
 const ListRendering = () => {
   return (
     <div>
       <ul>
-        <li>{filterItem}</li>
+        {/* <li>{filterItem}</li> */}
+        {Listitem}
       </ul>
     </div>
   );

@@ -8,3 +8,14 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+.btn {
+  font-size: large;
+  background-color: purple;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: fit-content;
+}

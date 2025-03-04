@@ -80,8 +80,8 @@
                                 class="text-base hover:bg-violet-400 px-7 rounded-md hover:text-white py-2">Personal</a>
                         </li>
                         <li>
-                            <button class="ml-[470px] whitespace-nowrap text-violet-500"><i
-                                    class="fa-solid fa-plus pr-2"></i>Add New
+                            <button class="ml-[470px] whitespace-nowrap text-violet-500" id="Addnotes"
+                                onclick="openModal()"><i class="fa-solid fa-plus pr-2"></i>Add New
                                 Notes</button>
                         </li>
                     </ul>
@@ -100,7 +100,10 @@
             <textarea id="noteText" placeholder="Notes" class="w-full p-2 border rounded-md mb-3"></textarea>
             <div class="flex justify-end">
                 <button onclick="closeModal()" class="px-4 py-2 bg-gray-400 text-white rounded-md mr-2">Cancel</button>
-                <button onclick="saveNote()" class="px-4 py-2 bg-blue-500 text-white rounded-md">Save</button>
+                <button id="saveButton" onclick="saveNote()"
+                    class="px-4 py-2 bg-blue-500 text-white rounded-md">Save</button>
+                <button id="updateButton" onclick="updateNote()"
+                    class="px-4 py-2 bg-green-500 text-white rounded-md hidden">Update</button>
             </div>
         </div>
     </div>
