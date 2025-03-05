@@ -1,3 +1,4 @@
+import './App.css'
 // import Profile from "./problem-solve"
 // import Gallery from "./problem-solve"
 // import Myfunction from "./problem-solve"
@@ -17,7 +18,10 @@
 
 // import Cup from "./purefunction/purefun"
 
-import UseState from "./usestate/useState"
+// import UseState from "./usestate/useState"
+
+import { ThemeProvider, useTheme } from "./useContext/themeContext"
+import ThemeToggle from "./useContext/themeToggle"
 
 
 function App() {
@@ -37,9 +41,23 @@ function App() {
       <Cup guest={1} />
       <br></br>
       <Cup guest={2} /> */}
-      <UseState />
+      {/* <UseState /> */}
+      <ThemeProvider>
+        <MainContent />
+      </ThemeProvider>
     </>
   )
 }
+
+const MainContent = () => {
+  const { theme } = useTheme();
+
+  return (
+    <div className={`app ${theme}`}>
+      <h1>This is {theme} mode</h1>
+      <ThemeToggle />
+    </div>
+  );
+};
 
 export default App
