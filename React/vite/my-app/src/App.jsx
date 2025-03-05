@@ -23,11 +23,13 @@ import './App.css'
 // import { ThemeProvider, useTheme } from "./useContext/themeContext"
 // import ThemeToggle from "./useContext/themeToggle"
 
+import Layout from './Navigation/layout'
 
 function App() {
 
   return (
     <>
+      <Layout/>
       {/* <Profile />
       <Gallery /> */}
       {/* <Myfunction /> */}
@@ -45,6 +47,7 @@ function App() {
       {/* <ThemeProvider>
         <MainContent />
       </ThemeProvider> */}
+
     </>
   )
 }
