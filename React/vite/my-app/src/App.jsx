@@ -20,8 +20,8 @@ import './App.css'
 
 // import UseState from "./usestate/useState"
 
-import { ThemeProvider, useTheme } from "./useContext/themeContext"
-import ThemeToggle from "./useContext/themeToggle"
+// import { ThemeProvider, useTheme } from "./useContext/themeContext"
+// import ThemeToggle from "./useContext/themeToggle"
 
 
 function App() {
@@ -42,22 +42,22 @@ function App() {
       <br></br>
       <Cup guest={2} /> */}
       {/* <UseState /> */}
-      <ThemeProvider>
+      {/* <ThemeProvider>
         <MainContent />
-      </ThemeProvider>
+      </ThemeProvider> */}
     </>
   )
 }
 
-const MainContent = () => {
-  const { theme } = useTheme();
+// const MainContent = () => {
+//   const { theme } = useTheme();
 
-  return (
-    <div className={`app ${theme}`}>
-      <h1>This is {theme} mode</h1>
-      <ThemeToggle />
-    </div>
-  );
-};
+//   return (
+//     <div className={`app ${theme}`}>
+//       <h1>This is {theme} mode</h1>
+//       <ThemeToggle />
+//     </div>
+//   );
+// };
 
 export default App

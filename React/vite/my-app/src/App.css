@@ -1,4 +1,4 @@
-/* .headText {
+.headText {
   font-size: large;
   color: white;
   font-weight: 900;
@@ -18,9 +18,9 @@
   margin-top: 10px;
   margin-bottom: 10px;
   width: fit-content;
-} */
+}
 
-.app {
+/* .app {
   text-align: center;
   padding: 50px;
   transition: background 0.3s ease-in-out;
@@ -44,4 +44,4 @@
   color: white;
   border: none;
   border-radius: 5px;
-}
+} */
