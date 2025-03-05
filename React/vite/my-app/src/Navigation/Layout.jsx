@@ -6,6 +6,7 @@ import Login from './Login'
 import Faq from './Faq'
 import Error from './Error'
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
+import Navbar from '../Navbar'
 
 const Layout = () => {
   return (
