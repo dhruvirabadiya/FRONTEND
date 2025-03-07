@@ -24,6 +24,7 @@ import './App.css'
 // import Form from './usestate/form'
 
 import UseEffect from './useEffect/useEffect'
+import ProductData from './useEffect/productData'
 
 
 // import { ThemeProvider, useTheme } from "./useContext/themeContext"
@@ -65,7 +66,8 @@ function App() {
       {/* <ThemeProvider>
         <MainContent />
       </ThemeProvider> */}
-      <UseEffect />
+      {/* <UseEffect /> */}
+      <ProductData/>
 
     </>
   )
