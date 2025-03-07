@@ -18,18 +18,33 @@ import './App.css'
 
 // import Cup from "./purefunction/purefun"
 
+// import { useState } from 'react'
 // import UseState from "./usestate/useState"
+// import UseState2 from './usestate/useState2'
+// import Form from './usestate/form'
+
+import UseEffect from './useEffect/useEffect'
+
 
 // import { ThemeProvider, useTheme } from "./useContext/themeContext"
 // import ThemeToggle from "./useContext/themeToggle"
 
-import Layout from './Navigation/layout'
+// import Layout from './Navigation/layout'
+
+
 
 function App() {
+  // const [state, setState] = useState(0)
+  // const handleIncrement = () => {
+  //   setState(state + 1)
+  // }
 
+  // const handleDecrement = () => {
+  //   setState(state - 1)
+  // }
   return (
     <>
-      <Layout/>
+      {/* <Layout/> */}
       {/* <Profile />
       <Gallery /> */}
       {/* <Myfunction /> */}
@@ -44,9 +59,13 @@ function App() {
       <br></br>
       <Cup guest={2} /> */}
       {/* <UseState /> */}
+      {/* <UseState2 state={state} func1={handleIncrement} func2={handleDecrement} />
+      <h1 className='headText'>This is App Component</h1> */}
+      {/* <Form /> */}
       {/* <ThemeProvider>
         <MainContent />
       </ThemeProvider> */}
+      <UseEffect />
 
     </>
   )

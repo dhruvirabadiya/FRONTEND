@@ -37,11 +37,11 @@ const UseState = () => {
   // }
 
   const handeleIncrement = () => {
-    setState((prevstate) => ({ value: prevstate.value + 1 }));
+    setState((prevstate) => ({ ...prevstate, value: prevstate.value + 1 }));
   };
 
   const handleDecrement = () => {
-    setState((prevstate) => ({ data: prevstate.value - 1 }));
+    setState((prevstate) => ({ ...prevstate, data: prevstate.data - 1 }));
   };
 
   return (
