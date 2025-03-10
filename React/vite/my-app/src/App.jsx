@@ -23,18 +23,26 @@ import './App.css'
 // import UseState2 from './usestate/useState2'
 // import Form from './usestate/form'
 
-import UseEffect from './useEffect/useEffect'
-import ProductData from './useEffect/productData'
+// import UseEffect from './useEffect/useEffect'
+// import ProductData from './useEffect/productData'
 
 
 // import { ThemeProvider, useTheme } from "./useContext/themeContext"
 // import ThemeToggle from "./useContext/themeToggle"
 
-// import Layout from './Navigation/layout'
+import Layout from './Navigation/layout'
 
+// import ComA from './useContext/ComA'
+// import { createContext } from 'react'
+// createContext  , useContext , Provider , Consumuer
+
+// export const reactProps = createContext()
+// export const reactDemo = createContext()
 
 
 function App() {
+  // let value = 'ReactJs'
+  // let demo = 'Javascript'
   // const [state, setState] = useState(0)
   // const handleIncrement = () => {
   //   setState(state + 1)
@@ -45,7 +53,7 @@ function App() {
   // }
   return (
     <>
-      {/* <Layout/> */}
+      <Layout />
       {/* <Profile />
       <Gallery /> */}
       {/* <Myfunction /> */}
@@ -67,8 +75,16 @@ function App() {
         <MainContent />
       </ThemeProvider> */}
       {/* <UseEffect /> */}
-      <ProductData/>
+      {/* <ProductData/> */}
 
+      {/* <div>
+        <h1 className="headText">React Hooks and API [contextAPI and useContext Hook]</h1>
+      </div>
+      <reactProps.Provider value={value}>
+        <reactDemo.Provider value={demo}>
+          <ComA />
+        </reactDemo.Provider>
+      </reactProps.Provider> */}
     </>
   )
 }
