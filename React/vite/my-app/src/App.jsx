@@ -25,13 +25,13 @@ import './App.css'
 
 // import UseEffect from './useEffect/useEffect'
 // import ProductData from './useEffect/productData'
+import UserInfo from './useEffect/UserInfo'
 
 
 // import { ThemeProvider, useTheme } from "./useContext/themeContext"
 // import ThemeToggle from "./useContext/themeToggle"
 
-import Layout from './Navigation/layout'
-
+// import Layout from './Navigation/Layout'
 // import ComA from './useContext/ComA'
 // import { createContext } from 'react'
 // createContext  , useContext , Provider , Consumuer
@@ -53,7 +53,7 @@ function App() {
   // }
   return (
     <>
-      <Layout />
+      {/* <Layout /> */}
       {/* <Profile />
       <Gallery /> */}
       {/* <Myfunction /> */}
@@ -76,7 +76,7 @@ function App() {
       </ThemeProvider> */}
       {/* <UseEffect /> */}
       {/* <ProductData/> */}
-
+      <UserInfo />
       {/* <div>
         <h1 className="headText">React Hooks and API [contextAPI and useContext Hook]</h1>
       </div>
