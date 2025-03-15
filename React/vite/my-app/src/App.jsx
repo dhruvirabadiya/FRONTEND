@@ -25,7 +25,7 @@ import './App.css'
 
 // import UseEffect from './useEffect/useEffect'
 // import ProductData from './useEffect/productData'
-import UserInfo from './useEffect/UserInfo'
+// import UserInfo from './useEffect/UserInfo'
 
 
 // import { ThemeProvider, useTheme } from "./useContext/themeContext"
@@ -39,6 +39,7 @@ import UserInfo from './useEffect/UserInfo'
 // export const reactProps = createContext()
 // export const reactDemo = createContext()
 
+import Form from './UseReducer/form'
 
 function App() {
   // let value = 'ReactJs'
@@ -76,7 +77,7 @@ function App() {
       </ThemeProvider> */}
       {/* <UseEffect /> */}
       {/* <ProductData/> */}
-      <UserInfo />
+      {/* <UserInfo /> */}
       {/* <div>
         <h1 className="headText">React Hooks and API [contextAPI and useContext Hook]</h1>
       </div>
@@ -85,6 +86,7 @@ function App() {
           <ComA />
         </reactDemo.Provider>
       </reactProps.Provider> */}
+      <Form/>
     </>
   )
 }
