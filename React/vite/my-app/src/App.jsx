@@ -39,7 +39,10 @@ import './App.css'
 // export const reactProps = createContext()
 // export const reactDemo = createContext()
 
-import Form from './UseReducer/form'
+// import Form from './UseReducer/form'
+
+import Layout from './Shop/Pages/Layout'
+import ProductProvider from './Shop/Context/ProductProvider'
 
 function App() {
   // let value = 'ReactJs'
@@ -52,32 +55,50 @@ function App() {
   // const handleDecrement = () => {
   //   setState(state - 1)
   // }
+
   return (
     <>
       {/* <Layout /> */}
+
       {/* <Profile />
+
       <Gallery /> */}
+
       {/* <Myfunction /> */}
+
       {/* <Profile />
+
       <Gallery /> */}
+
       {/* <Props />
+
       <ListProduct/>
+
       <Cart/> */}
+
       {/* <ListRendering/> */}
       {/* <h1 className="headText">This is Heading tag</h1>
       <Cup guest={1} />
       <br></br>
       <Cup guest={2} /> */}
+
       {/* <UseState /> */}
+
       {/* <UseState2 state={state} func1={handleIncrement} func2={handleDecrement} />
       <h1 className='headText'>This is App Component</h1> */}
+
       {/* <Form /> */}
+
       {/* <ThemeProvider>
         <MainContent />
       </ThemeProvider> */}
+
       {/* <UseEffect /> */}
+
       {/* <ProductData/> */}
+
       {/* <UserInfo /> */}
+
       {/* <div>
         <h1 className="headText">React Hooks and API [contextAPI and useContext Hook]</h1>
       </div>
@@ -86,7 +107,12 @@ function App() {
           <ComA />
         </reactDemo.Provider>
       </reactProps.Provider> */}
-      <Form/>
+
+      {/* <Form/> */}
+
+      <ProductProvider>
+        <Layout />
+      </ProductProvider>
     </>
   )
 }
