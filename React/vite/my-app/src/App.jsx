@@ -41,8 +41,10 @@ import './App.css'
 
 // import Form from './UseReducer/form'
 
-import Layout from './Shop/Pages/Layout'
-import ProductProvider from './Shop/Context/ProductProvider'
+// import Layout from './Shop/Pages/Layout'
+// import ProductProvider from './Shop/Context/ProductProvider'
+
+import Layout from './Axios/Pages/Layout'
 
 function App() {
   // let value = 'ReactJs'
@@ -110,9 +112,12 @@ function App() {
 
       {/* <Form/> */}
 
-      <ProductProvider>
+      {/* <ProductProvider>
         <Layout />
-      </ProductProvider>
+      </ProductProvider> */}
+
+      <Layout />
+
     </>
   )
 }

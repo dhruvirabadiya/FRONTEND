@@ -1234,3 +1234,60 @@
 //     return otp;
 // }
 // console.log(genrateOTP(5));
+
+
+/*Patterns */
+// 1)
+// *
+// * *
+// * * *
+// * * * *
+// * * * * *
+// function pattern1(n) {
+//     for (let i = 0; i <= n; i++) {
+//         let row = ""
+//         for (let j = 0; j <= i; j++) {
+//             row += "*"
+//         }
+//         console.log(row);
+
+//     }
+// }
+// pattern1(5)
+
+// 2)
+// * * * * *
+// * * * *
+// * * *
+// * *
+// *
+
+// function pattern2(n) {
+//     for (let i = n; i >= 0; i--) {
+//         let row = ""
+//         for (let j = 0; j <= i; j++) {
+//             row += "*"
+//         }
+//         console.log(row);
+
+//     }
+// }
+// pattern2(5)
+
+//3)
+//     *
+//    ***
+//   *****
+//  *******
+// *********
+
+function pattern3(n) {
+    document.writeln("<pre>");
+    for (let i = 1; i <= n; i++) {
+        let row = " ".repeat(n - i) + "*".repeat(2 * i - 1);
+        document.writeln(row + "<br>");
+    }
+    document.writeln("</pre>");
+}
+
+pattern3(5);
