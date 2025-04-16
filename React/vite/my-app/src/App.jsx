@@ -1,9 +1,11 @@
+import { useEffect, useState, useRef } from 'react'
+
 import './App.css'
 // import Profile from "./problem-solve"
 // import Gallery from "./problem-solve"
 // import Myfunction from "./problem-solve"
 
-// import Profile from "./profile"
+// import Profile from "./profile "
 // import Gallery from "./gallery"
 
 // import { Profile } from "./profile"
@@ -27,7 +29,6 @@ import './App.css'
 // import ProductData from './useEffect/productData'
 // import UserInfo from './useEffect/UserInfo'
 
-
 // import { ThemeProvider, useTheme } from "./useContext/themeContext"
 // import ThemeToggle from "./useContext/themeToggle"
 
@@ -44,9 +45,33 @@ import './App.css'
 // import Layout from './Shop/Pages/Layout'
 // import ProductProvider from './Shop/Context/ProductProvider'
 
-import Layout from './Axios/Pages/Layout'
+// import Layout from './Axios/Pages/Layout'
+
+// import { ProductCard } from './ReactuseMemo.jsx/useMemo'
+
+// import UseMemo from './useMemo/useMemo'
+
+// import UseCallback from './useCallback/UseCallback'
+
+// import Lazyloading from './LazyLoading/Lazyloading'
+
+// import ErrorBoundries from './ErrorBoundries/ErrorBoundries'
+// import ProblemComponent from './ErrorBoundries/ProblemBoundries'
+
+// import Product from './Redux/Product'
+
+// import { Usetransition } from './UseTransition/Usetransition'
+
+// import StartTransition from './UseTransition/Usetransition'
+
+// import Button from './Task/Button'
+
+
 
 function App() {
+
+
+
   // let value = 'ReactJs'
   // let demo = 'Javascript'
   // const [state, setState] = useState(0)
@@ -57,9 +82,15 @@ function App() {
   // const handleDecrement = () => {
   //   setState(state - 1)
   // }
+  // const [count, setCount] = useState(0)
+  // const names = ["Kurti", "Top", "Jeans"]
+
 
   return (
+
     <>
+
+
       {/* <Layout /> */}
 
       {/* <Profile />
@@ -116,11 +147,35 @@ function App() {
         <Layout />
       </ProductProvider> */}
 
-      <Layout />
+      {/* <Layout /> */}
 
+      {/* <button className='btn' onClick={() => setCount(count + 1)}>
+        Add to Cart:{count}
+      </button> */}
+      {/* <ProductCard name="Stylish Dress 👗" /> */}
+      {/* <ProductCard names={names} />
+
+      <UseMemo />
+
+      <UseCallback />
+
+      <Lazyloading />
+
+      <ErrorBoundries>
+        <ProblemComponent />
+      </ErrorBoundries> */}
+
+      {/* <Product />
+
+      <Usetransition /> */}
+
+      {/* <StartTransition /> */}
+
+      {/* <Button /> */}
     </>
   )
 }
+
 
 // const MainContent = () => {
 //   const { theme } = useTheme();

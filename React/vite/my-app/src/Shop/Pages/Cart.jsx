@@ -44,3 +44,18 @@ const Cart = () => {
 }
 
 export default Cart
+
+// , { useRef }
+
+// const containerRef = useRef(null);
+
+// const handleClick = (option) => {
+//     const newElement = document.createElement('p');
+//     newElement.innerText = option;
+//     newElement.className = 'text-lg text-purple-700';
+//     containerRef.current.appendChild(newElement);
+// };
+
+// onClick={() => handleClick(option)}
+
+// ref={containerRef}

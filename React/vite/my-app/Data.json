@@ -1,0 +1,25 @@
+{
+    "UseData": [
+        {
+            "id": 1,
+            "userName": "dhruvi",
+            "age": 25,
+            "Phone-no": 1234567890,
+            "Email": "dhruvirabadiya@gmail.com"
+        },
+        {
+            "id": 2,
+            "userName": "janvi",
+            "age": 26,
+            "Phone-no": 1234568790,
+            "Email": "janvinakrani@gmail.com"
+        },
+        {
+            "id": 1,
+            "userName": "krins",
+            "age": 27,
+            "Phone-no": 4324567890,
+            "Email": "krinsgolakiya@gmail.com"
+        }
+    ]
+}
