@@ -7,6 +7,10 @@ const UseCallback = () => {
     const handlAddtocart = useCallback(() => {
         setCount(count + 1);
     }, [count])
+
+    // const handlAddtocart = () => {
+    //     setCount(count + 1);
+    // }
     return (
         <>
             <div className='headText'>UseCallback</div>

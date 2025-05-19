@@ -51,7 +51,7 @@ import './App.css'
 
 // import UseMemo from './useMemo/useMemo'
 
-// import UseCallback from './useCallback/UseCallback'
+import UseCallback from './useCallback/UseCallback'
 
 // import Lazyloading from './LazyLoading/Lazyloading'
 
@@ -157,7 +157,7 @@ function App() {
 
       <UseMemo />
 
-      <UseCallback />
+      
 
       <Lazyloading />
 
@@ -172,6 +172,7 @@ function App() {
       {/* <StartTransition /> */}
 
       {/* <Button /> */}
+      <UseCallback />
     </>
   )
 }
